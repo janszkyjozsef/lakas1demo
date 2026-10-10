@@ -21,3 +21,5 @@
 /* Detailed scene revision */
 @media(min-width:1101px){.hero h1{font-size:clamp(50px,5vw,72px)}}
 .viewport{background:#e2e5e3;height:730px}.viewport>img{object-fit:contain}.viewport:fullscreen{width:100vw;height:100vh}.view-buttons button{padding:8px 12px}.hotspot{height:32px;width:32px;font-size:10px;background:#243c32b0}.stage-label{max-width:calc(100% - 40px)}@media(max-width:650px){.viewport{height:460px}.model-panel{padding-top:22px}.view-buttons{grid-template-columns:1fr 1fr}.view-buttons button{font-size:11px}.stage-label{font-size:8px}.model-layout{display:block}}
+
+#tour-video{aspect-ratio:16/9}
