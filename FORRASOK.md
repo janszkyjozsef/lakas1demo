@@ -17,3 +17,6 @@ A film 36 másodperces, 1440 × 1080 / 30 fps fotóanimáció, saját instrument
 A 4.2. változat saját szemléltető modell. A numerikus méretek, bútorarányok, rejtett részletek és a külön fotóval nem igazolt WC feltételezések. Nem méretpontos vagy fotogrammetriai rekonstrukció. Öt nézet és öt részletpont, forgatás, zoom és teljes képernyő.
 
 A helyi kiadás hálózat nélkül és 320–1440 px közötti böngészőnézetekben ellenőrzött. Fizikai telefonon nem történt próba; a mobilos ellenőrzés böngésző-emuláció. A műszaki hangjelvizsgálat nem szubjektív meghallgatás.
+
+
+2026-10-10: Blender 5.2.2 LTS-sel átdolgozott 3D-modell és 48 másodperces, Full HD körbejáró film. A háló ajtólapja és hozzá tartozó vasalatai a felhasználó kérésére nem szerepelnek a modellben; ez nem az ingatlan megváltozására vonatkozó állítás. A meglévő fotófilm és galéria megmarad. A körbejárás a tényleges modell renderelése; a lakás méretei továbbra is szemléltető feltételezések.
