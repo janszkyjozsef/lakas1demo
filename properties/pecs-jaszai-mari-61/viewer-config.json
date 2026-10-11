@@ -1,0 +1,454 @@
+{
+  "property_id": "pecs-jaszai-mari-61",
+  "native_to_gltf": "[x,z,-y]",
+  "model": {
+    "parts": [
+      "model-6910f74a178b-01.bin",
+      "model-6910f74a178b-02.bin",
+      "model-6910f74a178b-03.bin"
+    ],
+    "sha256": "6910f74a178bed9faf5dff706620e83beba26d04fb6bb734913986c4159e79fb",
+    "bytes": 22433568
+  },
+  "views": [
+    {
+      "id": "overview",
+      "name": "Teljes lakás",
+      "p": [
+        11,
+        12,
+        13
+      ],
+      "t": [
+        0,
+        1.05,
+        0.1
+      ],
+      "fov": 41.11209043916693,
+      "reference_aspect": 1.7777777777777777,
+      "hide_nodes": [
+        "OVERVIEW_HIDE_036",
+        "OVERVIEW_HIDE_037",
+        "OVERVIEW_HIDE_038",
+        "OVERVIEW_HIDE_039",
+        "OVERVIEW_HIDE_040",
+        "OVERVIEW_HIDE_041",
+        "OVERVIEW_HIDE_042",
+        "OVERVIEW_HIDE_043",
+        "OVERVIEW_HIDE_044",
+        "OVERVIEW_HIDE_045",
+        "OVERVIEW_HIDE_046",
+        "OVERVIEW_HIDE_047",
+        "OVERVIEW_HIDE_048",
+        "OVERVIEW_HIDE_049",
+        "OVERVIEW_HIDE_050",
+        "OVERVIEW_HIDE_051",
+        "OVERVIEW_HIDE_052",
+        "OVERVIEW_HIDE_053",
+        "OVERVIEW_HIDE_054",
+        "OVERVIEW_HIDE_055"
+      ]
+    },
+    {
+      "id": "living",
+      "name": "Nappali",
+      "p": [
+        -1.91,
+        1.68,
+        2.89
+      ],
+      "t": [
+        -3.79,
+        1.15,
+        0.94
+      ],
+      "fov": 49.42635376093179,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "living_reverse",
+      "name": "Könyvesfal és kék kanapé",
+      "p": [
+        -4.03,
+        1.69,
+        0.56
+      ],
+      "t": [
+        -2.8,
+        1.23,
+        3.45
+      ],
+      "fov": 49.42635376093179,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "bedroom",
+      "name": "Hálószoba",
+      "p": [
+        -2.75,
+        1.7,
+        -0.58
+      ],
+      "t": [
+        -3.495,
+        1.18,
+        -2.7
+      ],
+      "fov": 47.519857963653635,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "hall",
+      "name": "Hall és étkező",
+      "p": [
+        0.38,
+        1.67,
+        -0.93
+      ],
+      "t": [
+        3.5,
+        1.05,
+        0.05
+      ],
+      "fov": 45.74733038125343,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "kitchen",
+      "name": "Külön konyha",
+      "p": [
+        1.78,
+        1.66,
+        1.79
+      ],
+      "t": [
+        3.81,
+        1.2,
+        2.46
+      ],
+      "fov": 44.09589492712077,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "bathroom",
+      "name": "Fürdőszoba",
+      "p": [
+        -0.5,
+        1.65,
+        -1.67
+      ],
+      "t": [
+        -0.45,
+        1.18,
+        -2.75
+      ],
+      "fov": 58.71550708558255,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "wc",
+      "name": "Külön WC",
+      "p": [
+        3.7,
+        1.65,
+        -1.78
+      ],
+      "t": [
+        3.83,
+        1.04,
+        -3.32
+      ],
+      "fov": 47.519857963653635,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "pantry",
+      "name": "Kamra",
+      "p": [
+        0.35,
+        1.35,
+        3.6
+      ],
+      "t": [
+        1.93,
+        1.3,
+        3.28
+      ],
+      "fov": 71.74998270412806,
+      "reference_aspect": 1.7777777777777777
+    }
+  ],
+  "poi": [
+    {
+      "title": "Nappali",
+      "position": [
+        -2.845,
+        1.1,
+        1.93
+      ],
+      "p": [
+        -1.91,
+        1.68,
+        2.89
+      ],
+      "t": [
+        -3.79,
+        1.15,
+        0.94
+      ],
+      "fov": 49.42635376093179,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 1,
+      "text": "Két eredeti szürke fotel, üvegasztal, zöld mintás szőnyeg és barna TV-komód."
+    },
+    {
+      "title": "Könyvesfal és kék kanapé",
+      "position": [
+        -2.9,
+        1.45,
+        3.4
+      ],
+      "p": [
+        -4.03,
+        1.69,
+        0.56
+      ],
+      "t": [
+        -2.8,
+        1.23,
+        3.45
+      ],
+      "fov": 49.42635376093179,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 2,
+      "text": "A régebbi, igazoltan azonos lakást mutató fotó könyvesfala, kék kanapéja és klímája."
+    },
+    {
+      "title": "Hálószoba",
+      "position": [
+        -3.42,
+        0.95,
+        -2.27
+      ],
+      "p": [
+        -2.75,
+        1.7,
+        -0.58
+      ],
+      "t": [
+        -3.495,
+        1.18,
+        -2.7
+      ],
+      "fov": 47.519857963653635,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 3,
+      "text": "Eredeti faágy fehér bevetett takaróval és virágmintás párnákkal; fa és sötétcsíkos tolóajtós szekrény."
+    },
+    {
+      "title": "Hall és étkező",
+      "position": [
+        3.26,
+        1.08,
+        0
+      ],
+      "p": [
+        0.38,
+        1.67,
+        -0.93
+      ],
+      "t": [
+        3.5,
+        1.05,
+        0.05
+      ],
+      "fov": 45.74733038125343,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 4,
+      "text": "L alakú hall és négy székes fa étkező. A forrás gázkonvektora és füstcsöve megmaradt."
+    },
+    {
+      "title": "Külön konyha",
+      "position": [
+        3.28,
+        1.15,
+        2.61
+      ],
+      "p": [
+        1.78,
+        1.66,
+        1.79
+      ],
+      "t": [
+        3.81,
+        1.2,
+        2.46
+      ],
+      "fov": 44.09589492712077,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 5,
+      "text": "Külön konyha két fabútorsorral, süllyesztett acélmosogatóval, tűzhellyel és a valós narancsszínű telepített készülékkel."
+    },
+    {
+      "title": "Fürdőszoba",
+      "position": [
+        -0.45,
+        1.1,
+        -2.75
+      ],
+      "p": [
+        -0.5,
+        1.65,
+        -1.67
+      ],
+      "t": [
+        -0.45,
+        1.18,
+        -2.75
+      ],
+      "fov": 58.71550708558255,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 6,
+      "text": "A forrás álló mosdója, bemélyedő kádja és lecsukott mosógépe, eredeti krém burkolattal."
+    },
+    {
+      "title": "Külön WC",
+      "position": [
+        3.81,
+        0.9,
+        -3.19
+      ],
+      "p": [
+        3.7,
+        1.65,
+        -1.78
+      ],
+      "t": [
+        3.83,
+        1.04,
+        -3.32
+      ],
+      "fov": 47.519857963653635,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 7,
+      "text": "Külön WC a forrás tartályával, lefolyócsövével és vízmérőjével."
+    },
+    {
+      "title": "Kamra",
+      "position": [
+        2.0,
+        1.25,
+        3.3
+      ],
+      "p": [
+        0.35,
+        1.35,
+        3.6
+      ],
+      "t": [
+        1.93,
+        1.3,
+        3.28
+      ],
+      "fov": 71.74998270412806,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 8,
+      "text": "A rendezett kamra eredeti üres polcai és sárga felső szekrénye; a modell az eredeti alaprajz nyílásait követi."
+    }
+  ],
+  "bbox": {
+    "min": [
+      -4.684999942779541,
+      -0.10999999940395355,
+      -3.7800002098083496
+    ],
+    "max": [
+      4.684999942779541,
+      2.950000047683716,
+      4.304999828338623
+    ]
+  },
+  "source_gallery_groups": {
+    "living": [
+      1,
+      2,
+      11
+    ],
+    "bedroom": [
+      3,
+      4,
+      12
+    ],
+    "hall": [
+      5,
+      13
+    ],
+    "kitchen": [
+      6,
+      14
+    ],
+    "bathroom": [
+      7
+    ],
+    "wc": [
+      8
+    ],
+    "pantry": [
+      15
+    ],
+    "outside": [
+      9,
+      16
+    ],
+    "floorplan": [
+      10
+    ]
+  },
+  "measured": false,
+  "single_storey": true,
+  "geometry_note": "Fotók és méretezetlen eredeti alaprajz alapján készült szemléltető modell; pontos méretek és padlástéri geometria nem állnak rendelkezésre.",
+  "marker_occlusion": true,
+  "web_derivative": {
+    "kind": "UV_LAYER_NAMES_PRESERVED_ONLY",
+    "original_glb_sha256": "49b008b14c4df91def513a767cdfdc6272acd8e02901dc8b9bc7c63a5f73dd80",
+    "source_native_sha256": "2ed3fad11de476acead0e9ee56c446866d4f034ce7527f0fba665e4f1841e864",
+    "geometry_preservation_receipt_sha256": "a88e2a1d8f23d65b0f0a3ed4624a45d71fc1e524f3794222569231c9dcc46e40",
+    "uv_receipt_sha256": "312c12141799a71b74ddc67d858648249d8b705c16d37b0edcdde795d79c0358",
+    "native_movie_unchanged": true
+  },
+  "overview_visibility": {
+    "view_ids": [
+      "overview"
+    ],
+    "hide_nodes": [
+      "OVERVIEW_HIDE_036",
+      "OVERVIEW_HIDE_037",
+      "OVERVIEW_HIDE_038",
+      "OVERVIEW_HIDE_039",
+      "OVERVIEW_HIDE_040",
+      "OVERVIEW_HIDE_041",
+      "OVERVIEW_HIDE_042",
+      "OVERVIEW_HIDE_043",
+      "OVERVIEW_HIDE_044",
+      "OVERVIEW_HIDE_045",
+      "OVERVIEW_HIDE_046",
+      "OVERVIEW_HIDE_047",
+      "OVERVIEW_HIDE_048",
+      "OVERVIEW_HIDE_049",
+      "OVERVIEW_HIDE_050",
+      "OVERVIEW_HIDE_051",
+      "OVERVIEW_HIDE_052",
+      "OVERVIEW_HIDE_053",
+      "OVERVIEW_HIDE_054",
+      "OVERVIEW_HIDE_055"
+    ],
+    "recipe_sha256": "8420eff2b152924a961f8c79025c6d7937c30b4eac9b7c8385f25d8f1054414d",
+    "notice": "Falak nélküli szemléltető áttekintő; a részletnézetekben eredeti falak és részletek. Nem felmérés.",
+    "restore_original_on_close_views": true
+  },
+  "website_metadata_revision": "overview-visibility-r3",
+  "photo_video": {
+    "file": "photo-film-v1-36s.mp4",
+    "poster": "photo-poster-v1.jpg"
+  }
+}
