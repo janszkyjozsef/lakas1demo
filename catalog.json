@@ -49,6 +49,24 @@
       "cover_alt": "Nagyobb üres szoba · 04-es forrás · Felújításkorabeli posztkép retusált változata; nem igazolja a jelenlegi befejezett állapotot.",
       "url": "properties/pecs-egyetemvaros-felujitott/index.html",
       "cover_url": "properties/pecs-egyetemvaros-felujitott/photo-04.jpg"
+    },
+    {
+      "id": "pecs-patacs-terasz",
+      "title": "Patacsi terasz",
+      "location": "Pécs · Patacs",
+      "summary": "A poszt szerint 64 m²-es első emeleti lakás, 10 m²-es délnyugati terasszal és két felszíni gépkocsibeállóval. A képi források külső építészeti tervlátványok és egy alaprajz.",
+      "facts": [
+        "64 m²",
+        "Nappali + 2 háló",
+        "1. emelet",
+        "74,5 M Ft",
+        "10 m²",
+        "2 beálló"
+      ],
+      "cover": "photo-01.jpg",
+      "cover_alt": "Építészeti tervlátvány · terasz felőli külső · Retusált építészeti külső tervlátvány, nem valódi állapotfotó. Belső felszerelést nem igazol.",
+      "url": "properties/pecs-patacs-terasz/index.html",
+      "cover_url": "properties/pecs-patacs-terasz/photo-01.jpg"
     }
   ]
 }
