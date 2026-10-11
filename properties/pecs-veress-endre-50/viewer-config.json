@@ -1,0 +1,312 @@
+{
+  "property_id": "pecs-veress-endre-50",
+  "native_to_gltf": "[x,z,-y]",
+  "coordinate_system": "glTF Y up; source Blender Z up",
+  "model": {
+    "parts": [
+      "model-3bcdfda8613f-01.bin",
+      "model-3bcdfda8613f-02.bin"
+    ],
+    "sha256": "3bcdfda8613f8734424d5fdd1a82ca470dd4783ec27b18dd12d4f2e572f5d0be",
+    "bytes": 12350728
+  },
+  "views": [
+    {
+      "id": "overview",
+      "name": "Teljes lakás",
+      "p": [
+        11,
+        12,
+        12
+      ],
+      "t": [
+        0,
+        0.8,
+        0
+      ]
+    },
+    {
+      "id": "rear_overview",
+      "name": "Másik oldal",
+      "p": [
+        -11,
+        12,
+        -12
+      ],
+      "t": [
+        0,
+        0.8,
+        0
+      ]
+    },
+    {
+      "id": "living",
+      "name": "Nagy szoba közelről",
+      "p": [
+        -0.55,
+        1.72,
+        -0.67
+      ],
+      "t": [
+        -4.43,
+        1.07,
+        -2.32
+      ],
+      "fov": 45.74733038125343
+    },
+    {
+      "id": "living_wall",
+      "name": "A teljes falfestés",
+      "p": [
+        -1.8,
+        1.65,
+        -0.32
+      ],
+      "t": [
+        -1.875,
+        1.27,
+        -3.374
+      ],
+      "fov": 64.65227998875375
+    },
+    {
+      "id": "yellow",
+      "name": "Sárga szoba",
+      "p": [
+        2.07,
+        1.79,
+        -0.56
+      ],
+      "t": [
+        4.92,
+        1.22,
+        -2.28
+      ],
+      "fov": 39.76070472928529
+    },
+    {
+      "id": "kitchen",
+      "name": "Konyha",
+      "p": [
+        1.91,
+        1.7,
+        2.7
+      ],
+      "t": [
+        4.18,
+        1.13,
+        2.18
+      ],
+      "fov": 39.76070472928529
+    },
+    {
+      "id": "bath",
+      "name": "Fürdőszoba",
+      "p": [
+        3.13,
+        1.66,
+        0.55
+      ],
+      "t": [
+        4.93,
+        1.17,
+        0.54
+      ],
+      "fov": 42.55417341315535
+    },
+    {
+      "id": "corridor",
+      "name": "Közlekedő",
+      "p": [
+        0.77,
+        1.72,
+        0.27
+      ],
+      "t": [
+        0.76,
+        1.1,
+        3.55
+      ],
+      "fov": 45.74733038125343
+    }
+  ],
+  "poi": [
+    {
+      "title": "A nagy szoba",
+      "position": [
+        -2,
+        1.1,
+        -1.7
+      ],
+      "p": [
+        -0.55,
+        1.72,
+        -0.67
+      ],
+      "t": [
+        -4.43,
+        1.07,
+        -2.32
+      ],
+      "text": "Üres, külön nyíló szoba. A fotón látható taupe fal és világos háromszögfestés, sötétbarna padló, redőny és radiátor alapján.",
+      "view_index": 2,
+      "fov": 45.74733038125343
+    },
+    {
+      "title": "A sárga szoba",
+      "position": [
+        3.35,
+        1.1,
+        -1.7
+      ],
+      "p": [
+        2.07,
+        1.79,
+        -0.56
+      ],
+      "t": [
+        4.92,
+        1.22,
+        -2.28
+      ],
+      "text": "Üres, külön nyíló szoba a forrás sárga falaival, barna padlóval és fehér ablakával.",
+      "view_index": 4,
+      "fov": 39.76070472928529
+    },
+    {
+      "title": "A konyha",
+      "position": [
+        3.8,
+        1.1,
+        2.2
+      ],
+      "p": [
+        1.91,
+        1.7,
+        2.7
+      ],
+      "t": [
+        4.18,
+        1.13,
+        2.18
+      ],
+      "text": "A forrás bézs és fa szekrényfrontjai, fehér gombjai, sötét munkalapja, süllyesztett acélmosogatója és piros lehajtható asztala.",
+      "view_index": 5,
+      "fov": 39.76070472928529
+    },
+    {
+      "title": "A fürdő",
+      "position": [
+        4.65,
+        1.1,
+        0.65
+      ],
+      "p": [
+        3.13,
+        1.66,
+        0.55
+      ],
+      "t": [
+        4.93,
+        1.17,
+        0.54
+      ],
+      "text": "Krém és barna burkolatok, üveg zuhanyfülke és valóban bemélyedő fehér mosdó.",
+      "view_index": 6,
+      "fov": 42.55417341315535
+    },
+    {
+      "title": "A közlekedő",
+      "position": [
+        0.75,
+        1.1,
+        1.84
+      ],
+      "p": [
+        0.77,
+        1.72,
+        0.27
+      ],
+      "t": [
+        0.76,
+        1.1,
+        3.55
+      ],
+      "text": "Nyitott ajtókeretek. A lakásba nem került belső lépcső; a lépcsőházi képek a közös épületrészt mutatják.",
+      "view_index": 7,
+      "fov": 45.74733038125343
+    },
+    {
+      "title": "Külön WC",
+      "position": [
+        2.02,
+        0.7,
+        1.33
+      ],
+      "p": [
+        11,
+        12,
+        12
+      ],
+      "t": [
+        0,
+        0.8,
+        0
+      ],
+      "text": "Az alaprajzon külön WC szerepel. Belső fotó nem áll rendelkezésre, ezért berendezését nem találtuk ki.",
+      "view_index": 0
+    }
+  ],
+  "bbox": {
+    "min": [
+      -5.324999809265137,
+      -0.10999999940395355,
+      -3.5199999809265137
+    ],
+    "max": [
+      5.324999809265137,
+      2.700000047683716,
+      3.944999933242798
+    ]
+  },
+  "source_gallery_groups": {
+    "living": [
+      "photo_03"
+    ],
+    "yellow": [
+      "photo_04"
+    ],
+    "kitchen": [
+      "photo_01",
+      "photo_02"
+    ],
+    "bath": [
+      "photo_05"
+    ],
+    "corridor": [
+      "photo_07"
+    ],
+    "shared_building": [
+      "photo_06",
+      "photo_08"
+    ],
+    "floorplan": [
+      "photo_09"
+    ]
+  },
+  "measured": false,
+  "geometry_note": "Fotó és méretezetlen alaprajz alapján készült szemléltető modell. A szolgáltató helyiségek arányai a járatok fizikailag hihető kialakítása érdekében becsültek.",
+  "marker_occlusion": true,
+  "web_derivative": {
+    "kind": "UV_LAYER_NAMES_PRESERVED_ONLY",
+    "original_glb_sha256": "2d587d9a22475b779e7ad843010aa9d78a2b4143a86910f83288c32a13cb5c48",
+    "source_native_sha256": "39990744d04808459ae7eee06a36ab373370b680f30c7d65b727113a5a26bac9",
+    "geometry_preservation_receipt_sha256": "9903a8419639f608942fa56f561ba0874d0814b863675418a8e47358dcf13e57",
+    "uv_receipt_sha256": "b0ba5f0b21665e5b54825819c7be4884a9d1cee60d6a6c1ea9174dd834b9a630",
+    "native_movie_unchanged": true
+  },
+  "photo_video": {
+    "file": "photo-film-v1-36s.mp4",
+    "poster": "photo-poster-v1.jpg"
+  }
+}
