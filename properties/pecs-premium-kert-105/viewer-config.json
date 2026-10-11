@@ -1,0 +1,784 @@
+{
+  "property_id": "pecs-premium-kert-105",
+  "revision": "presentation-r7-supported-cutaway",
+  "bbox": {
+    "min": [
+      -5.2895,
+      0,
+      -5.1972000000000005
+    ],
+    "max": [
+      5.2895,
+      3.1,
+      5.1972000000000005
+    ]
+  },
+  "room_bounds": [
+    {
+      "id": "living",
+      "name": "Nappali–konyha–étkező",
+      "min": [
+        -2.7903,
+        0,
+        -0.0142
+      ],
+      "max": [
+        5.2895,
+        2.65,
+        5.1972
+      ]
+    },
+    {
+      "id": "bed1",
+      "name": "Hálószoba1",
+      "min": [
+        -5.2895,
+        0.45,
+        -5.1972
+      ],
+      "max": [
+        -2.7903,
+        3.1,
+        -1.5478
+      ]
+    },
+    {
+      "id": "bed2",
+      "name": "Hálószoba2",
+      "min": [
+        -2.7903,
+        0.45,
+        -5.1972
+      ],
+      "max": [
+        -0.0923,
+        3.1,
+        -1.5478
+      ]
+    },
+    {
+      "id": "bed3",
+      "name": "Hálószoba3",
+      "min": [
+        2.0945,
+        0.45,
+        -4.1038
+      ],
+      "max": [
+        5.2895,
+        3.1,
+        -0.0142
+      ]
+    },
+    {
+      "id": "bath-main",
+      "name": "Fürdő–WC",
+      "min": [
+        -0.0923,
+        0.45,
+        -4.1038
+      ],
+      "max": [
+        2.0945,
+        3.1,
+        -1.5478
+      ]
+    },
+    {
+      "id": "shower-niche",
+      "name": "Zuhanyfülke",
+      "min": [
+        -0.0923,
+        0.45,
+        -5.1972
+      ],
+      "max": [
+        0.9585,
+        3.1,
+        -4.1038
+      ]
+    },
+    {
+      "id": "hall",
+      "name": "Közlekedő",
+      "min": [
+        -3.8695,
+        0.45,
+        -1.5478
+      ],
+      "max": [
+        2.0945,
+        3.1,
+        -0.0142
+      ]
+    },
+    {
+      "id": "wc",
+      "name": "Külön WC",
+      "min": [
+        -5.2895,
+        0.45,
+        -1.5478
+      ],
+      "max": [
+        -3.8695,
+        3.1,
+        -0.0142
+      ]
+    },
+    {
+      "id": "stairs-house",
+      "name": "Lépcsőház",
+      "min": [
+        -5.2895,
+        0,
+        -0.0142
+      ],
+      "max": [
+        -2.7903,
+        2.65,
+        3.905
+      ]
+    },
+    {
+      "id": "utility",
+      "name": "Háztartási helyiség",
+      "min": [
+        -5.2895,
+        0,
+        3.905
+      ],
+      "max": [
+        -2.7903,
+        2.65,
+        5.1972
+      ]
+    }
+  ],
+  "floors": [
+    {
+      "id": "premium105",
+      "name": "Egy lakás, háromlépcsős szintkülönbséggel",
+      "node_names": [
+        "Premium105 kitchen Brushed stainless sink",
+        "Premium105 kitchen Matte black fittings",
+        "Premium105 tray Matte black fittings",
+        "Premium105 bath-vanity White sanitary ceramic",
+        "Premium105 bath-vanity Matte black fittings",
+        "Premium105 tub White sanitary ceramic",
+        "Premium105 presentation-wall-tub-faucet Matte black fittings",
+        "Premium105 main-WC White sanitary ceramic",
+        "Premium105 presentation-wall-shower-hardware Matte black fittings",
+        "Premium105 radiator-main Matte black fittings",
+        "Premium105 separate-WC White sanitary ceramic",
+        "Premium105 wc-basin White sanitary ceramic",
+        "Premium105 wc-basin Matte black fittings",
+        "Premium105 wc-basin Brushed stainless sink",
+        "Premium105 Source living corner olive Natural oak and exported grain",
+        "Premium105 Source dining small succulent Black plant pot",
+        "Premium105 Source dining small succulent Natural oak and exported grain",
+        "Premium105 Source bedroom1 olive Natural oak and exported grain",
+        "Premium105 Source bedroom2 olive Natural oak and exported grain",
+        "Premium105 Source bathroom plant Black plant pot",
+        "Premium105 Source WC corner plant Black plant pot",
+        "Premium105 track-lights Matte black fittings",
+        "Premium105 dining-pendant Matte black fittings",
+        "Premium105 bed1-floorlamp Matte black fittings",
+        "Premium105 lighting-bed1 Matte black fittings",
+        "Premium105 lighting-bed2 Matte black fittings",
+        "Premium105 floors Natural oak and exported grain",
+        "Premium105 floor-finish-living Washed oak floor 0",
+        "Premium105 floor-finish-living Washed oak floor 1",
+        "Premium105 floor-finish-living Washed oak floor 2",
+        "Premium105 floor-finish-living Washed oak floor 3",
+        "Premium105 floor-finish-living Washed oak floor 4",
+        "Premium105 floor-finish-bed1 Washed oak floor 0",
+        "Premium105 floor-finish-bed1 Washed oak floor 1",
+        "Premium105 floor-finish-bed1 Washed oak floor 2",
+        "Premium105 floor-finish-bed1 Washed oak floor 3",
+        "Premium105 floor-finish-bed1 Washed oak floor 4",
+        "Premium105 floor-finish-bed2 Washed oak floor 0",
+        "Premium105 floor-finish-bed2 Washed oak floor 1",
+        "Premium105 floor-finish-bed2 Washed oak floor 2",
+        "Premium105 floor-finish-bed2 Washed oak floor 3",
+        "Premium105 floor-finish-bed2 Washed oak floor 4",
+        "Premium105 floor-finish-bed3 Washed oak floor 0",
+        "Premium105 floor-finish-bed3 Washed oak floor 1",
+        "Premium105 floor-finish-bed3 Washed oak floor 2",
+        "Premium105 floor-finish-bed3 Washed oak floor 3",
+        "Premium105 floor-finish-bed3 Washed oak floor 4",
+        "Premium105 floors Grey grout",
+        "Premium105 floor-finish-bath-main Pale grey marble bathroom tile",
+        "Premium105 floor-finish-shower-niche Pale grey marble bathroom tile",
+        "Premium105 floor-finish-hall Washed oak floor 0",
+        "Premium105 floor-finish-hall Washed oak floor 1",
+        "Premium105 floor-finish-hall Washed oak floor 2",
+        "Premium105 floor-finish-hall Washed oak floor 3",
+        "Premium105 floor-finish-hall Washed oak floor 4",
+        "Premium105 floor-finish-wc Pale grey marble bathroom tile",
+        "Premium105 floor-finish-stairs-house Washed oak floor 0",
+        "Premium105 floor-finish-stairs-house Washed oak floor 1",
+        "Premium105 floor-finish-stairs-house Washed oak floor 2",
+        "Premium105 floor-finish-stairs-house Washed oak floor 3",
+        "Premium105 floor-finish-stairs-house Washed oak floor 4",
+        "Premium105 floor-finish-utility Washed oak floor 0",
+        "Premium105 floor-finish-utility Washed oak floor 1",
+        "Premium105 floor-finish-utility Washed oak floor 2",
+        "Premium105 floor-finish-utility Washed oak floor 3",
+        "Premium105 floor-finish-utility Washed oak floor 4",
+        "Premium105 wall:North bedroom1 Warm white plaster",
+        "Premium105 frame:North bedroom1 window 0 White satin cabinetry",
+        "Premium105 frame:North bedroom1 window 0 Transparent shower and window glass",
+        "Premium105 wall:North bedroom2 Warm white plaster",
+        "Premium105 frame:North bedroom2 window 0 White satin cabinetry",
+        "Premium105 frame:North bedroom2 window 0 Transparent shower and window glass",
+        "Premium105 wall:North shower Warm white plaster",
+        "Premium105 wall:Bath notch vertical Warm white plaster",
+        "Premium105 wall:Bath notch/room3 north Warm white plaster",
+        "Premium105 frame:Bath notch/room3 north window 0 White satin cabinetry",
+        "Premium105 frame:Bath notch/room3 north window 0 Transparent shower and window glass",
+        "Premium105 frame:Bath notch/room3 north window 1 White satin cabinetry",
+        "Premium105 frame:Bath notch/room3 north window 1 Transparent shower and window glass",
+        "Premium105 frame:Bath notch/room3 north door-opening 2 Natural oak and exported grain",
+        "Premium105 wall:West bedrooms Warm white plaster",
+        "Premium105 wall:West WC Warm white plaster",
+        "Premium105 frame:West WC window 0 White satin cabinetry",
+        "Premium105 frame:West WC window 0 Transparent shower and window glass",
+        "Premium105 wall:West stair Warm white plaster",
+        "Premium105 frame:West stair window 0 White satin cabinetry",
+        "Premium105 frame:West stair window 0 Transparent shower and window glass",
+        "Premium105 wall:West utility Warm white plaster",
+        "Premium105 wall:East bedroom3 Warm white plaster",
+        "Premium105 wall:East kitchen Warm white plaster",
+        "Premium105 wall:South utility Warm white plaster",
+        "Premium105 wall:South living Warm white plaster",
+        "Premium105 frame:South living window 0 White satin cabinetry",
+        "Premium105 frame:South living window 0 Transparent shower and window glass",
+        "Premium105 frame:South living door-opening 1 Natural oak and exported grain",
+        "Premium105 wall:Bedroom1 and2 divider Warm white plaster",
+        "Premium105 wall:Bedroom2 bath divider Warm white plaster",
+        "Premium105 wall:Bath bedroom3 divider Warm white plaster",
+        "Premium105 wall:Bedroom1 hall Warm white plaster",
+        "Premium105 frame:Bedroom1 hall door-opening 0 Natural oak and exported grain",
+        "Premium105 wall:Bedroom2 hall Warm white plaster",
+        "Premium105 frame:Bedroom2 hall door-opening 0 Natural oak and exported grain",
+        "Premium105 wall:Bath hall Warm white plaster",
+        "Premium105 frame:Bath hall door-opening 0 Natural oak and exported grain",
+        "Premium105 wall:Bedroom3 hall Warm white plaster",
+        "Premium105 frame:Bedroom3 hall door-opening 0 Natural oak and exported grain",
+        "Premium105 wall:Bedroom3 living Warm white plaster",
+        "Premium105 wall:WC hall Warm white plaster",
+        "Premium105 frame:WC hall door-opening 0 Natural oak and exported grain",
+        "Premium105 wall:WC stair separator Warm white plaster",
+        "Premium105 wall:Stair living divider Warm white plaster",
+        "Premium105 wall:Utility stairs Warm white plaster",
+        "Premium105 frame:Utility stairs door-opening 0 Natural oak and exported grain",
+        "Premium105 wall:Utility living Warm white plaster",
+        "Premium105 three-step-transition Natural oak and exported grain",
+        "Premium105 raised-platform Warm white plaster",
+        "Premium105 trim:bed1 Natural oak and exported grain",
+        "Premium105 trim:bed1 White satin cabinetry",
+        "Premium105 trim:bed2 Natural oak and exported grain",
+        "Premium105 trim:bed2 White satin cabinetry",
+        "Premium105 trim:bed3 Natural oak and exported grain",
+        "Premium105 trim:bed3 White satin cabinetry",
+        "Premium105 kitchen Natural oak and exported grain",
+        "Premium105 kitchen Black appliance glass",
+        "Premium105 kitchen White satin cabinetry",
+        "Premium105 island Natural oak and exported grain",
+        "Premium105 island White satin cabinetry",
+        "Premium105 dining Natural oak and exported grain",
+        "Premium105 dining Matte black fittings",
+        "Premium105 bath-vanity Natural oak and exported grain",
+        "Premium105 presentation-wall-mirror Matte black fittings",
+        "Premium105 presentation-wall-mirror Satin mirror silver",
+        "Premium105 tub Matte black fittings",
+        "Premium105 main-WC White satin cabinetry",
+        "Premium105 shower Matte black fittings",
+        "Premium105 shower Transparent shower and window glass",
+        "Premium105 bath-lining Herringbone oak bathroom wall",
+        "Premium105 bath-lining Pale grey marble bathroom tile",
+        "Premium105 separate-WC White satin cabinetry",
+        "Premium105 wc-lining Herringbone oak bathroom wall",
+        "Premium105 wc-lining Pale grey marble bathroom tile",
+        "Premium105 radiator-living White satin cabinetry",
+        "Premium105 radiator-wc White satin cabinetry",
+        "Premium105 AC White satin cabinetry",
+        "Premium105 AC Black seals and rubber",
+        "Premium105 Source living corner olive Pot soil",
+        "Premium105 Source living corner olive Plant leaf soft green",
+        "Premium105 Source living corner olive Plant leaf deep green",
+        "Premium105 Source dining small succulent Pot soil",
+        "Premium105 Source dining small succulent Plant leaf soft green",
+        "Premium105 Source dining small succulent Plant leaf deep green",
+        "Premium105 Source bedroom1 olive Pot soil",
+        "Premium105 Source bedroom1 olive Plant leaf soft green",
+        "Premium105 Source bedroom1 olive Plant leaf deep green",
+        "Premium105 Source bedroom2 olive Pot soil",
+        "Premium105 Source bedroom2 olive Plant leaf soft green",
+        "Premium105 Source bedroom2 olive Plant leaf deep green",
+        "Premium105 Source bathroom plant Pot soil",
+        "Premium105 Source bathroom plant Plant leaf deep green",
+        "Premium105 Source bathroom plant Plant leaf soft green",
+        "Premium105 Source WC corner plant Pot soil",
+        "Premium105 Source WC corner plant Plant leaf deep green",
+        "Premium105 Source WC corner plant Plant leaf soft green",
+        "Premium105 track-lights Warm fixture diffuser",
+        "Premium105 dining-pendant Warm fixture diffuser",
+        "Premium105 bed1-floorlamp White satin cabinetry",
+        "Premium105 island Matte black fittings"
+      ]
+    }
+  ],
+  "measured": false,
+  "source_confidence_notes": [
+    "Plan-based room boundaries; measurements illustrative",
+    "Bedroom photo-to-room mapping not explicitly captioned",
+    "No invented beds/garden/garage"
+  ],
+  "native_to_gltf": "[x,z,-y]",
+  "coordinate_system": "glTF Y up; source Blender Z up",
+  "source_blend_sha256": "7aff2c17359c3d3e96ea43c7c2d4c62c188b6129b83fc8a65cb2fea8eda78cfd",
+  "model": {
+    "parts": [
+      "model-source-appearance-r6.part01",
+      "model-source-appearance-r6.part02"
+    ],
+    "sha256": "112c7de5195d601e9fe5f7591bbcaeaba7ef66914beb6704bd467b1aac96c5f0",
+    "bytes": 17024824
+  },
+  "views": [
+    {
+      "id": "all",
+      "name": "Teljes lakás · nyitott áttekintés",
+      "p": [
+        -11.16792,
+        17.0,
+        15.371323
+      ],
+      "t": [
+        0.0,
+        1.05,
+        -0.0
+      ],
+      "fov": 31.36388936317456,
+      "native_camera": "Premium105 full orbit",
+      "projection_source": "native orthographic camera converted at same target distance",
+      "native_orthographic_scale": 24.762969970703125,
+      "reference_aspect": 1.7777777777777777,
+      "hide_nodes": [
+        "Premium105 presentation-wall-tub-faucet Matte black fittings",
+        "Premium105 presentation-wall-shower-hardware Matte black fittings",
+        "Premium105 radiator-main Matte black fittings",
+        "Premium105 track-lights Matte black fittings",
+        "Premium105 dining-pendant Matte black fittings",
+        "Premium105 lighting-bed1 Matte black fittings",
+        "Premium105 lighting-bed2 Matte black fittings",
+        "Premium105 wall:North bedroom1 Warm white plaster",
+        "Premium105 frame:North bedroom1 window 0 White satin cabinetry",
+        "Premium105 frame:North bedroom1 window 0 Transparent shower and window glass",
+        "Premium105 wall:North bedroom2 Warm white plaster",
+        "Premium105 frame:North bedroom2 window 0 White satin cabinetry",
+        "Premium105 frame:North bedroom2 window 0 Transparent shower and window glass",
+        "Premium105 wall:North shower Warm white plaster",
+        "Premium105 wall:Bath notch vertical Warm white plaster",
+        "Premium105 wall:Bath notch/room3 north Warm white plaster",
+        "Premium105 frame:Bath notch/room3 north window 0 White satin cabinetry",
+        "Premium105 frame:Bath notch/room3 north window 0 Transparent shower and window glass",
+        "Premium105 frame:Bath notch/room3 north window 1 White satin cabinetry",
+        "Premium105 frame:Bath notch/room3 north window 1 Transparent shower and window glass",
+        "Premium105 frame:Bath notch/room3 north door-opening 2 Natural oak and exported grain",
+        "Premium105 wall:West bedrooms Warm white plaster",
+        "Premium105 wall:West WC Warm white plaster",
+        "Premium105 frame:West WC window 0 White satin cabinetry",
+        "Premium105 frame:West WC window 0 Transparent shower and window glass",
+        "Premium105 wall:West stair Warm white plaster",
+        "Premium105 frame:West stair window 0 White satin cabinetry",
+        "Premium105 frame:West stair window 0 Transparent shower and window glass",
+        "Premium105 wall:West utility Warm white plaster",
+        "Premium105 wall:East bedroom3 Warm white plaster",
+        "Premium105 wall:East kitchen Warm white plaster",
+        "Premium105 wall:South utility Warm white plaster",
+        "Premium105 wall:South living Warm white plaster",
+        "Premium105 frame:South living window 0 White satin cabinetry",
+        "Premium105 frame:South living window 0 Transparent shower and window glass",
+        "Premium105 frame:South living door-opening 1 Natural oak and exported grain",
+        "Premium105 wall:Bedroom1 and2 divider Warm white plaster",
+        "Premium105 wall:Bedroom2 bath divider Warm white plaster",
+        "Premium105 wall:Bath bedroom3 divider Warm white plaster",
+        "Premium105 wall:Bedroom1 hall Warm white plaster",
+        "Premium105 frame:Bedroom1 hall door-opening 0 Natural oak and exported grain",
+        "Premium105 wall:Bedroom2 hall Warm white plaster",
+        "Premium105 frame:Bedroom2 hall door-opening 0 Natural oak and exported grain",
+        "Premium105 wall:Bath hall Warm white plaster",
+        "Premium105 frame:Bath hall door-opening 0 Natural oak and exported grain",
+        "Premium105 wall:Bedroom3 hall Warm white plaster",
+        "Premium105 frame:Bedroom3 hall door-opening 0 Natural oak and exported grain",
+        "Premium105 wall:Bedroom3 living Warm white plaster",
+        "Premium105 wall:WC hall Warm white plaster",
+        "Premium105 frame:WC hall door-opening 0 Natural oak and exported grain",
+        "Premium105 wall:WC stair separator Warm white plaster",
+        "Premium105 wall:Stair living divider Warm white plaster",
+        "Premium105 wall:Utility stairs Warm white plaster",
+        "Premium105 frame:Utility stairs door-opening 0 Natural oak and exported grain",
+        "Premium105 wall:Utility living Warm white plaster",
+        "Premium105 trim:bed1 Natural oak and exported grain",
+        "Premium105 trim:bed1 White satin cabinetry",
+        "Premium105 trim:bed2 Natural oak and exported grain",
+        "Premium105 trim:bed2 White satin cabinetry",
+        "Premium105 trim:bed3 Natural oak and exported grain",
+        "Premium105 trim:bed3 White satin cabinetry",
+        "Premium105 presentation-wall-mirror Matte black fittings",
+        "Premium105 presentation-wall-mirror Satin mirror silver",
+        "Premium105 main-WC White satin cabinetry",
+        "Premium105 bath-lining Herringbone oak bathroom wall",
+        "Premium105 bath-lining Pale grey marble bathroom tile",
+        "Premium105 separate-WC White satin cabinetry",
+        "Premium105 wc-lining Herringbone oak bathroom wall",
+        "Premium105 wc-lining Pale grey marble bathroom tile",
+        "Premium105 radiator-living White satin cabinetry",
+        "Premium105 radiator-wc White satin cabinetry",
+        "Premium105 AC White satin cabinetry",
+        "Premium105 AC Black seals and rubber",
+        "Premium105 track-lights Warm fixture diffuser",
+        "Premium105 dining-pendant Warm fixture diffuser",
+        "Premium105 bath-vanity White sanitary ceramic",
+        "Premium105 bath-vanity Matte black fittings",
+        "Premium105 wc-basin White sanitary ceramic",
+        "Premium105 wc-basin Matte black fittings",
+        "Premium105 wc-basin Brushed stainless sink",
+        "Premium105 bath-vanity Natural oak and exported grain"
+      ],
+      "overview_fit": "projected_visible",
+      "overview_fill": 0.82
+    },
+    {
+      "id": "living",
+      "name": "Nappali és étkező",
+      "p": [
+        -2.1,
+        2.05,
+        0.48
+      ],
+      "t": [
+        0.497302,
+        1.353581,
+        1.810047
+      ],
+      "fov": 36.17541211177461,
+      "native_camera": "Premium105 living",
+      "projection_source": "native perspective vertical FOV at 1920x1080",
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "kitchen",
+      "name": "Konyha közelről",
+      "p": [
+        1.77,
+        2.15,
+        4.55
+      ],
+      "t": [
+        3.873865,
+        1.294055,
+        2.590126
+      ],
+      "fov": 38.492062430243486,
+      "native_camera": "Premium105 kitchen",
+      "projection_source": "native perspective vertical FOV at 1920x1080",
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "bath",
+      "name": "Fő fürdőszoba",
+      "p": [
+        0.2177,
+        2.6,
+        -1.6778
+      ],
+      "t": [
+        1.908361,
+        1.138722,
+        -3.679382
+      ],
+      "fov": 44.09589644803749,
+      "native_camera": "Premium105 bath",
+      "projection_source": "native perspective vertical FOV at 1920x1080",
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "bed1",
+      "name": "Üres hálószoba 1",
+      "p": [
+        -4.1895,
+        2.25,
+        -4.7972
+      ],
+      "t": [
+        -3.3573,
+        1.324511,
+        -2.067564
+      ],
+      "fov": 47.51985752562384,
+      "native_camera": "Premium105 empty-bedroom",
+      "projection_source": "native perspective vertical FOV at 1920x1080",
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "bed2",
+      "name": "Üres hálószoba 2",
+      "p": [
+        -0.4123,
+        3.25,
+        -0.9478
+      ],
+      "t": [
+        -1.397,
+        1.623188,
+        -3.268112
+      ],
+      "fov": 58.71550708558255,
+      "native_camera": "Premium105 detail bedroom2",
+      "projection_source": "native perspective vertical FOV at 1920x1080",
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "bed3",
+      "name": "Üres hálószoba 3",
+      "p": [
+        6.4895,
+        2.75,
+        -0.6142
+      ],
+      "t": [
+        3.952282,
+        1.618071,
+        -1.746129
+      ],
+      "fov": 51.48141823931783,
+      "native_camera": "Premium105 detail bedroom3",
+      "projection_source": "native perspective vertical FOV at 1920x1080",
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "wc",
+      "name": "Külön WC",
+      "p": [
+        -4.04,
+        2.39,
+        -0.8
+      ],
+      "t": [
+        -6.04361,
+        0.158027,
+        -0.738001
+      ],
+      "fov": 64.6522796029649,
+      "native_camera": "Premium105 detail separateWC",
+      "projection_source": "native perspective vertical FOV at 1920x1080",
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "bath-tub",
+      "name": "Szabadonálló kád",
+      "p": [
+        1.8145,
+        2.39,
+        -1.7978
+      ],
+      "t": [
+        -0.098855,
+        0.617299,
+        -3.279894
+      ],
+      "fov": 45.74732915818953,
+      "native_camera": "Premium105 detail bath-tub",
+      "projection_source": "native perspective vertical FOV at 1920x1080",
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "bath-bowls",
+      "name": "Két tálmosdó",
+      "p": [
+        0.5177,
+        2.38,
+        -2.5278
+      ],
+      "t": [
+        2.769542,
+        0.399063,
+        -2.599185
+      ],
+      "fov": 42.55417412379662,
+      "native_camera": "Premium105 detail bath-bowls",
+      "projection_source": "native perspective vertical FOV at 1920x1080",
+      "reference_aspect": 1.7777777777777777
+    }
+  ],
+  "poi": [
+    {
+      "id": "kitchen",
+      "title": "Fa–fehér konyha",
+      "position": [
+        3.873865,
+        1.294055,
+        2.590126
+      ],
+      "p": [
+        1.77,
+        2.15,
+        4.55
+      ],
+      "t": [
+        3.873865,
+        1.294055,
+        2.590126
+      ],
+      "text": "Forrás alapján épített konyha, sziget és valóban mélyített mosogató.",
+      "view_index": 2,
+      "fov": 38.492062430243486,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "bath",
+      "title": "Fő fürdőszoba",
+      "position": [
+        1.908361,
+        1.138722,
+        -3.679382
+      ],
+      "p": [
+        0.2177,
+        2.6,
+        -1.6778
+      ],
+      "t": [
+        1.908361,
+        1.138722,
+        -3.679382
+      ],
+      "text": "Két tálmosdó, üreges kád, üvegzuhany és WC.",
+      "view_index": 3,
+      "fov": 44.09589644803749,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "bed1",
+      "title": "Üres hálószoba 1",
+      "position": [
+        -3.3573,
+        1.324511,
+        -2.067564
+      ],
+      "p": [
+        -4.1895,
+        2.25,
+        -4.7972
+      ],
+      "t": [
+        -3.3573,
+        1.324511,
+        -2.067564
+      ],
+      "text": "A forrás szerinti üres helyiség, szabad bejárattal.",
+      "view_index": 4,
+      "fov": 47.51985752562384,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "bed2",
+      "title": "Üres hálószoba 2",
+      "position": [
+        -1.397,
+        1.623188,
+        -3.268112
+      ],
+      "p": [
+        -0.4123,
+        3.25,
+        -0.9478
+      ],
+      "t": [
+        -1.397,
+        1.623188,
+        -3.268112
+      ],
+      "text": "Üres hálószoba, kitalált ágy nélkül.",
+      "view_index": 5,
+      "fov": 58.71550708558255,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "bed3",
+      "title": "Üres hálószoba 3",
+      "position": [
+        3.952282,
+        1.618071,
+        -1.746129
+      ],
+      "p": [
+        6.4895,
+        2.75,
+        -0.6142
+      ],
+      "t": [
+        3.952282,
+        1.618071,
+        -1.746129
+      ],
+      "text": "Az alaprajz harmadik hálója; bútorozása nem igazolt.",
+      "view_index": 6,
+      "fov": 51.48141823931783,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "wc",
+      "title": "Külön WC",
+      "position": [
+        -4.579500198364258,
+        1.0924999833106994,
+        -1.157800018787384
+      ],
+      "p": [
+        -4.04,
+        2.39,
+        -0.8
+      ],
+      "t": [
+        -6.04361,
+        0.158027,
+        -0.738001
+      ],
+      "text": "Külön helyiség saját kézmosóval.",
+      "view_index": 7,
+      "fov": 64.6522796029649,
+      "reference_aspect": 1.7777777777777777
+    }
+  ],
+  "framing_note": "Vertical FOV corresponds to native 16:9 frame. Web viewport narrower than reference aspect should preserve native horizontal extent by increasing vertical FOV.",
+  "native_revision": "model-r10",
+  "marker_occlusion": true,
+  "web_derivative": {
+    "kind": "SOURCE_UV_LAYER_NAMES_AND_WC_MARKER_POSITION_ONLY",
+    "original_glb_sha256": "85a0dd8a931fb015484e7b83c6030cea004e12e417b2b52b3e80f98f7a9850e8",
+    "source_native_sha256": "7aff2c17359c3d3e96ea43c7c2d4c62c188b6129b83fc8a65cb2fea8eda78cfd",
+    "geometry_preservation_receipt_sha256": "f62f7769618b4162cfc420d5152a074da74fafd9125fe54f7ca0e9ca7627fdbb",
+    "uv_receipt_sha256": "61abeb127f71e74f49237e733daca7e84c64bee76c1662d61148dabdb24c4deb",
+    "marker_receipt_sha256": "aa15296999965d08ecc830c161c57e5694a8854913632f4e7e00a3da4684a030",
+    "native_movie_unchanged": true
+  },
+  "photo_video": {
+    "file": "photo-film-v1-36s.mp4",
+    "poster": "photo-poster-v1.jpg"
+  },
+  "presentation": {
+    "schema": "otthoniv.presentation.web.v1",
+    "recipe_sha256": "96ca8cb7de7ab28a517b85fa1dd190e256a08f80fe3675524fc8acfb4e85a6f6",
+    "native_sha256": "7aff2c17359c3d3e96ea43c7c2d4c62c188b6129b83fc8a65cb2fea8eda78cfd",
+    "glb_sha256": "112c7de5195d601e9fe5f7591bbcaeaba7ef66914beb6704bd467b1aac96c5f0",
+    "physical_geometry_unchanged": true,
+    "close_views_restore_original": true,
+    "visual_qa_pending": true,
+    "material_appearance_tuning": "Same own herringbone layout and colors, gentler procedural grain; native model unchanged."
+  }
+}
