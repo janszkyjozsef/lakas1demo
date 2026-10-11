@@ -7,3 +7,5 @@ Kilenc saját forráskép: a lakás képei, két külön jelölt közös lépcs�
 A 06/08 közös lépcsőház nem lakáson belüli lépcső. A méretek és rejtett részletek szemléltető feltételezések. A hirdetési műszaki adatok a poszt állításai.
 
 Saját honlapra költöztetéskor a teljes lakásmappa és a közös shared erőforrásmappa együtt szükséges. A HTML mellett a képek, MP4-ek, viewer-config és bináris modellrészek is a csomag részei. Az eredeti fotók, szerkeszthető Blender-forrás és zenei forrásjegyzék a projektarchívumban megmarad.
+
+Az áttekintő térmodell és a körbejárás falak nélkül mutatja az elrendezést. A közeli nézetekben az eredeti teljes helyiségek láthatók. A bemutató saját, fotók alapján készített szemléltetés, nem méretfelmérés.
