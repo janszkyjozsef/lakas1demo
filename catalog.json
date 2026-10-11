@@ -67,6 +67,22 @@
       "cover_alt": "Építészeti tervlátvány · terasz felőli külső · Retusált építészeti külső tervlátvány, nem valódi állapotfotó. Belső felszerelést nem igazol.",
       "url": "properties/pecs-patacs-terasz/index.html",
       "cover_url": "properties/pecs-patacs-terasz/photo-01.jpg"
+    },
+    {
+      "id": "pecs-jaszai-mari-61",
+      "title": "Jászai Mari otthon",
+      "location": "Pécs · Jászai Mari utca",
+      "summary": "61 m², két szoba, első emelet. Külön konyha és kamra, étkezőként használt hall, nappali és háló: egyetlen, igazoltan azonos lakás két forrásposztjából.",
+      "facts": [
+        "61 m²",
+        "2 szoba",
+        "1. emelet",
+        "62,9 M Ft"
+      ],
+      "cover": "photo-02.jpg",
+      "cover_alt": "Nappali · üvegasztal és TV-komód · AI-val retusált, digitálisan rendezett forrásfotó.",
+      "url": "properties/pecs-jaszai-mari-61/index.html",
+      "cover_url": "properties/pecs-jaszai-mari-61/photo-02.jpg"
     }
   ]
 }
