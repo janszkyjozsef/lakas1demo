@@ -4,11 +4,11 @@
   "coordinate_system": "glTF Y up; source Blender Z up",
   "model": {
     "parts": [
-      "model-3bcdfda8613f-01.bin",
-      "model-3bcdfda8613f-02.bin"
+      "model-85accdc99881-01.bin",
+      "model-85accdc99881-02.bin"
     ],
-    "sha256": "3bcdfda8613f8734424d5fdd1a82ca470dd4783ec27b18dd12d4f2e572f5d0be",
-    "bytes": 12350728
+    "sha256": "85accdc998810b4f3498b4ab5fcabe353da8284a5bcda83b39f8166140bd02ed",
+    "bytes": 12200568
   },
   "views": [
     {
@@ -23,7 +23,33 @@
         0,
         0.8,
         0
-      ]
+      ],
+      "hide_nodes": [
+        "Web Cutaway Hidden Living taupe paint",
+        "Web Cutaway Hidden Source yellow room paint",
+        "Web Cutaway Hidden Source yellow room paint.001",
+        "Web Cutaway Hidden Kitchen and corridor cream paint",
+        "Web Cutaway Hidden Living light triangular paint",
+        "Web Cutaway Hidden Warm white PVC and cabinet lacquer",
+        "Web Cutaway Hidden Source honey wood cabinet borders",
+        "Web Cutaway Hidden Window transparent blue glass",
+        "Web Cutaway Hidden White roller shutter slats",
+        "Web Cutaway Hidden Brushed steel sink",
+        "Web Cutaway Hidden Chrome fittings",
+        "Web Cutaway Hidden Source translucent white curtain",
+        "Web Cutaway Hidden Source beige veined cabinet fronts",
+        "Web Cutaway Hidden Source black beige-veined marble worktop",
+        "Web Cutaway Hidden Source red folding tabletop",
+        "Web Cutaway Hidden Source brown bathroom ceramic",
+        "Web Cutaway Hidden Source cream ceramic tile",
+        "Web Cutaway Hidden Mirror reflectance",
+        "Web Cutaway Hidden Dark polymer",
+        "Web Cutaway Hidden Source brass lamp fittings",
+        "Web Cutaway Hidden Ivory lamp glass",
+        "Web Cutaway Hidden Source pendant green heart motif"
+      ],
+      "overview_fit": "projected_visible",
+      "overview_fill": 0.82
     },
     {
       "id": "rear_overview",
@@ -37,7 +63,33 @@
         0,
         0.8,
         0
-      ]
+      ],
+      "hide_nodes": [
+        "Web Cutaway Hidden Living taupe paint",
+        "Web Cutaway Hidden Source yellow room paint",
+        "Web Cutaway Hidden Source yellow room paint.001",
+        "Web Cutaway Hidden Kitchen and corridor cream paint",
+        "Web Cutaway Hidden Living light triangular paint",
+        "Web Cutaway Hidden Warm white PVC and cabinet lacquer",
+        "Web Cutaway Hidden Source honey wood cabinet borders",
+        "Web Cutaway Hidden Window transparent blue glass",
+        "Web Cutaway Hidden White roller shutter slats",
+        "Web Cutaway Hidden Brushed steel sink",
+        "Web Cutaway Hidden Chrome fittings",
+        "Web Cutaway Hidden Source translucent white curtain",
+        "Web Cutaway Hidden Source beige veined cabinet fronts",
+        "Web Cutaway Hidden Source black beige-veined marble worktop",
+        "Web Cutaway Hidden Source red folding tabletop",
+        "Web Cutaway Hidden Source brown bathroom ceramic",
+        "Web Cutaway Hidden Source cream ceramic tile",
+        "Web Cutaway Hidden Mirror reflectance",
+        "Web Cutaway Hidden Dark polymer",
+        "Web Cutaway Hidden Source brass lamp fittings",
+        "Web Cutaway Hidden Ivory lamp glass",
+        "Web Cutaway Hidden Source pendant green heart motif"
+      ],
+      "overview_fit": "projected_visible",
+      "overview_fill": 0.82
     },
     {
       "id": "living",
@@ -254,7 +306,33 @@
         0
       ],
       "text": "Az alaprajzon külön WC szerepel. Belső fotó nem áll rendelkezésre, ezért berendezését nem találtuk ki.",
-      "view_index": 0
+      "view_index": 0,
+      "hide_nodes": [
+        "Web Cutaway Hidden Living taupe paint",
+        "Web Cutaway Hidden Source yellow room paint",
+        "Web Cutaway Hidden Source yellow room paint.001",
+        "Web Cutaway Hidden Kitchen and corridor cream paint",
+        "Web Cutaway Hidden Living light triangular paint",
+        "Web Cutaway Hidden Warm white PVC and cabinet lacquer",
+        "Web Cutaway Hidden Source honey wood cabinet borders",
+        "Web Cutaway Hidden Window transparent blue glass",
+        "Web Cutaway Hidden White roller shutter slats",
+        "Web Cutaway Hidden Brushed steel sink",
+        "Web Cutaway Hidden Chrome fittings",
+        "Web Cutaway Hidden Source translucent white curtain",
+        "Web Cutaway Hidden Source beige veined cabinet fronts",
+        "Web Cutaway Hidden Source black beige-veined marble worktop",
+        "Web Cutaway Hidden Source red folding tabletop",
+        "Web Cutaway Hidden Source brown bathroom ceramic",
+        "Web Cutaway Hidden Source cream ceramic tile",
+        "Web Cutaway Hidden Mirror reflectance",
+        "Web Cutaway Hidden Dark polymer",
+        "Web Cutaway Hidden Source brass lamp fittings",
+        "Web Cutaway Hidden Ivory lamp glass",
+        "Web Cutaway Hidden Source pendant green heart motif"
+      ],
+      "overview_fit": "projected_visible",
+      "overview_fill": 0.82
     }
   ],
   "bbox": {
@@ -298,13 +376,16 @@
   "geometry_note": "Fotó és méretezetlen alaprajz alapján készült szemléltető modell. A szolgáltató helyiségek arányai a járatok fizikailag hihető kialakítása érdekében becsültek.",
   "marker_occlusion": true,
   "web_derivative": {
-    "kind": "UV_LAYER_NAMES_PRESERVED_ONLY",
+    "kind": "UV_PRESERVED_CAMERA_SPECIFIC_WALL_CUTAWAY",
     "original_glb_sha256": "2d587d9a22475b779e7ad843010aa9d78a2b4143a86910f83288c32a13cb5c48",
     "source_native_sha256": "39990744d04808459ae7eee06a36ab373370b680f30c7d65b727113a5a26bac9",
-    "geometry_preservation_receipt_sha256": "9903a8419639f608942fa56f561ba0874d0814b863675418a8e47358dcf13e57",
-    "uv_receipt_sha256": "b0ba5f0b21665e5b54825819c7be4884a9d1cee60d6a6c1ea9174dd834b9a630",
-    "native_movie_unchanged": true
+    "geometry_preservation_receipt_sha256": "904a4f8adc63c09788e17c3ee33506665fe5b093b795bbd0d1e200fb5b13955c",
+    "uv_receipt_sha256": "c928b26a1de4b2606bf7489524606a2181a8c204561d61973933f1cbb2b5753e",
+    "original_native_movie_unchanged": true,
+    "presentation_movie_pending": true
   },
+  "presentation_recipe_sha256": "45b56d98afcbede140fcc6304cf272fd7fb56d397a76acd6d60b134d8c5feae8",
+  "opening_visibility_revision_pending": true,
   "photo_video": {
     "file": "photo-film-v1-36s.mp4",
     "poster": "photo-poster-v1.jpg"
