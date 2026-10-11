@@ -83,6 +83,22 @@
       "cover_alt": "Nappali · üvegasztal és TV-komód · AI-val retusált, digitálisan rendezett forrásfotó.",
       "url": "properties/pecs-jaszai-mari-61/index.html",
       "cover_url": "properties/pecs-jaszai-mari-61/photo-02.jpg"
+    },
+    {
+      "id": "pecs-szinhaz-ter",
+      "title": "Színház téri otthon",
+      "location": "Pécs · Színház tér",
+      "summary": "132 m²-es polgári lakás Pécs történelmi belvárosában, két erkéllyel, külön vendég-WC-vel és szülői gardróbbal.",
+      "facts": [
+        "132 m²",
+        "4 szoba*",
+        "2 erkély",
+        "149,9 M Ft"
+      ],
+      "cover": "photo-01.jpg",
+      "cover_alt": "Konyha és étkező · AI-val retusált, digitálisan rendezett forrásfotó; a fő bútorok és burkolatok megőrizve.",
+      "url": "properties/pecs-szinhaz-ter/index.html",
+      "cover_url": "properties/pecs-szinhaz-ter/photo-01.jpg"
     }
   ]
 }
