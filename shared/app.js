@@ -38,6 +38,8 @@ const stage=$('#viewport'),status=$('#model-status');
 const views=config.views;
 const points=config.poi||[];
 let hiddenLevels=new Set();
+let markerRaycaster;
+const markerOccluders=[];
 const originalNodeVisibility=new WeakMap();
 const floorById=new Map((config.floors||[]).map(f=>[f.id,f]));
 const floorByNodeName=new Map();
@@ -64,7 +66,19 @@ function levelDisclosure(selected){
 }
 
 function sync(){if(!camera)return;stat.camera=camera.position.toArray();stat.target=controls.target.toArray();}
-function mark(){const enabled=$('#show-markers').checked;document.querySelectorAll('.hotspot').forEach((b,i)=>{const v=new THREE.Vector3(...points[i].position).project(camera);const ok=enabled&&!hiddenLevels.has(points[i].level_id)&&v.z>-1&&v.z<1&&Math.abs(v.x)<.94&&Math.abs(v.y)<.92;b.hidden=!ok;b.style.left=(v.x*.5+.5)*stage.clientWidth+'px';b.style.top=(-v.y*.5+.5)*stage.clientHeight+'px';});}
+function markerBlocked(position){
+ if(!config.marker_occlusion||!modelRoot)return false;
+ markerRaycaster??=new THREE.Raycaster();
+ const direction=position.clone().sub(camera.position),distance=direction.length();
+ markerRaycaster.set(camera.position,direction.normalize());
+ markerRaycaster.near=.02;markerRaycaster.far=Math.max(.02,distance-.12);
+ return markerRaycaster.intersectObjects(markerOccluders,false).some(hit=>{
+  for(let node=hit.object;node;node=node.parent)if(!node.visible)return false;
+  const material=Array.isArray(hit.object.material)?hit.object.material[hit.face.materialIndex]:hit.object.material;
+  return !(material.transparent&&material.opacity<.5)&&!(material.transmission>.5);
+ });
+}
+function mark(){const enabled=$('#show-markers').checked;document.querySelectorAll('.hotspot').forEach((b,i)=>{const position=new THREE.Vector3(...points[i].position),v=position.clone().project(camera);const inView=enabled&&!hiddenLevels.has(points[i].level_id)&&v.z>-1&&v.z<1&&Math.abs(v.x)<.94&&Math.abs(v.y)<.92;const blocked=inView&&markerBlocked(position);b.hidden=!inView||blocked;b.dataset.occluded=String(blocked);b.style.left=(v.x*.5+.5)*stage.clientWidth+'px';b.style.top=(-v.y*.5+.5)*stage.clientHeight+'px';});}
 function draw(){renderQueued=false;if(!renderer||!visible||document.hidden)return;if(composer)composer.render();else renderer.render(scene,camera);stat.draws++;sync();mark();}
 function invalidate(){if(!renderQueued){renderQueued=true;requestAnimationFrame(draw);}}
 function resize(){if(!renderer)return;const w=stage.clientWidth,h=stage.clientHeight;renderer.setSize(w,h,false);camera.aspect=w/h;const selected=stat.activeHotspot!==null?points[stat.activeHotspot]:views[stat.view];const selectedFov=selected.fov||views[stat.view]?.fov||58;const referenceAspect=selected.reference_aspect||(camera.aspect<1?1.35:camera.aspect);const fittedFov=THREE.MathUtils.radToDeg(2*Math.atan(Math.tan(THREE.MathUtils.degToRad(selectedFov)/2)*Math.max(1,referenceAspect/camera.aspect)));camera.fov=stat.view===0&&stat.activeHotspot===null?(camera.aspect<1?55:43):Math.min(112,fittedFov);camera.updateProjectionMatrix();
@@ -91,6 +105,7 @@ $('#start-model').addEventListener('click',async()=>{
   scene=new THREE.Scene();scene.background=new THREE.Color('#e2e5e3');camera=new THREE.PerspectiveCamera(43,1,.05,150);
   scene.add(new THREE.HemisphereLight(0xf5f8ff,0x6c665e,1.35));const key=new THREE.DirectionalLight(0xfff8ef,2.7);key.position.set(-3,8,5);key.castShadow=true;key.shadow.mapSize.set(2048,2048);key.shadow.camera.left=-8;key.shadow.camera.right=8;key.shadow.camera.top=8;key.shadow.camera.bottom=-8;key.shadow.bias=-.0002;key.shadow.normalBias=.015;scene.add(key);const fill=new THREE.DirectionalLight(0xe4edff,.7);fill.position.set(-7,5,-5);scene.add(fill);
   const loader=new GLTFLoader();const started=performance.now();const modelUrl=await modelTransportUrl();const gltf=await loader.loadAsync(modelUrl);URL.revokeObjectURL(modelUrl);stat.loadMilliseconds=Math.round(performance.now()-started);gltf.scene.traverse(o=>{if(o.isMesh){stat.meshCount++;o.castShadow=!o.material.transparent;o.receiveShadow=true;stat.triangles=(stat.triangles||0)+(o.geometry.index?o.geometry.index.count:o.geometry.attributes.position.count)/3;if(o.material.normalMap)stat.normalMappedMeshes=(stat.normalMappedMeshes||0)+1;if(o.material.map){stat.texturedMeshes=(stat.texturedMeshes||0)+1;o.material.map.anisotropy=Math.min(8,renderer.capabilities.getMaxAnisotropy());}}});scene.add(gltf.scene);modelRoot=gltf.scene;
+  modelRoot.traverse(node=>{if(node.isMesh)markerOccluders.push(node);});
   modelBounds=new THREE.Box3().setFromObject(modelRoot);const size=modelBounds.getSize(new THREE.Vector3());const center=modelBounds.getCenter(new THREE.Vector3());
   const span=Math.max(size.x,size.y,size.z)*.7;
   key.position.copy(center).add(new THREE.Vector3(-span,span*1.4,span));key.target.position.copy(center);scene.add(key.target);
