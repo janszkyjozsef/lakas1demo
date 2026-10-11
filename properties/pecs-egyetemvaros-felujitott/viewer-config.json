@@ -1,0 +1,423 @@
+{
+  "property_id": "pecs-egyetemvaros-felujitott",
+  "revision": "1.0",
+  "native_to_gltf": "[x,z,-y]",
+  "model": {
+    "parts": [
+      "model-30c5e65b9b79-01.bin",
+      "model-30c5e65b9b79-02.bin"
+    ],
+    "sha256": "30c5e65b9b79bdc66437fc28865aeb66f61efe74442c5b689ff9151db52cac54",
+    "bytes": 8815956
+  },
+  "views": [
+    {
+      "id": "overview",
+      "name": "Teljes lakás – saját alaprajzi modell",
+      "p": [
+        11,
+        13,
+        12
+      ],
+      "t": [
+        -0.4,
+        1,
+        0
+      ],
+      "fov": 41.11209043916693,
+      "reference_aspect": 1.7777777777777777,
+      "hide_nodes": [
+        "OVERVIEW_HIDE_013",
+        "OVERVIEW_HIDE_014",
+        "OVERVIEW_HIDE_015",
+        "OVERVIEW_HIDE_016",
+        "OVERVIEW_HIDE_017",
+        "OVERVIEW_HIDE_018",
+        "OVERVIEW_HIDE_019",
+        "OVERVIEW_HIDE_020",
+        "OVERVIEW_HIDE_021",
+        "OVERVIEW_HIDE_022",
+        "OVERVIEW_HIDE_023",
+        "OVERVIEW_HIDE_024"
+      ]
+    },
+    {
+      "id": "living",
+      "name": "Üres nappali",
+      "p": [
+        1.55,
+        1.64,
+        -2.2
+      ],
+      "t": [
+        4.05,
+        1.1,
+        -0.05
+      ],
+      "fov": 49.42635376093179,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "kitchen",
+      "name": "Konyha – 02/05 képi változat",
+      "p": [
+        2.56,
+        1.63,
+        -1.05
+      ],
+      "t": [
+        0.98,
+        1.28,
+        -2.43
+      ],
+      "fov": 49.42635376093179,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "main_room",
+      "name": "Nagyobb üres szoba",
+      "p": [
+        -0.7,
+        1.66,
+        -1.37
+      ],
+      "t": [
+        -3.81,
+        1.13,
+        -1.89
+      ],
+      "fov": 47.519857963653635,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "small_room",
+      "name": "Keskeny üres szoba",
+      "p": [
+        -3.5,
+        1.59,
+        2.49
+      ],
+      "t": [
+        -3.8,
+        1.14,
+        -0.31
+      ],
+      "fov": 49.42635376093179,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "bath",
+      "name": "Fürdő – 01 képi változat",
+      "p": [
+        -1.745,
+        1.61,
+        0.04
+      ],
+      "t": [
+        -1.76,
+        1.1,
+        1.6
+      ],
+      "fov": 68.03869997965292,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "hall",
+      "name": "Közlekedő",
+      "p": [
+        -0.075,
+        1.59,
+        2.71
+      ],
+      "t": [
+        -1.38,
+        1.1,
+        -0.19
+      ],
+      "fov": 51.48141671246567,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "sink_detail",
+      "name": "Fekete mosogató részlete",
+      "p": [
+        1.86,
+        1.56,
+        -1.77
+      ],
+      "t": [
+        0.86,
+        0.95,
+        -2.14
+      ],
+      "fov": 39.76070472928529,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "wc",
+      "name": "WC – csak alaprajzi tér",
+      "p": [
+        -0.13,
+        1.56,
+        2.76
+      ],
+      "t": [
+        -1.7,
+        1.1,
+        2.74
+      ],
+      "fov": 56.105837411811535,
+      "reference_aspect": 1.7777777777777777
+    }
+  ],
+  "poi": [
+    {
+      "title": "Üres nappali",
+      "position": [
+        2.82,
+        0.9,
+        -0.85
+      ],
+      "p": [
+        1.55,
+        1.64,
+        -2.2
+      ],
+      "t": [
+        4.05,
+        1.1,
+        -0.05
+      ],
+      "fov": 49.42635376093179,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 1,
+      "text": "A 03-as forrás üres nappalija; a 07-es eltérő konyhás állapot nincs összeolvasztva. Az ablakok helye az eredeti méretezetlen alaprajzot követi."
+    },
+    {
+      "title": "Konyha – 02/05 képi változat",
+      "position": [
+        1.65,
+        1.07,
+        -2.73
+      ],
+      "p": [
+        2.56,
+        1.63,
+        -1.05
+      ],
+      "t": [
+        0.98,
+        1.28,
+        -2.43
+      ],
+      "fov": 49.42635376093179,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 2,
+      "text": "02/05 részletes változat: fehér L konyha, barna pult, magas sütőoszlop védőcsomagolással, fekete mosogató és főzőlap."
+    },
+    {
+      "title": "Nagyobb üres szoba",
+      "position": [
+        -2.18,
+        0.7,
+        -1.65
+      ],
+      "p": [
+        -0.7,
+        1.66,
+        -1.37
+      ],
+      "t": [
+        -3.81,
+        1.13,
+        -1.89
+      ],
+      "fov": 47.519857963653635,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 3,
+      "text": "A 04-es forrás alapján üresen maradó nagyobb szoba, fehér falakkal és eredeti radiátorral."
+    },
+    {
+      "title": "Keskeny üres szoba",
+      "position": [
+        -3.6,
+        0.8,
+        1.55
+      ],
+      "p": [
+        -3.5,
+        1.59,
+        2.49
+      ],
+      "t": [
+        -3.8,
+        1.14,
+        -0.31
+      ],
+      "fov": 49.42635376093179,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 4,
+      "text": "A 06-os forrás alapján hosszú keskeny üres szoba, ablak, radiátorcsövek és fali beugrás."
+    },
+    {
+      "title": "Fürdő – 01 képi változat",
+      "position": [
+        -1.65,
+        0.95,
+        1.6
+      ],
+      "p": [
+        -1.745,
+        1.61,
+        0.04
+      ],
+      "t": [
+        -1.76,
+        1.1,
+        1.6
+      ],
+      "fov": 68.03869997965292,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 5,
+      "text": "Kifejezetten az 01-es fotó botanikus/szürke/króm változata. A 08-as arany/fa változat külön képi forrás marad."
+    },
+    {
+      "title": "Közlekedő",
+      "position": [
+        -0.1,
+        0.8,
+        1.16
+      ],
+      "p": [
+        -0.075,
+        1.59,
+        2.71
+      ],
+      "t": [
+        -1.38,
+        1.1,
+        -0.19
+      ],
+      "fov": 51.48141671246567,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 6,
+      "text": "Az eredeti09 alaprajz közlekedője és öt szabad nyílása; ajtólapok nélkül."
+    },
+    {
+      "title": "Fekete mosogató részlete",
+      "position": [
+        0.89,
+        1.07,
+        -2.12
+      ],
+      "p": [
+        1.86,
+        1.56,
+        -1.77
+      ],
+      "t": [
+        0.86,
+        0.95,
+        -2.14
+      ],
+      "fov": 39.76070472928529,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 7,
+      "text": "Ténylegesen mély fekete mosogató: a pult és a szekrény sem fedi el az üreget."
+    },
+    {
+      "title": "WC – csak alaprajzi tér",
+      "position": [
+        -1.65,
+        0.8,
+        2.72
+      ],
+      "p": [
+        -0.13,
+        1.56,
+        2.76
+      ],
+      "t": [
+        -1.7,
+        1.1,
+        2.74
+      ],
+      "fov": 56.105837411811535,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 8,
+      "text": "A helyiséget az alaprajz igazolja, belső fotója nincs. Szanitert és kész belső kialakítást nem feltételeztünk."
+    }
+  ],
+  "bbox": {
+    "min": [
+      -4.574999809265137,
+      -0.10999999940395355,
+      -3.375
+    ],
+    "max": [
+      4.574999809265137,
+      2.6500000953674316,
+      3.3975000381469727
+    ],
+    "basis": "actual evaluated MESH/CURVE world extents from current geometry QA"
+  },
+  "source_gallery_groups": {
+    "living": [
+      3
+    ],
+    "main_room": [
+      4
+    ],
+    "small_room": [
+      6
+    ],
+    "kitchen": [
+      2,
+      5
+    ],
+    "bath": [
+      1
+    ],
+    "alternate_kitchen": [
+      7
+    ],
+    "alternate_bath": [
+      8
+    ],
+    "floorplan": [
+      9
+    ]
+  },
+  "measured": false,
+  "single_storey": true,
+  "geometry_note": "Fotók és méretezetlen eredeti alaprajz alapján készült szemléltető modell.01fürdő és02/05konyha explicit választás,07/08 külön változat; a felújítás befejezését nem igazolja.",
+  "marker_occlusion": true,
+  "website_metadata_revision": "overview-visibility-r1",
+  "website_marker_note": "General kitchen marker is above own north counter, separately from sink-detail marker; native cameras unchanged.",
+  "overview_visibility": {
+    "view_ids": [
+      "overview"
+    ],
+    "hide_nodes": [
+      "OVERVIEW_HIDE_013",
+      "OVERVIEW_HIDE_014",
+      "OVERVIEW_HIDE_015",
+      "OVERVIEW_HIDE_016",
+      "OVERVIEW_HIDE_017",
+      "OVERVIEW_HIDE_018",
+      "OVERVIEW_HIDE_019",
+      "OVERVIEW_HIDE_020",
+      "OVERVIEW_HIDE_021",
+      "OVERVIEW_HIDE_022",
+      "OVERVIEW_HIDE_023",
+      "OVERVIEW_HIDE_024"
+    ],
+    "recipe_sha256": "69146bb6d05af1dadc6329b9621e5570dd5f5bc84ad7c832a03fcc85b2aa153a",
+    "notice": "Falak nélküli szemléltető áttekintő; a részletnézetekben eredeti falak és részletek. Nem felmérés.",
+    "restore_original_on_close_views": true
+  },
+  "photo_video": {
+    "file": "photo-film-v1-36s.mp4",
+    "poster": "photo-poster-v1.jpg"
+  }
+}
