@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "home_property": "pecs-egyetemvaros-47",
+  "properties": [
+    {
+      "id": "pecs-egyetemvaros-47",
+      "title": "Egyetemvárosi fény",
+      "location": "Pécs · Egyetemváros",
+      "summary": "47 m²-es, másfél szobás lakás a harmadik emeleten. Digitálisan rendezett fotók, fotófilm, szemléltető 3D és 3D-körbejárás.",
+      "facts": [
+        "47 m²",
+        "1 + ½ szoba",
+        "3. emelet",
+        "49,9 M Ft"
+      ],
+      "cover": "photos_v4__photo_01.jpg",
+      "cover_alt": "Az Egyetemvárosi lakás nappalija, digitálisan rendezett fotón",
+      "url": "index.html",
+      "cover_url": "properties/pecs-egyetemvaros-47/photos_v4__photo_01.jpg"
+    },
+    {
+      "id": "pecs-veress-endre-50",
+      "title": "Uránvárosi otthon",
+      "location": "Pécs · Uránváros · Veress Endre utca",
+      "summary": "50 m², két külön nyíló szoba, földszinti elhelyezkedés. A Veress Endre utcai lakás digitálisan rendezett forrásképei és saját szemléltető térmodellje.",
+      "facts": [
+        "50 m²",
+        "2 külön nyíló szoba",
+        "Földszint",
+        "48,9 M Ft"
+      ],
+      "cover": "photo-03.jpg",
+      "cover_alt": "Nagyobb üres szoba · geometrikus festés · AI-val retusált, digitálisan rendezett forrásfotó.",
+      "url": "properties/pecs-veress-endre-50/index.html",
+      "cover_url": "properties/pecs-veress-endre-50/photo-03.jpg"
+    }
+  ]
+}
