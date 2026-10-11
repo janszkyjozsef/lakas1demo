@@ -29,7 +29,7 @@ let touchX=0;$('#lightbox-img').addEventListener('touchstart',e=>touchX=e.change
 const video=$('#property-video');
 video.src=config.photo_video.file;video.poster=config.photo_video.poster;video.dataset.format='native-photo';video.load();
 const tourVideo=$('#tour-video');
-[video,tourVideo].forEach(v=>v.addEventListener('play',()=>[video,tourVideo].forEach(other=>{if(other!==v)other.pause();})));
+[video,tourVideo].filter(Boolean).forEach(v=>v.addEventListener('play',()=>[video,tourVideo].filter(Boolean).forEach(other=>{if(other!==v)other.pause();})));
 document.querySelectorAll('[data-filter]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(q=>q.classList.toggle('selected',q===b));gallery(b.dataset.filter);}));
 fetch('photos.json').then(r=>{if(!r.ok)throw Error('Forrásjegyzék nem elérhető');return r.json();}).then(p=>{photos=p;stat.photoCount=p.length;gallery();}).catch(()=>{$('#gallery').textContent='A galéria nem töltődött be. Próbáld újratölteni az oldalt.';});
 
@@ -41,6 +41,7 @@ let hiddenLevels=new Set();
 let markerRaycaster;
 const markerOccluders=[];
 const originalNodeVisibility=new WeakMap();
+const modelNodeNames=new Set();
 const floorById=new Map((config.floors||[]).map(f=>[f.id,f]));
 const floorByNodeName=new Map();
 for(const floor of floorById.values()){
@@ -52,17 +53,22 @@ for(const floor of floorById.values()){
 }
 function applyLevelVisibility(selected){
  const hidden=selected.hide_levels||[];
+ const hiddenNodes=selected.hide_nodes||[];
  if(!Array.isArray(hidden)||hidden.some(id=>!floorById.has(id)))throw Error('Ismeretlen szintnézet');
+ if(!Array.isArray(hiddenNodes)||hiddenNodes.some(name=>!modelNodeNames.has(name)))throw Error('Ismeretlen áttekintési modellrész');
+ const hiddenNodeNames=new Set(hiddenNodes);
  hiddenLevels=new Set(hidden);
  if(modelRoot)modelRoot.traverse(node=>{
   if(!originalNodeVisibility.has(node))originalNodeVisibility.set(node,node.visible);
   const level=floorById.has(node.userData?.level_id)?node.userData.level_id:floorByNodeName.get(node.name);
-  node.visible=originalNodeVisibility.get(node)&&!hiddenLevels.has(level);
+  node.visible=originalNodeVisibility.get(node)&&!hiddenLevels.has(level)&&!hiddenNodeNames.has(node.name)&&!hiddenNodeNames.has(node.userData?.name);
  });
 }
 function levelDisclosure(selected){
  const hidden=selected.hide_levels||[];
- return hidden.length?' Az áttekintéshez elrejtett részek: '+hidden.map(id=>floorById.get(id).name).join(', ')+'.':'';
+ const levels=hidden.length?' Az áttekintéshez elrejtett részek: '+hidden.map(id=>floorById.get(id).name).join(', ')+'.':'';
+ const cutaway=(selected.hide_nodes||[]).length?' Áttekintő nézet elrejtett falakkal; a közeli nézetek a teljes helyiségeket mutatják.':'';
+ return levels+cutaway;
 }
 
 function sync(){if(!camera)return;stat.camera=camera.position.toArray();stat.target=controls.target.toArray();}
@@ -81,7 +87,38 @@ function markerBlocked(position){
 function mark(){const enabled=$('#show-markers').checked;document.querySelectorAll('.hotspot').forEach((b,i)=>{const position=new THREE.Vector3(...points[i].position),v=position.clone().project(camera);const inView=enabled&&!hiddenLevels.has(points[i].level_id)&&v.z>-1&&v.z<1&&Math.abs(v.x)<.94&&Math.abs(v.y)<.92;const blocked=inView&&markerBlocked(position);b.hidden=!inView||blocked;b.dataset.occluded=String(blocked);b.style.left=(v.x*.5+.5)*stage.clientWidth+'px';b.style.top=(-v.y*.5+.5)*stage.clientHeight+'px';});}
 function draw(){renderQueued=false;if(!renderer||!visible||document.hidden)return;if(composer)composer.render();else renderer.render(scene,camera);stat.draws++;sync();mark();}
 function invalidate(){if(!renderQueued){renderQueued=true;requestAnimationFrame(draw);}}
-function resize(){if(!renderer)return;const w=stage.clientWidth,h=stage.clientHeight;renderer.setSize(w,h,false);camera.aspect=w/h;const selected=stat.activeHotspot!==null?points[stat.activeHotspot]:views[stat.view];const selectedFov=selected.fov||views[stat.view]?.fov||58;const referenceAspect=selected.reference_aspect||(camera.aspect<1?1.35:camera.aspect);const fittedFov=THREE.MathUtils.radToDeg(2*Math.atan(Math.tan(THREE.MathUtils.degToRad(selectedFov)/2)*Math.max(1,referenceAspect/camera.aspect)));camera.fov=stat.view===0&&stat.activeHotspot===null?(camera.aspect<1?55:43):Math.min(112,fittedFov);camera.updateProjectionMatrix();
+function fitProjectedVisible(selected){
+ const target=new THREE.Vector3(...selected.t);
+ const direction=new THREE.Vector3(...selected.p).sub(target).normalize();
+ const right=new THREE.Vector3(0,1,0).cross(direction).normalize();
+ if(right.lengthSq()<.5)throw Error('Az áttekintő kamera iránya nem használható');
+ const up=direction.clone().cross(right).normalize();
+ const tanVertical=Math.tan(THREE.MathUtils.degToRad(camera.fov)/2);
+ const tanHorizontal=tanVertical*camera.aspect;
+ const fill=selected.overview_fill??.82;
+ if(!(fill>=.6&&fill<=.9))throw Error('Hibás áttekintő képkivágás');
+ modelRoot.updateMatrixWorld(true);
+ let distance=0,count=0;
+ const point=new THREE.Vector3();
+ modelRoot.traverse(node=>{
+  if(!node.isMesh)return;
+  for(let ancestor=node;ancestor;ancestor=ancestor.parent)if(!ancestor.visible)return;
+  const positions=node.geometry.attributes.position;
+  for(let i=0;i<positions.count;i++){
+   point.fromBufferAttribute(positions,i).applyMatrix4(node.matrixWorld).sub(target);
+   const nearOffset=point.dot(direction);
+   distance=Math.max(distance,nearOffset+camera.near*2,
+    nearOffset+Math.abs(point.dot(right))/(tanHorizontal*fill),
+    nearOffset+Math.abs(point.dot(up))/(tanVertical*fill));
+   count++;
+  }
+ });
+ if(!count||!Number.isFinite(distance)||distance<=0)throw Error('Az áttekintő modell nem látható');
+ camera.position.copy(target).addScaledVector(direction,distance);
+ controls.target.copy(target);controls.update();sync();invalidate();
+}
+function resize(){if(!renderer)return;const w=stage.clientWidth,h=stage.clientHeight;if(w<=0||h<=0)return;renderer.setSize(w,h,false);if(composer)composer.setSize(w,h);camera.aspect=w/h;const selected=stat.activeHotspot!==null?points[stat.activeHotspot]:views[stat.view];const selectedFov=selected.fov||views[stat.view]?.fov||58;const referenceAspect=selected.reference_aspect||(camera.aspect<1?1.35:camera.aspect);const fittedFov=THREE.MathUtils.radToDeg(2*Math.atan(Math.tan(THREE.MathUtils.degToRad(selectedFov)/2)*Math.max(1,referenceAspect/camera.aspect)));camera.fov=stat.view===0&&stat.activeHotspot===null?(camera.aspect<1?55:43):Math.min(112,fittedFov);camera.updateProjectionMatrix();
+ if(selected.overview_fit==='projected_visible'&&modelRoot){fitProjectedVisible(selected);return;}
  if(stat.view===0&&stat.activeHotspot===null&&modelBounds){
   const sphere=modelBounds.getBoundingSphere(new THREE.Sphere());
   const vertical=THREE.MathUtils.degToRad(camera.fov);
@@ -90,7 +127,7 @@ function resize(){if(!renderer)return;const w=stage.clientWidth,h=stage.clientHe
   const direction=new THREE.Vector3(...views[0].p).sub(new THREE.Vector3(...views[0].t)).normalize();
   camera.position.copy(sphere.center).addScaledVector(direction,distance);controls.target.copy(sphere.center);controls.update();
  }
- if(composer)composer.setSize(w,h);invalidate();}
+ invalidate();}
 function setCamera(p,t){camera.position.fromArray(p);controls.target.fromArray(t);controls.update();invalidate();sync();}
 function revealModel(){if(matchMedia('(max-width:760px)').matches)stage.scrollIntoView({block:'start',behavior:'auto'});}
 function chooseView(i){stat.view=i;stat.activeHotspot=null;applyLevelVisibility(views[i]);setCamera(views[i].p,views[i].t);resize();document.querySelectorAll('[data-view]').forEach(b=>b.classList.toggle('selected',Number(b.dataset.view)===i));$('#detail-content').replaceChildren();const h=document.createElement('h3');h.textContent=views[i].name;const p=document.createElement('p');p.textContent='Húzd el a modellt, vagy válassz egy részletet. Minden méret szemléltető feltételezés.'+levelDisclosure(views[i]);$('#detail-content').append(h,p);revealModel();}
@@ -105,7 +142,7 @@ $('#start-model').addEventListener('click',async()=>{
   scene=new THREE.Scene();scene.background=new THREE.Color('#e2e5e3');camera=new THREE.PerspectiveCamera(43,1,.05,150);
   scene.add(new THREE.HemisphereLight(0xf5f8ff,0x6c665e,1.35));const key=new THREE.DirectionalLight(0xfff8ef,2.7);key.position.set(-3,8,5);key.castShadow=true;key.shadow.mapSize.set(2048,2048);key.shadow.camera.left=-8;key.shadow.camera.right=8;key.shadow.camera.top=8;key.shadow.camera.bottom=-8;key.shadow.bias=-.0002;key.shadow.normalBias=.015;scene.add(key);const fill=new THREE.DirectionalLight(0xe4edff,.7);fill.position.set(-7,5,-5);scene.add(fill);
   const loader=new GLTFLoader();const started=performance.now();const modelUrl=await modelTransportUrl();const gltf=await loader.loadAsync(modelUrl);URL.revokeObjectURL(modelUrl);stat.loadMilliseconds=Math.round(performance.now()-started);gltf.scene.traverse(o=>{if(o.isMesh){stat.meshCount++;o.castShadow=!o.material.transparent;o.receiveShadow=true;stat.triangles=(stat.triangles||0)+(o.geometry.index?o.geometry.index.count:o.geometry.attributes.position.count)/3;if(o.material.normalMap)stat.normalMappedMeshes=(stat.normalMappedMeshes||0)+1;if(o.material.map){stat.texturedMeshes=(stat.texturedMeshes||0)+1;o.material.map.anisotropy=Math.min(8,renderer.capabilities.getMaxAnisotropy());}}});scene.add(gltf.scene);modelRoot=gltf.scene;
-  modelRoot.traverse(node=>{if(node.isMesh)markerOccluders.push(node);});
+  modelRoot.traverse(node=>{modelNodeNames.add(node.name);if(node.userData?.name)modelNodeNames.add(node.userData.name);if(node.isMesh)markerOccluders.push(node);});
   modelBounds=new THREE.Box3().setFromObject(modelRoot);const size=modelBounds.getSize(new THREE.Vector3());const center=modelBounds.getCenter(new THREE.Vector3());
   const span=Math.max(size.x,size.y,size.z)*.7;
   key.position.copy(center).add(new THREE.Vector3(-span,span*1.4,span));key.target.position.copy(center);scene.add(key.target);
@@ -131,4 +168,4 @@ $('#start-model').addEventListener('click',async()=>{
 document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>chooseView(Number(b.dataset.view))));document.querySelectorAll('[data-hotspot]').forEach(b=>b.addEventListener('click',()=>choosePoint(Number(b.dataset.hotspot))));$('#reset-model').addEventListener('click',()=>chooseView(0));$('#show-markers').addEventListener('change',()=>{mark();invalidate();});$('#zoom-in').addEventListener('click',()=>zoom(.84));$('#zoom-out').addEventListener('click',()=>zoom(1.19));
 stage.addEventListener('keydown',e=>{if(!stat.modelReady||e.target!==stage)return;switch(e.key){case'ArrowLeft':e.preventDefault();rotate(.12);break;case'ArrowRight':e.preventDefault();rotate(-.12);break;case'ArrowUp':case'+':case'=':e.preventDefault();zoom(.88);break;case'ArrowDown':case'-':e.preventDefault();zoom(1.14);break;case'Home':e.preventDefault();chooseView(0);break;}});
 
-$('#fullscreen-model').addEventListener('click',async()=>{if(document.fullscreenElement)await document.exitFullscreen();else if(stage.requestFullscreen)await stage.requestFullscreen();resize();});
+$('#fullscreen-model').addEventListener('click',async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else if(stage.requestFullscreen)await stage.requestFullscreen();}catch{status.textContent='A böngésző nem engedélyezte a teljes képernyőt. A modell az oldalon továbbra is forgatható és közelíthető.';}resize();invalidate();});
