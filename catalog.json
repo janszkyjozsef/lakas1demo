@@ -99,6 +99,22 @@
       "cover_alt": "Konyha és étkező · AI-val retusált, digitálisan rendezett forrásfotó; a fő bútorok és burkolatok megőrizve.",
       "url": "properties/pecs-szinhaz-ter/index.html",
       "cover_url": "properties/pecs-szinhaz-ter/photo-01.jpg"
+    },
+    {
+      "id": "pecs-premium-kert-105",
+      "title": "Prémium kertkapcsolat",
+      "location": "Pécs · 105 m²-es otthon",
+      "summary": "105 m², három hálószoba, amerikai konyhás nappali. Saját kertet, dupla teraszt és parkolási lehetőségeket kínáló otthon a forrásposzt szerint.",
+      "facts": [
+        "105 m²",
+        "3 háló",
+        "Saját kert",
+        "100 M Ft"
+      ],
+      "cover": "photo-01.jpg",
+      "cover_alt": "Nappali és fa-fehér konyha · AI-val retusált, digitálisan rendezett forrásfotó.",
+      "url": "properties/pecs-premium-kert-105/index.html",
+      "cover_url": "properties/pecs-premium-kert-105/photo-01.jpg"
     }
   ]
 }
