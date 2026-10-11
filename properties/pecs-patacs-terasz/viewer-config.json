@@ -1,0 +1,381 @@
+{
+  "property_id": "pecs-patacs-terasz",
+  "revision": "1.0",
+  "native_to_gltf": "[x,z,-y]",
+  "model": {
+    "parts": [
+      "model-fa7b09d3e0e3-01.bin"
+    ],
+    "sha256": "fa7b09d3e0e3bece343eecc41bb2f4ea2de333f8fd094f6d8029fa1c493dbb9c",
+    "bytes": 1731368
+  },
+  "views": [
+    {
+      "id": "overview",
+      "name": "Terv szerinti teljes lakás",
+      "p": [
+        16,
+        17,
+        18
+      ],
+      "t": [
+        0,
+        1,
+        0
+      ],
+      "fov": 42.55417341315535,
+      "reference_aspect": 1.7777777777777777,
+      "hide_nodes": [
+        "Patacs Cutaway Hidden Unpictured neutral white concept walls",
+        "Patacs Cutaway Hidden Own source exterior white mineral facade",
+        "Patacs Cutaway Hidden Own exterior ochre brown frame family",
+        "Patacs Cutaway Hidden Own architectural clear green glass",
+        "Patacs Cutaway Hidden Own exterior gray blind and metal trim"
+      ],
+      "overview_fit": "projected_visible",
+      "overview_fill": 0.82
+    },
+    {
+      "id": "open_plan",
+      "name": "Nyitott nappali–konyha tér",
+      "p": [
+        -0.95,
+        1.66,
+        -1.8
+      ],
+      "t": [
+        0.95,
+        0.95,
+        1.05
+      ],
+      "fov": 51.48141671246567,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "terrace",
+      "name": "Első emeleti terasz",
+      "p": [
+        3.1,
+        1.63,
+        2.06
+      ],
+      "t": [
+        6.3,
+        0.88,
+        1.7
+      ],
+      "fov": 53.70162658790905,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "left_bedroom",
+      "name": "Üres szoba a terv szerint",
+      "p": [
+        -3.45,
+        1.6,
+        0.48
+      ],
+      "t": [
+        -3.08,
+        1.14,
+        2.87
+      ],
+      "fov": 64.65227998875375,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "right_bedroom",
+      "name": "Teraszkapcsolatos üres szoba",
+      "p": [
+        3.02,
+        1.65,
+        -2.3
+      ],
+      "t": [
+        4.66,
+        1.35,
+        0.225
+      ],
+      "fov": 58.71550708558255,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "bath",
+      "name": "Fürdő – alaprajzi helyiség",
+      "p": [
+        -5.27,
+        1.61,
+        0.6
+      ],
+      "t": [
+        -5.47,
+        1.18,
+        2.85
+      ],
+      "fov": 53.70162658790905,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "wc",
+      "name": "Külön WC – alaprajzi helyiség",
+      "p": [
+        -4.025,
+        1.6,
+        -0.6
+      ],
+      "t": [
+        -3.96,
+        1.16,
+        -2.43
+      ],
+      "fov": 58.71550708558255,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "utility",
+      "name": "Háztartási helyiség – alaprajzi tér",
+      "p": [
+        -2.56,
+        1.6,
+        -0.64
+      ],
+      "t": [
+        -2.55,
+        1.16,
+        -2.55
+      ],
+      "fov": 58.71550708558255,
+      "reference_aspect": 1.7777777777777777
+    },
+    {
+      "id": "terrace_detail",
+      "name": "Üvegkorlát és pillér",
+      "p": [
+        5.45,
+        1.46,
+        1.23
+      ],
+      "t": [
+        6.38,
+        0.86,
+        2.58
+      ],
+      "fov": 44.09589492712077,
+      "reference_aspect": 1.7777777777777777
+    }
+  ],
+  "poi": [
+    {
+      "title": "Nyitott nappali–konyha tér",
+      "position": [
+        -0.5,
+        0.5,
+        -0.0
+      ],
+      "p": [
+        -0.95,
+        1.66,
+        -1.8
+      ],
+      "t": [
+        0.95,
+        0.95,
+        1.05
+      ],
+      "fov": 51.48141671246567,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 1,
+      "text": "Az eredeti06 méretezetlen alaprajz szerinti semleges, üres szemléltető tér. Belső fénykép nincs, a beépítést és anyagválasztást nem igazolja."
+    },
+    {
+      "title": "Első emeleti terasz",
+      "position": [
+        4.6,
+        0.8,
+        1.6
+      ],
+      "p": [
+        3.1,
+        1.63,
+        2.06
+      ],
+      "t": [
+        6.3,
+        0.88,
+        1.7
+      ],
+      "fov": 53.70162658790905,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 2,
+      "text": "Eredeti06 terasznyílások és01–05 építészeti külső tervlátványok fehérpillér/üvegkorlát anyagcsaládja. Szemléltető, nem felmérés vagy állapotfotó."
+    },
+    {
+      "title": "Üres szoba a terv szerint",
+      "position": [
+        -2.8,
+        0.5,
+        1.6
+      ],
+      "p": [
+        -3.45,
+        1.6,
+        0.48
+      ],
+      "t": [
+        -3.08,
+        1.14,
+        2.87
+      ],
+      "fov": 64.65227998875375,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 3,
+      "text": "Az eredeti06 méretezetlen alaprajz szerinti semleges, üres szemléltető tér. Belső fénykép nincs, a beépítést és anyagválasztást nem igazolja."
+    },
+    {
+      "title": "Teraszkapcsolatos üres szoba",
+      "position": [
+        4.6,
+        0.5,
+        -1.0
+      ],
+      "p": [
+        3.02,
+        1.65,
+        -2.3
+      ],
+      "t": [
+        4.66,
+        1.35,
+        0.225
+      ],
+      "fov": 58.71550708558255,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 4,
+      "text": "Az eredeti06 méretezetlen alaprajz szerinti semleges, üres szemléltető tér. Belső fénykép nincs, a beépítést és anyagválasztást nem igazolja."
+    },
+    {
+      "title": "Fürdő – alaprajzi helyiség",
+      "position": [
+        -5.5,
+        0.5,
+        1.6
+      ],
+      "p": [
+        -5.27,
+        1.61,
+        0.6
+      ],
+      "t": [
+        -5.47,
+        1.18,
+        2.85
+      ],
+      "fov": 53.70162658790905,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 5,
+      "text": "Az eredeti06 méretezetlen alaprajz szerinti semleges, üres szemléltető tér. Belső fénykép nincs, a beépítést és anyagválasztást nem igazolja."
+    },
+    {
+      "title": "Külön WC – alaprajzi helyiség",
+      "position": [
+        -4.0,
+        0.5,
+        -2.0
+      ],
+      "p": [
+        -4.025,
+        1.6,
+        -0.6
+      ],
+      "t": [
+        -3.96,
+        1.16,
+        -2.43
+      ],
+      "fov": 58.71550708558255,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 6,
+      "text": "Az eredeti06 méretezetlen alaprajz szerinti semleges, üres szemléltető tér. Belső fénykép nincs, a beépítést és anyagválasztást nem igazolja."
+    },
+    {
+      "title": "Háztartási helyiség – alaprajzi tér",
+      "position": [
+        -2.6,
+        0.5,
+        -2.0
+      ],
+      "p": [
+        -2.56,
+        1.6,
+        -0.64
+      ],
+      "t": [
+        -2.55,
+        1.16,
+        -2.55
+      ],
+      "fov": 58.71550708558255,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 7,
+      "text": "Az eredeti06 méretezetlen alaprajz szerinti semleges, üres szemléltető tér. Belső fénykép nincs, a beépítést és anyagválasztást nem igazolja."
+    },
+    {
+      "title": "Üvegkorlát és pillér",
+      "position": [
+        6.3,
+        0.8,
+        2.6
+      ],
+      "p": [
+        5.45,
+        1.46,
+        1.23
+      ],
+      "t": [
+        6.38,
+        0.86,
+        2.58
+      ],
+      "fov": 44.09589492712077,
+      "reference_aspect": 1.7777777777777777,
+      "view_index": 8,
+      "text": "Eredeti06 terasznyílások és01–05 építészeti külső tervlátványok fehérpillér/üvegkorlát anyagcsaládja. Szemléltető, nem felmérés vagy állapotfotó."
+    }
+  ],
+  "bbox": {
+    "min": [
+      -6.650000095367432,
+      -0.18000000715255737,
+      -3.067999839782715
+    ],
+    "max": [
+      6.640000343322754,
+      2.7839999198913574,
+      3.1014997959136963
+    ],
+    "basis": "current actual evaluated geometry QA"
+  },
+  "source_gallery_groups": {
+    "architectural_visualization": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "floorplan": [
+      6
+    ],
+    "interior_photographs": []
+  },
+  "measured": false,
+  "single_storey": true,
+  "source_kind": "architectural_visualization",
+  "geometry_note": "Eredeti06 alaprajz és külsőtervlátványok alapján készült üres szemléltető lakásmodell. Nincs igazolt belsőfotó; konyhabútor/lámpák/szaniterek nem feltételezve. Nem hiteles méretfelmérés vagy jelenlegi állapotigazolás.",
+  "presentation_revision": "presentation-r1",
+  "marker_occlusion": true,
+  "photo_video": {
+    "file": "photo-film-v1-36s.mp4",
+    "poster": "photo-poster-v1.jpg"
+  }
+}
