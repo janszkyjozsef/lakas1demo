@@ -131,6 +131,22 @@
       "cover_alt": "Hátsó homlokzat és terasz · AI-val retusált, digitálisan rendezett forrásfotó. Eredeti külső állapot; a fő adottságok megőrizve.",
       "url": "properties/pecs-rozsadomb-105/index.html",
       "cover_url": "properties/pecs-rozsadomb-105/photo-01.jpg"
+    },
+    {
+      "id": "somogyviszlo-csaladi-100",
+      "title": "Somogyviszlói otthon",
+      "location": "Somogyviszló · családi ház",
+      "summary": "100 m²-es családi ház, három hálószobával, nappalival és nagy udvarral. Fedett nyári konyha, műhely és garázs a hirdetés szerint.",
+      "facts": [
+        "100 m²",
+        "Nappali + 3 háló",
+        "2612 m² telek",
+        "39,9 M Ft"
+      ],
+      "cover": "photo-01-preview.jpg",
+      "cover_alt": "Utcafront · Forrásfotó, digitálisan rendezett és javított változat. A részlettextúrák AI-retusálást tartalmaznak.",
+      "url": "properties/somogyviszlo-csaladi-100/index.html",
+      "cover_url": "properties/somogyviszlo-csaladi-100/photo-01-preview.jpg"
     }
   ]
 }
