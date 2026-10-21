@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "property_id": "somogyviszlo-csaladi-100",
+  "films": {
+    "photo_video": {
+      "kind": "photo_video",
+      "bytes": 72940694,
+      "sha256": "ef7771d7fdc69ed728ef89b64fadf5d8d12a5da91aaf1399f42f583f45001a88",
+      "mime_type": "video/mp4",
+      "download_filename": "somogyviszlo-photo-video.mp4",
+      "transport": "lossless-parts",
+      "part_bytes": 8388608,
+      "parts": [
+        {
+          "part_index": 1,
+          "file": "film-photo-video-ef7771d7fdc6-01.bin",
+          "bytes": 8388608,
+          "sha256": "d115e2b04efc69d24eaa5a9d5fcb464fe18c6d0252c5f0c5f5fae575e4f8c70b"
+        },
+        {
+          "part_index": 2,
+          "file": "film-photo-video-ef7771d7fdc6-02.bin",
+          "bytes": 8388608,
+          "sha256": "0c6472d26a089de969767ab62f75cf9ab3e3e1af534ff5a8a5e539f34ec4c115"
+        },
+        {
+          "part_index": 3,
+          "file": "film-photo-video-ef7771d7fdc6-03.bin",
+          "bytes": 8388608,
+          "sha256": "1b4a43712787a2eb81540c492ce7c30813beb641d39a28f275292297502471d8"
+        },
+        {
+          "part_index": 4,
+          "file": "film-photo-video-ef7771d7fdc6-04.bin",
+          "bytes": 8388608,
+          "sha256": "553d95131ade03d2180a4d52379eb39e12c46d61283e5352290eb21c008d87cb"
+        },
+        {
+          "part_index": 5,
+          "file": "film-photo-video-ef7771d7fdc6-05.bin",
+          "bytes": 8388608,
+          "sha256": "bf7b4ae16c9f1c5cc352f3f6f648adf0425c6ea0ec3ad3daf8a8907cb7fe837c"
+        },
+        {
+          "part_index": 6,
+          "file": "film-photo-video-ef7771d7fdc6-06.bin",
+          "bytes": 8388608,
+          "sha256": "12eb618fed91e57d7404919ab4d94d736aba2b2d3e302c71214fceb370e56e58"
+        },
+        {
+          "part_index": 7,
+          "file": "film-photo-video-ef7771d7fdc6-07.bin",
+          "bytes": 8388608,
+          "sha256": "7cfdfd88c196c1c6e8fb3c4f939d530c77d3a10d1cbbd21d71c4aba168f244fe"
+        },
+        {
+          "part_index": 8,
+          "file": "film-photo-video-ef7771d7fdc6-08.bin",
+          "bytes": 8388608,
+          "sha256": "3d287b9784aa9e3d982ee75a3c97e6424e0a039af90a3f97f2003d23582445dc"
+        },
+        {
+          "part_index": 9,
+          "file": "film-photo-video-ef7771d7fdc6-09.bin",
+          "bytes": 5831830,
+          "sha256": "4f884b7e2c6e730dd03ca0517c6f2cbe8c1519fa04125fa8778633e0bbd7374b"
+        }
+      ],
+      "poster": "photo-video-poster.png",
+      "width": 1920,
+      "height": 1080
+    },
+    "model_tour": {
+      "kind": "model_tour",
+      "bytes": 60390147,
+      "sha256": "f8f554bca590445b97eb8ee435ed5c70ca2edc814a3462dd33cdb18409286b42",
+      "mime_type": "video/mp4",
+      "download_filename": "somogyviszlo-model-tour.mp4",
+      "transport": "lossless-parts",
+      "part_bytes": 8388608,
+      "parts": [
+        {
+          "part_index": 1,
+          "file": "film-model-tour-f8f554bca590-01.bin",
+          "bytes": 8388608,
+          "sha256": "e88d879cc2bf34423437072e0faebe477eb8ea11110d4c2f8433db49690ef610"
+        },
+        {
+          "part_index": 2,
+          "file": "film-model-tour-f8f554bca590-02.bin",
+          "bytes": 8388608,
+          "sha256": "6c3da6cc1b9510b51c9dfd646371e34a6640de8d6c30f0cdb62814c08db7ac16"
+        },
+        {
+          "part_index": 3,
+          "file": "film-model-tour-f8f554bca590-03.bin",
+          "bytes": 8388608,
+          "sha256": "16d81d8fac8a73b8cca715fd0898c866b6cf72b464aa052da89db0023621b1dd"
+        },
+        {
+          "part_index": 4,
+          "file": "film-model-tour-f8f554bca590-04.bin",
+          "bytes": 8388608,
+          "sha256": "6ba6238f3c3cdcbb94671177e5a32685ccf8db90357caaad5c41e83567ff9ba8"
+        },
+        {
+          "part_index": 5,
+          "file": "film-model-tour-f8f554bca590-05.bin",
+          "bytes": 8388608,
+          "sha256": "3184fd513a29f74831c9f587a787526793cf6d8be523a77f4e94635ced81e388"
+        },
+        {
+          "part_index": 6,
+          "file": "film-model-tour-f8f554bca590-06.bin",
+          "bytes": 8388608,
+          "sha256": "3fcdb9d4d02e9b2587a18da7d328f3d86a1ab01602ab9f827dd95b6c6d014fb2"
+        },
+        {
+          "part_index": 7,
+          "file": "film-model-tour-f8f554bca590-07.bin",
+          "bytes": 8388608,
+          "sha256": "62941f4297c0995cb594f0ad6383fb50c72cad114d017c0e2b2a4d3b33e22ec4"
+        },
+        {
+          "part_index": 8,
+          "file": "film-model-tour-f8f554bca590-08.bin",
+          "bytes": 1669891,
+          "sha256": "ca70364d822c200eb7f583b388b2caed8bbd4cb85b3dc30e0893ad4e351c19f1"
+        }
+      ],
+      "poster": "model-tour-poster.png",
+      "width": 1920,
+      "height": 1080
+    },
+    "gemini_1": {
+      "kind": "gemini_1",
+      "bytes": 5669129,
+      "sha256": "aaa7f00928c96193d457bea8bdb8a6d4c55a896e448ff2d75bf0a7667549c3a0",
+      "mime_type": "video/mp4",
+      "download_filename": "somogyviszlo-gemini-1.mp4",
+      "transport": "direct",
+      "file": "gemini-1.mp4",
+      "poster": "gemini-1-poster.png",
+      "width": 1280,
+      "height": 720
+    },
+    "gemini_2": {
+      "kind": "gemini_2",
+      "bytes": 2841536,
+      "sha256": "170784984db2da7cecb75dc4735f37a2082caeb9159e8e92f5faa287218471b8",
+      "mime_type": "video/mp4",
+      "download_filename": "somogyviszlo-gemini-2.mp4",
+      "transport": "direct",
+      "file": "gemini-2.mp4",
+      "poster": "gemini-2-poster.png",
+      "width": 1280,
+      "height": 720
+    },
+    "gemini_3": {
+      "kind": "gemini_3",
+      "bytes": 6956451,
+      "sha256": "4cfe42e2ee981368e3899f9730e895be2eb2944ddd35a8879df713bfecba2dcb",
+      "mime_type": "video/mp4",
+      "download_filename": "somogyviszlo-gemini-3.mp4",
+      "transport": "direct",
+      "file": "gemini-3.mp4",
+      "poster": "gemini-3-poster.png",
+      "width": 1280,
+      "height": 720
+    }
+  }
+}
