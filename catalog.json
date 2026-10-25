@@ -147,6 +147,22 @@
       "cover_alt": "Utcafront · Forrásfotó, digitálisan rendezett és javított változat. A részlettextúrák AI-retusálást tartalmaznak.",
       "url": "properties/somogyviszlo-csaladi-100/index.html",
       "cover_url": "properties/somogyviszlo-csaladi-100/photo-01-preview.jpg"
+    },
+    {
+      "id": "pecs-nagy-imre-62",
+      "title": "Fény és tér Kertvárosban",
+      "location": "Pécs · Kertváros · Nagy Imre út",
+      "summary": "62 m²-es, 2,5 szobás lakás a második emeleten, beüvegezett erkéllyel. MI-vel retusált fotók, eredeti források és kapcsolható falú szemléltető térmodell, választható berendezési ötletekkel.",
+      "facts": [
+        "62 m²",
+        "2,5 szoba",
+        "2. emelet",
+        "49,9 M Ft"
+      ],
+      "cover": "photos/03.png",
+      "cover_alt": "A sárga nappali a beüvegezett erkély felé, MI-vel retusált hirdetésfotó",
+      "url": "properties/pecs-nagy-imre-62/index.html",
+      "cover_url": "properties/pecs-nagy-imre-62/photos/03.png"
     }
   ]
 }
