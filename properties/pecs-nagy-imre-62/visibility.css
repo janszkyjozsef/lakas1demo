@@ -1,0 +1,7 @@
+.wall-controls{display:flex;flex-wrap:wrap;gap:.5rem;border:1px solid #b6c0ae;padding:.75rem;border-radius:.5rem;margin:1rem 0;color:#24372c;background:#f8faf5}
+.wall-controls legend{font-weight:600;padding:0 .3rem}
+.wall-controls label{display:flex;align-items:center;gap:.5rem;min-height:44px;padding:0 .65rem;cursor:pointer;border:1px solid transparent;border-radius:.35rem}
+.wall-controls label:has(input:checked){border-color:#3e644c;background:#e2ecdf}
+.wall-controls label:focus-within{outline:3px solid #276aa3;outline-offset:2px}
+.wall-controls input{width:1.1rem;height:1.1rem;accent-color:#365f43}
+@media(max-width:480px){.wall-controls label{flex:1 1 130px}}

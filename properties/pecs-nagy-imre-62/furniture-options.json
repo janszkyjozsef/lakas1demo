@@ -1,0 +1,289 @@
+{
+  "property_id": "pecs-nagy-imre-62",
+  "checked_at": "2026-10-25T19:38:24Z",
+  "currency": "HUF",
+  "disclosure": "Opcionális berendezési ötletek, nem a lakás jelenlegi berendezése. A szobaméretek becsültek; a bútorok méretei gyártói adatok. Az árak a 2026-10-25-i webes lekérdezéskor látott bruttó árak, változhatnak; készlet, cím szerinti szállítás, szerelés nincs igazolva. Nem országos legolcsóbb ajánlat. Az összegek termék-részösszegek; szállítás és munkadíj nélkül.",
+  "variants": [
+    {
+      "id": "original",
+      "name": "Eredeti, semleges szoba",
+      "description": "Az eredeti forráskorlátokkal megjelenített szoba; nincs új vásárolandó berendezés.",
+      "group": null,
+      "items": [],
+      "notes": [
+        "A helyiség kb. 12 m² mérete becslés, nem felmérés."
+      ],
+      "total_huf": 0
+    },
+    {
+      "id": "bedroom",
+      "name": "Kompakt hálószoba",
+      "description": "Sötétszürke kárpitozott ágy, fehér tároló és bambusz részlet; 140×200 fekvőfelület.",
+      "group": "Furnishing_Bedroom",
+      "items": [
+        {
+          "id": "slattum",
+          "name": "SLATTUM kárpitozott ágykeret, sötétszürke, 140×200",
+          "retailer": "IKEA",
+          "url": "https://www.ikea.com/hu/hu/p/slattum-karpitozott-agykeret-vissle-soetetszuerke-00571245/",
+          "unit_price_huf": 49990,
+          "quantity": 1,
+          "delivery_note": "A termékoldal elérhető; a helyi készlet és pécsi szállítás JS/címfüggő, nem igazolt. Szállítási díj nincs az árban.",
+          "dimensions": {
+            "width_cm": 144,
+            "depth_cm": 206,
+            "height_cm": 85,
+            "footboard_height_cm": 40,
+            "mattress_width_cm": 140,
+            "mattress_length_cm": 200
+          },
+          "checked_at": "2026-10-25T19:38:24Z",
+          "price_condition": "Nyilvános bruttó ár; klubtagsági kedvezményt nem számoltunk.",
+          "notes": [
+            "Az ágyrácsot és középgerendát tartalmazza; nincs még egyszer külön felszámítva."
+          ]
+        },
+        {
+          "id": "vesteroy",
+          "name": "VESTERÖY zsákrugós matrac, kemény, 140×200",
+          "retailer": "IKEA",
+          "url": "https://www.ikea.com/hu/hu/p/vesteroey-zsakrugos-matrac-kemeny-vilagoskek-30450609/",
+          "unit_price_huf": 59990,
+          "quantity": 1,
+          "delivery_note": "A termékoldal elérhető; a helyi készlet és pécsi szállítás JS/címfüggő, nem igazolt. Szállítási díj nincs az árban.",
+          "dimensions": {
+            "width_cm": 140,
+            "depth_cm": 200,
+            "height_cm": 20
+          },
+          "checked_at": "2026-10-25T19:38:24Z",
+          "price_condition": "Nyilvános bruttó ár; klubtagsági kedvezményt nem számoltunk.",
+          "notes": [
+            "Új alacsonyabb ár 2026-09-01-től, korábban 69 990 Ft. Komfort személyesen próbálandó."
+          ]
+        },
+        {
+          "id": "kleppstad",
+          "name": "KLEPPSTAD háromajtós gardrób, fehér",
+          "retailer": "IKEA",
+          "url": "https://www.ikea.com/hu/hu/p/kleppstad-gardrobszekreny-3-ajtoval-feher-00441758/",
+          "unit_price_huf": 54990,
+          "quantity": 1,
+          "delivery_note": "A termékoldal elérhető; a helyi készlet és pécsi szállítás JS/címfüggő, nem igazolt. Szállítási díj nincs az árban.",
+          "dimensions": {
+            "width_cm": 117,
+            "depth_cm": 55,
+            "height_cm": 176
+          },
+          "checked_at": "2026-10-25T19:38:24Z",
+          "price_condition": "Nyilvános bruttó ár; klubtagsági kedvezményt nem számoltunk.",
+          "notes": [
+            "A gyártó szerinti falrögzítés szükséges; ajtónyitási helyet külön kell hagyni. Extra polc nem része a tervnek."
+          ]
+        },
+        {
+          "id": "gillersberg",
+          "name": "GILLERSBERG éjjeliszekrény, bambusz/fehér",
+          "retailer": "IKEA",
+          "url": "https://www.ikea.com/hu/hu/p/gillersberg-ejjeliszekreny-bambusz-feher-30608983/",
+          "unit_price_huf": 12990,
+          "quantity": 1,
+          "delivery_note": "A termékoldal elérhető; a helyi készlet és pécsi szállítás JS/címfüggő, nem igazolt. Szállítási díj nincs az árban.",
+          "dimensions": {
+            "width_cm": 39,
+            "depth_cm": 39,
+            "height_cm": 56
+          },
+          "checked_at": "2026-10-25T19:38:24Z",
+          "price_condition": "Nyilvános bruttó ár; klubtagsági kedvezményt nem számoltunk.",
+          "notes": []
+        },
+        {
+          "id": "navlinge",
+          "name": "NÄVLINGE LED-es íróasztallámpa, fehér",
+          "retailer": "IKEA",
+          "url": "https://www.ikea.com/hu/hu/p/naevlinge-led-es-iroasztallampa-feher-50404918/",
+          "unit_price_huf": 6990,
+          "quantity": 1,
+          "delivery_note": "A termékoldal elérhető; a helyi készlet és pécsi szállítás JS/címfüggő, nem igazolt. Szállítási díj nincs az árban.",
+          "dimensions": {
+            "height_cm": 52,
+            "base_diameter_cm": 12,
+            "shade_diameter_cm": 5,
+            "length_cm": 66
+          },
+          "checked_at": "2026-10-25T19:38:24Z",
+          "price_condition": "Nyilvános bruttó ár; klubtagsági kedvezményt nem számoltunk.",
+          "notes": [
+            "Beépített LED és tápegység; külön izzó nem kell. 220 lm, 2700 K, kiegészítő fény; meglévő mennyezeti világítás mellé."
+          ]
+        },
+        {
+          "id": "trixig",
+          "name": "TRIXIG csavar és tipli készlet, 175 db",
+          "retailer": "IKEA",
+          "url": "https://www.ikea.com/hu/hu/p/trixig-csavar-es-tipli-keszlet-175-db-50546908/",
+          "unit_price_huf": 3490,
+          "quantity": 1,
+          "delivery_note": "A termékoldal elérhető; a helyi készlet és pécsi szállítás JS/címfüggő, nem igazolt. Szállítási díj nincs az árban.",
+          "dimensions": {
+            "package_width_cm": 14,
+            "package_depth_cm": 19,
+            "package_height_cm": 4
+          },
+          "checked_at": "2026-10-25T19:38:24Z",
+          "price_condition": "Nyilvános bruttó ár; klubtagsági kedvezményt nem számoltunk.",
+          "notes": [
+            "Rögzítési költségkerethez teljes doboz számolva. A helyszíni falanyaghoz és gyártói rögzítési útmutatóhoz való alkalmasságot telepítés előtt ellenőrizni kell; szükséges eltérő rögzítés ára nem ismert. Nem kell a 3D-be modellezni."
+          ]
+        }
+      ],
+      "notes": [
+        "Egy éjjeliszekrény és egy lámpa; nem kétoldali komplett garnitúra.",
+        "Ágyrács, középgerenda, matrac, beépített LED és rögzítési készlet számolva.",
+        "Textilek, párna, paplan, dekoráció és munkadíj nincs a bútorköltségben."
+      ],
+      "total_huf": 188440
+    },
+    {
+      "id": "office_guest",
+      "name": "Dolgozó és vendégszoba",
+      "description": "Natúr kanapéágy, fehér munkaasztal és tároló, fekete munkaszék.",
+      "group": "Furnishing_OfficeGuest",
+      "items": [
+        {
+          "id": "lycksele",
+          "name": "LYCKSELE LÖVÅS kanapéágy, Ransta natúr",
+          "retailer": "IKEA",
+          "url": "https://www.ikea.com/hu/hu/p/lycksele-loevas-kanapeagy-ransta-natur-s99387007/",
+          "unit_price_huf": 129990,
+          "quantity": 1,
+          "delivery_note": "A termékoldal elérhető; a helyi készlet és pécsi szállítás JS/címfüggő, nem igazolt. Szállítási díj nincs az árban.",
+          "dimensions": {
+            "width_cm": 142,
+            "depth_cm": 100,
+            "height_cm": 87,
+            "seat_height_cm": 39,
+            "sleeping_width_cm": 140,
+            "sleeping_length_cm": 188,
+            "mattress_thickness_cm": 10,
+            "open_outer_depth_cm": null,
+            "planning_open_zone_width_cm": 150,
+            "planning_open_zone_depth_cm": 205
+          },
+          "checked_at": "2026-10-25T19:38:24Z",
+          "price_condition": "Nyilvános bruttó ár; klubtagsági kedvezményt nem számoltunk.",
+          "notes": [
+            "A kombináció ára tartalmazza a vázat, LÖVÅS matracot és Ransta huzatot. Teljes kinyitott külső méret nincs megadva; a 150×205 cm tervezési zóna becslés, helyszíni ellenőrzés kell."
+          ]
+        },
+        {
+          "id": "kubek",
+          "name": "KUBEK 2 íróasztal, fehér, egy fiókkal",
+          "retailer": "Mömax",
+          "url": "https://www.moemax.hu/p/roasztal-feher-1-fiokkal-kubek-2-001555006101",
+          "unit_price_huf": 26990,
+          "quantity": 1,
+          "delivery_note": "A termékoldal elérhető; a helyi készlet és pécsi szállítás JS/címfüggő, nem igazolt. Szállítási díj nincs az árban.",
+          "dimensions": {
+            "width_cm": 110,
+            "depth_cm": 50,
+            "height_cm": 75
+          },
+          "checked_at": "2026-10-25T19:38:24Z",
+          "price_condition": "Nyilvános bruttó ár; klubtagsági kedvezményt nem számoltunk.",
+          "notes": [
+            "BEST PRICE termék; más kedvezménnyel nem összevonható. 1 fiók, 2 nyitott tárolórész."
+          ]
+        },
+        {
+          "id": "flintan",
+          "name": "FLINTAN irodai szék, fekete, karfa nélkül",
+          "retailer": "IKEA",
+          "url": "https://www.ikea.com/hu/hu/p/flintan-irodai-szek-fekete-10489028/",
+          "unit_price_huf": 24990,
+          "quantity": 1,
+          "delivery_note": "A termékoldal elérhető; a helyi készlet és pécsi szállítás JS/címfüggő, nem igazolt. Szállítási díj nincs az árban.",
+          "dimensions": {
+            "width_cm": 71,
+            "depth_cm": 71,
+            "height_max_cm": 114,
+            "seat_height_min_cm": 45,
+            "seat_height_max_cm": 58
+          },
+          "checked_at": "2026-10-25T19:38:24Z",
+          "price_condition": "Nyilvános bruttó ár; klubtagsági kedvezményt nem számoltunk.",
+          "notes": [
+            "Karfa opcionális, nincs a tervben/árban."
+          ]
+        },
+        {
+          "id": "kallax",
+          "name": "KALLAX polcos elem, fehér, 77×77",
+          "retailer": "IKEA",
+          "url": "https://www.ikea.com/hu/hu/p/kallax-polcos-elem-feher-20275814/",
+          "unit_price_huf": 15990,
+          "quantity": 1,
+          "delivery_note": "A termékoldal elérhető; a helyi készlet és pécsi szállítás JS/címfüggő, nem igazolt. Szállítási díj nincs az árban.",
+          "dimensions": {
+            "width_cm": 76.5,
+            "depth_cm": 39,
+            "height_cm": 76.5
+          },
+          "checked_at": "2026-10-25T19:38:24Z",
+          "price_condition": "Nyilvános bruttó ár; klubtagsági kedvezményt nem számoltunk.",
+          "notes": [
+            "A gyártó szerinti falrögzítés szükséges; betét/ajtó nélkül modellezendő."
+          ]
+        },
+        {
+          "id": "navlinge",
+          "name": "NÄVLINGE LED-es íróasztallámpa, fehér",
+          "retailer": "IKEA",
+          "url": "https://www.ikea.com/hu/hu/p/naevlinge-led-es-iroasztallampa-feher-50404918/",
+          "unit_price_huf": 6990,
+          "quantity": 1,
+          "delivery_note": "A termékoldal elérhető; a helyi készlet és pécsi szállítás JS/címfüggő, nem igazolt. Szállítási díj nincs az árban.",
+          "dimensions": {
+            "height_cm": 52,
+            "base_diameter_cm": 12,
+            "shade_diameter_cm": 5,
+            "length_cm": 66
+          },
+          "checked_at": "2026-10-25T19:38:24Z",
+          "price_condition": "Nyilvános bruttó ár; klubtagsági kedvezményt nem számoltunk.",
+          "notes": [
+            "Beépített LED és tápegység; külön izzó nem kell. 220 lm, 2700 K, kiegészítő fény; meglévő mennyezeti világítás mellé."
+          ]
+        },
+        {
+          "id": "trixig",
+          "name": "TRIXIG csavar és tipli készlet, 175 db",
+          "retailer": "IKEA",
+          "url": "https://www.ikea.com/hu/hu/p/trixig-csavar-es-tipli-keszlet-175-db-50546908/",
+          "unit_price_huf": 3490,
+          "quantity": 1,
+          "delivery_note": "A termékoldal elérhető; a helyi készlet és pécsi szállítás JS/címfüggő, nem igazolt. Szállítási díj nincs az árban.",
+          "dimensions": {
+            "package_width_cm": 14,
+            "package_depth_cm": 19,
+            "package_height_cm": 4
+          },
+          "checked_at": "2026-10-25T19:38:24Z",
+          "price_condition": "Nyilvános bruttó ár; klubtagsági kedvezményt nem számoltunk.",
+          "notes": [
+            "Rögzítési költségkerethez teljes doboz számolva. A helyszíni falanyaghoz és gyártói rögzítési útmutatóhoz való alkalmasságot telepítés előtt ellenőrizni kell; szükséges eltérő rögzítés ára nem ismert. Nem kell a 3D-be modellezni."
+          ]
+        }
+      ],
+      "notes": [
+        "Alkalmi vendégalvásra tervezett változat; a komfort nem igazolt személyes próbával.",
+        "Kanapéváz, matrac és huzat együtt számolva; LED és rögzítési készlet számolva.",
+        "Kinyitott állapotban az irodaszéket át kell helyezni; az átjáró/radiátor/ablak nem blokkolható.",
+        "Textilek, számítógép, dekoráció és munkadíj nincs a bútorköltségben."
+      ],
+      "total_huf": 208440
+    }
+  ],
+  "comparison_note": "IKEA, JYSK és Mömax ajánlatokat vetettünk össze. A hálóban az ágyráccsal együtt kínált keretet és a kedvezőbb összárú tárolót választottuk. A Mömax asztal 13 000 Ft-tal olcsóbb a vizsgált IKEA MICKE asztalnál, eltérő tárolókialakítással. A vendégkanapé felárát a külön matrac és a cserélhető huzat indokolja. Korlátozott összehasonlítás; nem országos árminimum."
+}

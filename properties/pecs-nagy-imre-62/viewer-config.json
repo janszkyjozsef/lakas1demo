@@ -1,0 +1,213 @@
+{
+  "property_id": "pecs-nagy-imre-62",
+  "ready": true,
+  "views": [
+    {
+      "id": "overview",
+      "name": "Teljes lakás",
+      "p": [
+        16,
+        17,
+        -18
+      ],
+      "t": [
+        4.8,
+        0.6,
+        -4.6
+      ],
+      "fov": 45,
+      "reference_aspect": 1.45,
+      "overview": true,
+      "hide_nodes": [],
+      "hide_levels": [],
+      "description": "Fotók és tájékoztató alaprajz alapján; becsült méretek."
+    },
+    {
+      "id": "living",
+      "name": "Nappali",
+      "p": [
+        10.5,
+        7.8,
+        -10.3
+      ],
+      "t": [
+        7.1,
+        0.8,
+        -6.45
+      ],
+      "fov": 45,
+      "reference_aspect": 1.45,
+      "overview": false,
+      "hide_nodes": [
+        "Wall_LivingSouth",
+        "Wall_East",
+        "Wall_BalconyExternal",
+        "Wall_BalconyEndEast"
+      ],
+      "hide_levels": [],
+      "description": "A sárga fal, kanapé és erkélynyílás két saját fotó alapján."
+    },
+    {
+      "id": "kitchen",
+      "name": "Konyha",
+      "p": [
+        3.65,
+        1.65,
+        -0.45
+      ],
+      "t": [
+        1.25,
+        1.15,
+        -1.1
+      ],
+      "fov": 65,
+      "reference_aspect": 1.45,
+      "overview": false,
+      "hide_nodes": [],
+      "hide_levels": [],
+      "description": "Belső nézőpont. Kétmedencés mosogató, egyenes szekrénysor és tűzhely a 04–05 fotók alapján."
+    },
+    {
+      "id": "bath",
+      "name": "Fürdő",
+      "p": [
+        0.88,
+        1.55,
+        -3.83
+      ],
+      "t": [
+        0.98,
+        1.02,
+        -2.25
+      ],
+      "fov": 72,
+      "reference_aspect": 1.45,
+      "overview": false,
+      "hide_nodes": [],
+      "hide_levels": [],
+      "description": "Mosógép bal hátul, íves zuhany jobb hátul, mosdó jobb elöl. A kamera a nyitott bejáraton keresztül néz; látható falakkal ellenőrzött nézőpont."
+    },
+    {
+      "id": "small",
+      "name": "Zöld kis szoba",
+      "p": [
+        4.8,
+        5.8,
+        -4.5
+      ],
+      "t": [
+        5.95,
+        0.8,
+        -1.5
+      ],
+      "fov": 45,
+      "reference_aspect": 1.45,
+      "overview": false,
+      "hide_nodes": [
+        "Wall_SmallSouth",
+        "Wall_SmallWest",
+        "Wall_SmallFrame"
+      ],
+      "hide_levels": [],
+      "description": "A zöld szín és szürke kanapé saját fotó alapján; alaprajzi megfeleltetés becsült."
+    },
+    {
+      "id": "hall",
+      "name": "Előszoba",
+      "p": [
+        1,
+        6.5,
+        -8
+      ],
+      "t": [
+        2.9,
+        0.8,
+        -3.8
+      ],
+      "fov": 45,
+      "reference_aspect": 1.45,
+      "overview": false,
+      "hide_nodes": [
+        "Wall_HallSouth"
+      ],
+      "hide_levels": [],
+      "description": "Nyitott konyhai ág és ajtólap nélküli átjárók. A fogas/tükör AI-részleteit nem vettük át."
+    },
+    {
+      "id": "balcony",
+      "name": "Beüvegezett erkély",
+      "p": [
+        7.1,
+        5.0,
+        -11.5
+      ],
+      "t": [
+        7.1,
+        0.8,
+        -8.9
+      ],
+      "fov": 45,
+      "reference_aspect": 1.45,
+      "overview": false,
+      "hide_nodes": [
+        "Wall_BalconyExternal"
+      ],
+      "hide_levels": [],
+      "description": "A két tároló a hirdető állítása; belsejük nem dokumentált."
+    },
+    {
+      "id": "room",
+      "name": "Szoba – részletei nem igazoltak",
+      "p": [
+        8.6,
+        13,
+        -2.2
+      ],
+      "t": [
+        8.15,
+        0.5,
+        -2.45
+      ],
+      "fov": 25,
+      "reference_aspect": 1.45,
+      "overview": false,
+      "hide_nodes": [],
+      "hide_levels": [],
+      "description": "Magas áttekintés, látható falakkal is használható. Az alaprajzi helyiség színei és berendezése nem igazolt; az új berendezések virtuális ötletek."
+    },
+    {
+      "id": "wc",
+      "name": "WC – nincs belső fotó",
+      "p": [
+        2.6,
+        4.5,
+        -4.8
+      ],
+      "t": [
+        2.5,
+        0.7,
+        -2.4
+      ],
+      "fov": 45,
+      "reference_aspect": 1.45,
+      "overview": false,
+      "hide_nodes": [
+        "Wall_WetHall",
+        "Wall_WCFrame"
+      ],
+      "hide_levels": [],
+      "description": "Csak az alaprajzi helyiségburok; berendezés nincs kitalálva."
+    }
+  ],
+  "model": {
+    "files": [
+      "model-b86a4f9a981e.glb"
+    ],
+    "bytes": 12570536,
+    "sha256": "b86a4f9a981e4677766855320a78863ff63a5ee04182c72e6b0b665e2bccbde7"
+  },
+  "styling_groups": {
+    "bedroom": "Furnishing_Bedroom",
+    "office_guest": "Furnishing_OfficeGuest"
+  }
+}

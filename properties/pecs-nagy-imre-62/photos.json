@@ -1,0 +1,98 @@
+[
+  {
+    "index": 1,
+    "label": "Fürdőszoba",
+    "group": "other",
+    "file": "photos/01.png",
+    "original": "originals/01.jpg",
+    "width": 1086,
+    "height": 1448,
+    "disclosure": "MI-vel retusált hirdetésfotó; az eredeti külön megtekinthető. A finom textúrák és tükröződések generatívan módosulhattak. Mosógép ajtaja digitálisan becsukva; nem változatlan eredeti fotó.",
+    "source_sha256": "542fe17a20d370a1e8c627255c444604303ef2db0c91ac0b24c787dc04b8b013",
+    "sha256": "b881480bcb1cf80c2f060e9cbe5f65d0a213408fe149e9fa1dc68555065823b0"
+  },
+  {
+    "index": 2,
+    "label": "Előszoba",
+    "group": "other",
+    "file": "photos/02.png",
+    "original": "originals/02.jpg",
+    "width": 1448,
+    "height": 1086,
+    "disclosure": "MI-vel retusált hirdetésfotó; az eredeti külön megtekinthető. A finom textúrák és tükröződések generatívan módosulhattak.",
+    "source_sha256": "aac1c7d3d54472064008e6dbad182062f2f4a1e1cb9f7eb7d3766843ceb01794",
+    "sha256": "5f1dbb27052b2a5b3f0b31d86e067aa53400d158ea4de90744409d91a0519fd7"
+  },
+  {
+    "index": 3,
+    "label": "Nappali az erkély felé",
+    "group": "living",
+    "file": "photos/03.png",
+    "original": "originals/03.jpg",
+    "width": 1448,
+    "height": 1086,
+    "disclosure": "MI-vel retusált hirdetésfotó; az eredeti külön megtekinthető. A finom textúrák és tükröződések generatívan módosulhattak.",
+    "source_sha256": "ff57de5045ccc7214dcac38fca40f26b1d04f8a37e0aaa6f9a97f8a0236cd407",
+    "sha256": "48d83e95d3e4f26b97d154a21235748b9eed1727de2fcbc744511e90ecf2796d"
+  },
+  {
+    "index": 4,
+    "label": "Konyha az ablak felé",
+    "group": "kitchen",
+    "file": "photos/04.png",
+    "original": "originals/04.jpg",
+    "width": 1448,
+    "height": 1086,
+    "disclosure": "MI-vel retusált hirdetésfotó; az eredeti külön megtekinthető. A finom textúrák és tükröződések generatívan módosulhattak.",
+    "source_sha256": "ad46d6be5579ae31eba25e8be9fca69c1fe402592f743965e57503fb83701893",
+    "sha256": "dde5b27f2d22019796745231021a0a0b8fd952ab9e5895eaccac1e01e1aedaca"
+  },
+  {
+    "index": 5,
+    "label": "Konyha az előszoba felé",
+    "group": "kitchen",
+    "file": "photos/05.png",
+    "original": "originals/05.jpg",
+    "width": 1448,
+    "height": 1086,
+    "disclosure": "MI-vel retusált hirdetésfotó; az eredeti külön megtekinthető. A finom textúrák és tükröződések generatívan módosulhattak.",
+    "source_sha256": "ad1018ec70765cd54a920dc2db5aee9339145638302d4d061449009b24bfa143",
+    "sha256": "87917d4c32c2eeba11d6d500cdd0e206fc356d727f2b488c6e77214cf9a631d2"
+  },
+  {
+    "index": 6,
+    "label": "Zöld félszoba",
+    "group": "other",
+    "file": "photos/06.png",
+    "original": "originals/06.jpg",
+    "width": 1086,
+    "height": 1448,
+    "disclosure": "MI-vel retusált hirdetésfotó; az eredeti külön megtekinthető. A finom textúrák és tükröződések generatívan módosulhattak.",
+    "source_sha256": "26800bb14ca4ab89f08e512ec7a902d99ceb0a369f221b11eb7866045186896a",
+    "sha256": "739c9fb12a3afaba3b1472555b05a37ce930984022bf0736078bdb69da46c4c4"
+  },
+  {
+    "index": 7,
+    "label": "Nappali az előszoba felé",
+    "group": "living",
+    "file": "photos/07.png",
+    "original": "originals/07.jpg",
+    "width": 1448,
+    "height": 1086,
+    "disclosure": "MI-vel retusált hirdetésfotó; az eredeti külön megtekinthető. A finom textúrák és tükröződések generatívan módosulhattak.",
+    "source_sha256": "0d6a85c40276d78e414f62a903f0cea80cafe249a40e032f82ed6085c5de7ec7",
+    "sha256": "71bcccdff5a5cee9fe306fff76f1b299f95ce80eb93ac5f8152331c17c3fbf7b"
+  },
+  {
+    "index": 8,
+    "label": "Beüvegezett erkély",
+    "group": "other",
+    "file": "photos/08.png",
+    "original": "originals/08.jpg",
+    "width": 1448,
+    "height": 1086,
+    "disclosure": "MI-vel retusált hirdetésfotó; az eredeti külön megtekinthető. A finom textúrák és tükröződések generatívan módosulhattak.",
+    "source_sha256": "ab008ed2bb6129dcc402a361269ceb791ed032bb25580534714b5c5b8ca22af1",
+    "sha256": "b2f9ba759e5f62e6b888ac61203d1fb14f1cc1f6ba85cc19d24a3233c60d0346"
+  }
+]
