@@ -173,6 +173,23 @@
       "url": "properties/pecs-nagy-imre-62/index.html",
       "cover_url": "properties/pecs-nagy-imre-62/photos/03.png",
       "property_type": "apartment"
+    },
+    {
+      "id": "pecs-donatus-134",
+      "title": "Donátusi távlatok",
+      "location": "Pécs · Donátus · tervezett ikerházi otthon",
+      "summary": "Tervlátványok és három szint alaprajza egy tervezett otthonról. A hirdetett 134 m² a garázst is tartalmazza; várható átadás 2027 végén.",
+      "facts": [
+        "134 m² garázzsal",
+        "Nappali + 3 háló",
+        "18 m² terasz",
+        "129,9 M Ft"
+      ],
+      "cover": "media/exterior-01.webp",
+      "cover_alt": "Retusált külső tervlátvány az ikerház két egységéről; nem a jelenlegi állapot fotója.",
+      "url": "properties/pecs-donatus-134/index.html",
+      "cover_url": "properties/pecs-donatus-134/media/exterior-01.webp",
+      "property_type": "house"
     }
   ],
   "home_url": "index.html"
