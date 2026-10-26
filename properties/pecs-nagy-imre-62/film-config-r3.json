@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "property_id": "pecs-nagy-imre-62",
+  "kind": "model_tour",
+  "transport": "lossless-parts",
+  "mime_type": "video/mp4",
+  "part_bytes": 1966080,
+  "bytes": 18817210,
+  "sha256": "f5468e88ec7c1d7ddf16212f4cdebf9d191578d8414d424cda1a5d4c8264a7a7",
+  "parts": [
+    {
+      "part_index": 1,
+      "file": "media/film-model-tour-f5468e88ec7c-01.bin",
+      "bytes": 1966080,
+      "sha256": "5bc30a61b1406fe074a1f8d4f8d8ca0b9af0d2bf486797a223b2a509ebddaf61"
+    },
+    {
+      "part_index": 2,
+      "file": "media/film-model-tour-f5468e88ec7c-02.bin",
+      "bytes": 1966080,
+      "sha256": "507c6bb0072d423ac9eb34113cd704cf702dc3d862f8d75f35a453b1e1c3c62f"
+    },
+    {
+      "part_index": 3,
+      "file": "media/film-model-tour-f5468e88ec7c-03.bin",
+      "bytes": 1966080,
+      "sha256": "8d6f67a221b994fb018e6389041cdc08ecad18f3a8a92f984dd9a410e0119c51"
+    },
+    {
+      "part_index": 4,
+      "file": "media/film-model-tour-f5468e88ec7c-04.bin",
+      "bytes": 1966080,
+      "sha256": "252c3479adcea2c83a056cf1f1056dfab51de0cc66fd8c5bfad3ceb77c1f4dc1"
+    },
+    {
+      "part_index": 5,
+      "file": "media/film-model-tour-f5468e88ec7c-05.bin",
+      "bytes": 1966080,
+      "sha256": "d5f474f1daa2977f5d24dd5753abed62bca4f21a326f5e6efa69c7dd93e1e875"
+    },
+    {
+      "part_index": 6,
+      "file": "media/film-model-tour-f5468e88ec7c-06.bin",
+      "bytes": 1966080,
+      "sha256": "3c03553fa786f22e22cbde8cb509395c90bfbfcbc75e6ab87e647a18aeb44223"
+    },
+    {
+      "part_index": 7,
+      "file": "media/film-model-tour-f5468e88ec7c-07.bin",
+      "bytes": 1966080,
+      "sha256": "35fefbc4bd356848026d7dda1d2f4301a8360ab2674b99f393e70bafc3e1d6b9"
+    },
+    {
+      "part_index": 8,
+      "file": "media/film-model-tour-f5468e88ec7c-08.bin",
+      "bytes": 1966080,
+      "sha256": "063cb5c390ec1d30ce35f759bf7d30792763f11c53acaea0936e044f9665240e"
+    },
+    {
+      "part_index": 9,
+      "file": "media/film-model-tour-f5468e88ec7c-09.bin",
+      "bytes": 1966080,
+      "sha256": "210c2340e99ca5d4cf037400ea791956f10f537aecb1297bc8a53fc681778784"
+    },
+    {
+      "part_index": 10,
+      "file": "media/film-model-tour-f5468e88ec7c-10.bin",
+      "bytes": 1122490,
+      "sha256": "fe93b31cddc08bce6730ed40ab62b47e9f6c03b7d1bd8c081869c65769181f36"
+    }
+  ],
+  "duration_seconds": 60.0,
+  "source_assembly_receipt_sha256": "369797875d7569afa83d05425677a61649130e6e34fd2848504f6c8578c8f4eb"
+}
