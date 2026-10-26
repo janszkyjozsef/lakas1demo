@@ -1,6 +1,6 @@
 # Somogyviszlói otthon — források
 
-https://www.facebook.com/ulrika.niesz/posts/pfbid0Z9xfzfeMDVcvwg8tWG3gx64rKvUWuxCDEGJ47E842GCJzsd1XHsH1ZaxyiTAuDQVl
+A kiinduló hirdetés teljes forráshivatkozása a belső dokumentációban megőrizve.
 
 19 hirdetési fotó és 1 alaprajz; digitálisan rendezett képek.
 
@@ -11,3 +11,5 @@ A Gemini-filmek AI-szemléltetések, nem helyszíni felvételek és nem geometri
 - AI-film 1: közvetlen forrásfotók 01; natív felbontás 1280 × 720; a teljes elemzési beszélgetés átvétele nem igazolt; nem feltételezzük.
 - AI-film 2: közvetlen forrásfotók 05; natív felbontás 1280 × 720; a teljes elemzési beszélgetés átvétele nem igazolt; nem feltételezzük.
 - AI-film 3: közvetlen forrásfotók 02; natív felbontás 1280 × 720; a teljes elemzési beszélgetés átvétele nem igazolt; nem feltételezzük.
+
+A nyilvános forrásjegyzék személyes kapcsolati adatot és közösségi profilhoz visszavezető hivatkozást nem tartalmaz. A teljes forrásdokumentáció belső, helyi példányban marad meg; a helyi képszámok, képi korlátozások és fájllenyomatok a nyilvános ellenőrizhetőséget szolgálják.
