@@ -1,16 +1,11 @@
-# Egyetemvárosi fény — OTTHONÍV
+# OTTHONÍV — 11 otthon, más nézőpontból
 
-A felhasználó által megadott lakásanyag vizuális bemutatója: 9 digitálisan rendezett fotó és alaprajz, 36 másodperces fotófilm, 48 másodperces Full HD 3D-körbejárás saját zenével és forgatható 3D-térmodell.
+[Főoldal és ingatlankatalógus](https://janszkyjozsef.github.io/lakas1demo/)
 
-Webcím: https://janszkyjozsef.github.io/lakas1demo/
+Tizenegy ingatlan bemutatója fotókkal, filmekkel és interaktív térmodellekkel, mobilon és asztali képernyőn is használható oldalakon.
 
-A film és a 3D kézzel indul. A modell egérrel vagy érintéssel forgatható, közelíthető; öt nézet és öt részletpont választható. A felület mobilra és asztali képernyőre is igazodik.
+Az egyes bemutatók jelölik a valós állapotfotókat, a digitálisan rendezett képeket, az építészeti tervlátványokat és az AI-látványfilmeket. A tervezett ingatlan látványterve nem a jelenlegi, elkészült állapot fényképe.
 
-A fotókon elpakolt tárgyak és bevetett ágy digitális módosítás. A 3D szemléltető rekonstrukció; a méretek és rejtett részletek feltételezések. A fotóretus apró rekonstruált részleteket tartalmazhat. Részletek: [forrásjegyzék](FORRASOK.md).
+A 3D-modellek szemléltető rekonstrukciók vagy tervsémák, nem hiteles felmérések és nem kiviteli dokumentációk. A becsült méretek és a berendezési ötletek korlátait az adott oldal ismerteti.
 
-A frissített modell megőrzi a 4.2. változat szekrény-, ablak-, átjáró- és bútorillesztési javításait; a háló ajtólapját a felhasználó kérésére elhagytuk. A képek, a videó és a GLB a helyben ellenőrzött változattal bájtpontosan egyeznek. A fájlokat a GitHub webes feltöltéséhez lapos szerkezetben tároljuk.
-
-Three.js és kiegészítői: MIT licenc, lásd [THREE_LICENSE.txt](THREE_LICENSE.txt). A lakásfotók és a bemutató nem kapnak automatikusan szabad újrafelhasználási licencet.
-
-
-2026-10-10: Blender 5.2.2 LTS-sel átdolgozott 3D-modell és 48 másodperces, Full HD körbejáró film. A háló ajtólapja és hozzá tartozó vasalatai a felhasználó kérésére nem szerepelnek a modellben; ez nem az ingatlan megváltozására vonatkozó állítás. A meglévő fotófilm és galéria megmarad. A körbejárás a tényleges modell renderelése; a lakás méretei továbbra is szemléltető feltételezések.
+A Three.js és kiegészítőinek MIT licence a [THREE_LICENSE.txt](THREE_LICENSE.txt) fájlban olvasható. Ez a szoftverlicenc nem ad automatikusan szabad újrafelhasználási jogot a fotókra, filmekre, zenékre és a bemutatók modell- vagy egyéb médiatartalmaira.
