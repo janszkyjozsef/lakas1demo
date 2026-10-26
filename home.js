@@ -20,5 +20,3 @@ function init(){
  update();
 }
 if(typeof document!=='undefined'){if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();}
-
-(() => {const legacy=new Set(['film','korbejaras','ter','galeria','forras']);const id=location.hash.slice(1);if(legacy.has(id))location.replace('egyetemvaros.html'+location.hash);})();
