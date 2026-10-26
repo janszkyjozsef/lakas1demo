@@ -7,7 +7,7 @@
     "file": "photo-01.jpg",
     "width": 1448,
     "height": 1086,
-    "source_post_id": "pcb.4640100699546458",
+    "source_group": "forras-A",
     "original_sha256": "6bbea7a2eb5831592c7230a6ee4abbbad2d6256e53a75aac2f3d6b5199f56afe",
     "master_sha256": "a6a2a4b225c0d45b6c89aca2fd0a09b2e5b2dff90e4b8a5d10687d87235faccc",
     "web_sha256": "7aef1882922fa50cfbdfd43e2abcc2d17c8923bef7219446fa90ef9f6b659b8f"
@@ -20,7 +20,7 @@
     "file": "photo-02.jpg",
     "width": 1448,
     "height": 1086,
-    "source_post_id": "pcb.4640100699546458",
+    "source_group": "forras-A",
     "original_sha256": "2a4c0b1f70e5d22a62efa7c2dc4e96f85aed81c2596adb5266edb6bb4933bb2a",
     "master_sha256": "fe0f769762689bd2211599398cce91c6f4daf3bb72b220ce712c74c5186f2152",
     "web_sha256": "0bb4aff49566e024641d9403307c7df50f82f04d1f05f41f237cbe6d98ed4dae"
@@ -33,7 +33,7 @@
     "file": "photo-03.jpg",
     "width": 1448,
     "height": 1086,
-    "source_post_id": "pcb.4640100699546458",
+    "source_group": "forras-A",
     "original_sha256": "2bc35e8cc072982c47dbf2e8a79e5de3e6962bc748e49b7cc1ee9f57a52d416a",
     "master_sha256": "ccc5a736c823e760fe84d8a38c0f10aa6c38ec3e4001ae518195d43539ead0c9",
     "web_sha256": "f14504afb5883453924c6722ce655f620363a04ed6f7c11a4141204ad4bd7eab"
@@ -46,7 +46,7 @@
     "file": "photo-04.jpg",
     "width": 1448,
     "height": 1086,
-    "source_post_id": "pcb.4640100699546458",
+    "source_group": "forras-A",
     "original_sha256": "11c19c11be29a6c25ed73c1aed60c84b6d78e1496cbe3bb66ed54652d887de66",
     "master_sha256": "1e297fca018aca1a3621e0e31c6428e3796b9880ed310853725b5ff972cec43b",
     "web_sha256": "aaefc3b9f11118346c08085078290606c45b253d2a216a1cd4f798ca8a75a055"
@@ -59,7 +59,7 @@
     "file": "photo-05.jpg",
     "width": 1448,
     "height": 1086,
-    "source_post_id": "pcb.4640100699546458",
+    "source_group": "forras-A",
     "original_sha256": "08b6b044a52fd14e74c248162adc3e29a77c8a78abaf6927c0911131349e4d9a",
     "master_sha256": "8dc372715dc678db072706412d375e1e795c70522ba030364e9d207a2de1c151",
     "web_sha256": "89395c92ff9817dda5f750a68d916159a04535234884c979afcffb3000d28a5d"
@@ -72,7 +72,7 @@
     "file": "photo-06.jpg",
     "width": 1448,
     "height": 1086,
-    "source_post_id": "pcb.4640100699546458",
+    "source_group": "forras-A",
     "original_sha256": "667bebfc152955515b27fcbc536d7e83f3af4a86e907527d96b435a6466435d1",
     "master_sha256": "619b2cfd812c5fd89c8143a399be2d46a6f34bc3a8186924be28536e2771f4bc",
     "web_sha256": "372363aa8b854ca4ecdf161429687dc56487ef9d523f9028306b20fc9249eee4"
@@ -85,7 +85,7 @@
     "file": "photo-07.jpg",
     "width": 1448,
     "height": 1086,
-    "source_post_id": "pcb.4640100699546458",
+    "source_group": "forras-A",
     "original_sha256": "7252762f1d3256d9bd90949edba5b2e85e7859f53e69b3bd6951e404144f294f",
     "master_sha256": "53f98e0136979beada25e33531457589001f1229067fcf5080f09ffe70afddca",
     "web_sha256": "fc9eb3fb304b2de098fd89e8afde6787440b40ea268fee8897f804caf017cd68"
@@ -98,7 +98,7 @@
     "file": "photo-08.jpg",
     "width": 1086,
     "height": 1448,
-    "source_post_id": "pcb.4640100699546458",
+    "source_group": "forras-A",
     "original_sha256": "732c8e4960f191179b5abc0b2a6b5ae967ec182f6e33db4645ae244172d68022",
     "master_sha256": "b049744af600d38db9eaf59e64744991576532f6725a314c072adb6bb2e98461",
     "web_sha256": "b13306470020e7a350d8a488c4ee8ee8928da91deae859e11823deda113ebeb5"
@@ -111,7 +111,7 @@
     "file": "photo-09.png",
     "width": 1138,
     "height": 1382,
-    "source_post_id": "pcb.4640100699546458",
+    "source_group": "forras-A",
     "original_sha256": "264bbd942fede1c72eb42ef2964fdb0e8020b9e1f7b71ff1caafdf65c73e1b0a",
     "master_sha256": "bf487238bcba734efc7e2bfa9a551e95bf7dd9335630f8abeb702bc0799ea243",
     "web_sha256": "bf487238bcba734efc7e2bfa9a551e95bf7dd9335630f8abeb702bc0799ea243"
