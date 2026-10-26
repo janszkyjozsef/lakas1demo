@@ -201,10 +201,10 @@
   ],
   "model": {
     "files": [
-      "model-b86a4f9a981e.glb"
+      "model-b86a4f9a981e.glb?v=3b24383d8127"
     ],
     "bytes": 12570536,
-    "sha256": "b86a4f9a981e4677766855320a78863ff63a5ee04182c72e6b0b665e2bccbde7"
+    "sha256": "3b24383d8127f9224bd8a6f8e87ecdc3ce53795965b3bf8a41506341a0a288ff"
   },
   "styling_groups": {
     "bedroom": "Furnishing_Bedroom",

@@ -1,6 +1,6 @@
 # Nagy Imre út, 62 m² — a bemutató forrásai
 
-Eredeti hirdetés: https://www.facebook.com/ulrika.niesz/posts/pfbid06z4BvKBKQEt4UNM6w9SeUjJG1Rgwh1fTKRmvrMeZGhdHg3S1THMtvsV3zdVz2X12l
+A kiinduló hirdetés teljes forráshivatkozása a belső dokumentációban megőrizve.
 
 A hirdetés megfigyelt dátumcímkéje: Október 22., 9:46, évkörnyezet: 2026.
 A 62 m², 2,5 szoba, második emelet és 49,9 millió Ft a hirdető közlése. Nem helyszíni mérés és nem aktuális elérhetőségi igazolás.
@@ -17,4 +17,6 @@ Fotók és tájékoztató alaprajz alapján készült szemléltető térmodell, 
 
 A 05. fotón látható zöld nyílás és a tájékoztató alaprajz ajtóhelye nem egyeztethető pontosan. A modell az alaprajzi helyiségkapcsolatot tartja meg; emiatt új, nem igazolt átjáró nem került bele. A vizesblokk belső arányai és a szaniterek használati helyigénye is becslések, nem helyszíni mérések.
 
-Nem készült új videó. A bemutató relatív útvonalakat és helyi, MIT-licencű Three.js függőségeket használ; a licenc a shared/THREE_LICENSE.txt fájlban található. A 3D HTTPS vagy helyi HTTP-kiszolgálóról működik; a nyers HTML önmagában nem tartalmazza a külön képeket és GLB-fájlokat.
+A bemutatóhoz 60 másodperces, Full HD szemléltető 3D-film készült, amely az oldal Film szakaszában elérhető. A film a térmodell renderelése, nem helyszíni felvétel; egyes falak és takaró felületek metszetként el vannak rejtve a belső részletek bemutatásához. A méretek továbbra is becslések, nem hiteles felmérés. A bemutató relatív útvonalakat és helyi, MIT-licencű Three.js függőségeket használ; a licenc a shared/THREE_LICENSE.txt fájlban található. A 3D HTTPS vagy helyi HTTP-kiszolgálóról működik; a nyers HTML önmagában nem tartalmazza a külön képeket és GLB-fájlokat.
+
+A nyilvános forrásjegyzék személyes kapcsolati adatot és közösségi profilhoz visszavezető hivatkozást nem tartalmaz. A teljes forrásdokumentáció belső, helyi példányban marad meg; a helyi képszámok, képi korlátozások és fájllenyomatok a nyilvános ellenőrizhetőséget szolgálják.
