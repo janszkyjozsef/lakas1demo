@@ -1,0 +1,21 @@
+/* Nagy Imre: discreet in-flow price. Existing viewer and media styles unchanged. */
+body[data-property-id="pecs-nagy-imre-62"] .hero-price{
+  display:block;position:static;max-width:390px;margin:28px 0 0;padding:17px 0 18px;
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  color:var(--ink);background:transparent;box-shadow:none;
+}
+body[data-property-id="pecs-nagy-imre-62"] .hero-price-label{
+  display:block;font-size:.58rem;letter-spacing:.17em;line-height:1.6;color:var(--muted);
+}
+body[data-property-id="pecs-nagy-imre-62"] .hero-price-value{
+  margin:7px 0 0;font-family:var(--serif);font-size:2.45rem;font-weight:400;line-height:1.2;
+}
+body[data-property-id="pecs-nagy-imre-62"] .hero-price-value span{
+  font-family:Arial,sans-serif;font-size:.78rem;white-space:nowrap;
+}
+body[data-property-id="pecs-nagy-imre-62"] .hero-copy .hero-actions{margin-top:26px}
+@media(max-width:760px){
+  body[data-property-id="pecs-nagy-imre-62"] .hero-price{max-width:none;margin-top:24px;padding:15px 0 16px}
+  body[data-property-id="pecs-nagy-imre-62"] .hero-price-value{font-size:2.2rem}
+  body[data-property-id="pecs-nagy-imre-62"] .hero-copy .hero-actions{margin-top:24px}
+}

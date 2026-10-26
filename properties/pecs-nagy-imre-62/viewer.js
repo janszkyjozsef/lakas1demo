@@ -254,7 +254,7 @@ $('#download-model').addEventListener('click', async () => {
 });
 start.addEventListener('click', startModel);
 try {
-  const response = await fetch('viewer-config.json');
+  const response = await fetch('viewer-config.json?v=privacy-20261026');
   if (!response.ok) throw new Error('A nézetadatok nem érhetők el');
   config = await response.json();
   if (config.property_id !== document.body.dataset.propertyId) throw new Error('Eltérő ingatlanazonosító');
