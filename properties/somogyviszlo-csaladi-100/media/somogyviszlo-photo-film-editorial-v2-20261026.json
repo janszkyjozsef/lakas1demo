@@ -1,0 +1,13 @@
+{
+  "schema": "otthoniv.somogyviszlo.accepted-photo-film.v2",
+  "property_id": "somogyviszlo-csaladi-100",
+  "file": "somogyviszlo-photo-film-editorial-v2-20261026-b867c3555fbd.mp4",
+  "sha256": "b867c3555fbdb35c5e6a4571031f2146ea31d4a96e9f6a34d5362d9872c38347",
+  "bytes": 5755556,
+  "poster": "somogyviszlo-photo-film-editorial-v2-20261026-poster.jpg",
+  "duration_seconds": 22,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "frames": 528
+}
