@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "home_property": "pecs-egyetemvaros-47",
+  "home_property": null,
   "properties": [
     {
       "id": "pecs-egyetemvaros-47",
@@ -15,8 +15,9 @@
       ],
       "cover": "photos_v4__photo_01.jpg",
       "cover_alt": "Az Egyetemvárosi lakás nappalija, digitálisan rendezett fotón",
-      "url": "index.html",
-      "cover_url": "photos_v4__photo_01.jpg"
+      "url": "egyetemvaros.html",
+      "cover_url": "photos_v4__photo_01.jpg",
+      "property_type": "apartment"
     },
     {
       "id": "pecs-veress-endre-50",
@@ -32,7 +33,8 @@
       "cover": "photo-03.jpg",
       "cover_alt": "Nagyobb üres szoba · geometrikus festés · AI-val retusált, digitálisan rendezett forrásfotó.",
       "url": "properties/pecs-veress-endre-50/index.html",
-      "cover_url": "properties/pecs-veress-endre-50/photo-03.jpg"
+      "cover_url": "properties/pecs-veress-endre-50/photo-03.jpg",
+      "property_type": "apartment"
     },
     {
       "id": "pecs-egyetemvaros-felujitott",
@@ -48,7 +50,8 @@
       "cover": "photo-04.jpg",
       "cover_alt": "Nagyobb üres szoba · 04-es forrás · Felújításkorabeli posztkép retusált változata; nem igazolja a jelenlegi befejezett állapotot.",
       "url": "properties/pecs-egyetemvaros-felujitott/index.html",
-      "cover_url": "properties/pecs-egyetemvaros-felujitott/photo-04.jpg"
+      "cover_url": "properties/pecs-egyetemvaros-felujitott/photo-04.jpg",
+      "property_type": "apartment"
     },
     {
       "id": "pecs-patacs-terasz",
@@ -66,7 +69,8 @@
       "cover": "photo-01.jpg",
       "cover_alt": "Építészeti tervlátvány · terasz felőli külső · Retusált építészeti külső tervlátvány, nem valódi állapotfotó. Belső felszerelést nem igazol.",
       "url": "properties/pecs-patacs-terasz/index.html",
-      "cover_url": "properties/pecs-patacs-terasz/photo-01.jpg"
+      "cover_url": "properties/pecs-patacs-terasz/photo-01.jpg",
+      "property_type": "apartment"
     },
     {
       "id": "pecs-jaszai-mari-61",
@@ -82,7 +86,8 @@
       "cover": "photo-02.jpg",
       "cover_alt": "Nappali · üvegasztal és TV-komód · AI-val retusált, digitálisan rendezett forrásfotó.",
       "url": "properties/pecs-jaszai-mari-61/index.html",
-      "cover_url": "properties/pecs-jaszai-mari-61/photo-02.jpg"
+      "cover_url": "properties/pecs-jaszai-mari-61/photo-02.jpg",
+      "property_type": "apartment"
     },
     {
       "id": "pecs-szinhaz-ter",
@@ -98,7 +103,8 @@
       "cover": "photo-01.jpg",
       "cover_alt": "Konyha és étkező · AI-val retusált, digitálisan rendezett forrásfotó; a fő bútorok és burkolatok megőrizve.",
       "url": "properties/pecs-szinhaz-ter/index.html",
-      "cover_url": "properties/pecs-szinhaz-ter/photo-01.jpg"
+      "cover_url": "properties/pecs-szinhaz-ter/photo-01.jpg",
+      "property_type": "apartment"
     },
     {
       "id": "pecs-premium-kert-105",
@@ -114,7 +120,8 @@
       "cover": "photo-01.jpg",
       "cover_alt": "Nappali és fa-fehér konyha · AI-val retusált, digitálisan rendezett forrásfotó.",
       "url": "properties/pecs-premium-kert-105/index.html",
-      "cover_url": "properties/pecs-premium-kert-105/photo-01.jpg"
+      "cover_url": "properties/pecs-premium-kert-105/photo-01.jpg",
+      "property_type": "apartment"
     },
     {
       "id": "pecs-rozsadomb-105",
@@ -130,7 +137,8 @@
       "cover": "photo-01.jpg",
       "cover_alt": "Hátsó homlokzat és terasz · AI-val retusált, digitálisan rendezett forrásfotó. Eredeti külső állapot; a fő adottságok megőrizve.",
       "url": "properties/pecs-rozsadomb-105/index.html",
-      "cover_url": "properties/pecs-rozsadomb-105/photo-01.jpg"
+      "cover_url": "properties/pecs-rozsadomb-105/photo-01.jpg",
+      "property_type": "house"
     },
     {
       "id": "somogyviszlo-csaladi-100",
@@ -146,7 +154,8 @@
       "cover": "photo-01-preview.jpg",
       "cover_alt": "Utcafront · Forrásfotó, digitálisan rendezett és javított változat. A részlettextúrák AI-retusálást tartalmaznak.",
       "url": "properties/somogyviszlo-csaladi-100/index.html",
-      "cover_url": "properties/somogyviszlo-csaladi-100/photo-01-preview.jpg"
+      "cover_url": "properties/somogyviszlo-csaladi-100/photo-01-preview.jpg",
+      "property_type": "house"
     },
     {
       "id": "pecs-nagy-imre-62",
@@ -162,7 +171,9 @@
       "cover": "photos/03.png",
       "cover_alt": "A sárga nappali a beüvegezett erkély felé, MI-vel retusált hirdetésfotó",
       "url": "properties/pecs-nagy-imre-62/index.html",
-      "cover_url": "properties/pecs-nagy-imre-62/photos/03.png"
+      "cover_url": "properties/pecs-nagy-imre-62/photos/03.png",
+      "property_type": "apartment"
     }
-  ]
+  ],
+  "home_url": "index.html"
 }
