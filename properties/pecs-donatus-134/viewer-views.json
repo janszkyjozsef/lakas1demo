@@ -1,0 +1,164 @@
+{
+  "ready": true,
+  "status": "MAKER_CHECKS_PASS_ROOT_INDEPENDENT_BROWSER_PENDING",
+  "property_id": "pecs-donatus-134",
+  "model_sha256": "ba7fc34661d5beb54900fb053ea96f36a9671d29b6a16c74a98bfac27008a846",
+  "model": {
+    "files": [
+      "export.glb"
+    ],
+    "bytes": 3091280,
+    "sha256": "ba7fc34661d5beb54900fb053ea96f36a9671d29b6a16c74a98bfac27008a846"
+  },
+  "levels": [
+    {
+      "id": "all",
+      "name": "Teljes térséma"
+    },
+    {
+      "id": "garage",
+      "name": "Garázsszint"
+    },
+    {
+      "id": "ground",
+      "name": "Földszint"
+    },
+    {
+      "id": "upper",
+      "name": "Emelet"
+    }
+  ],
+  "views": [
+    {
+      "id": "01_structure",
+      "level_id": "all",
+      "name": "Teljes térséma",
+      "p": [
+        14,
+        20,
+        -14
+      ],
+      "t": [
+        3.5,
+        4.2,
+        1.5
+      ],
+      "fov": 42,
+      "reference_aspect": 1.45,
+      "description": "Méret nélküli alaprajzokból készült arányos szemléltetés."
+    },
+    {
+      "id": "02_closed_schematic",
+      "level_id": "all",
+      "name": "Teljes térséma – másik nézet",
+      "p": [
+        14,
+        18,
+        -16
+      ],
+      "t": [
+        3.5,
+        4.2,
+        1.0
+      ],
+      "fov": 42,
+      "reference_aspect": 1.45,
+      "description": "Méret nélküli alaprajzokból készült arányos szemléltetés."
+    },
+    {
+      "id": "03_garage",
+      "level_id": "garage",
+      "name": "Garázsszint",
+      "p": [
+        13,
+        12,
+        -12
+      ],
+      "t": [
+        3.5,
+        1,
+        0.1
+      ],
+      "fov": 42,
+      "reference_aspect": 1.45,
+      "description": "Méret nélküli alaprajzokból készült arányos szemléltetés."
+    },
+    {
+      "id": "04_ground",
+      "level_id": "ground",
+      "name": "Földszint",
+      "p": [
+        12,
+        24,
+        -10
+      ],
+      "t": [
+        3.6,
+        3.8,
+        1.5
+      ],
+      "fov": 42,
+      "reference_aspect": 1.45,
+      "description": "Méret nélküli alaprajzokból készült arányos szemléltetés."
+    },
+    {
+      "id": "05_upper",
+      "level_id": "upper",
+      "name": "Emelet",
+      "p": [
+        12,
+        25,
+        -9
+      ],
+      "t": [
+        3.6,
+        6.7,
+        2.6
+      ],
+      "fov": 42,
+      "reference_aspect": 1.45,
+      "description": "Méret nélküli alaprajzokból készült arányos szemléltetés."
+    },
+    {
+      "id": "kitchen_detail",
+      "level_id": "ground",
+      "name": "Konyha részlete",
+      "p": [
+        4.5,
+        5.5,
+        2.6
+      ],
+      "t": [
+        6.7,
+        3.7,
+        4.9
+      ],
+      "fov": 42,
+      "reference_aspect": 1.45,
+      "description": "Konyhai ötlet helye; a berendezés és falak kapcsolója megőrzi a választást."
+    },
+    {
+      "id": "upper_rooms",
+      "level_id": "upper",
+      "name": "Hálószobák és erkély",
+      "p": [
+        12,
+        25,
+        -9
+      ],
+      "t": [
+        3.6,
+        6.7,
+        2.6
+      ],
+      "fov": 35,
+      "reference_aspect": 1.45,
+      "description": "Magas belső áttekintés. Falak és ötletbútorok állapota változatlan."
+    }
+  ],
+  "styling_groups": {
+    "concept": "Donatus_FurnishingConcept"
+  },
+  "default_level": "ground",
+  "disclosure": "Tervezett ingatlan. Háromszintes, arányos tervmodell; a méretek becslések. A bútorok választható berendezési ötletek."
+}

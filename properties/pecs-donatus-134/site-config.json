@@ -1,0 +1,57 @@
+{
+  "schema": "otthoniv.donatus-page.v1",
+  "property_id": "pecs-donatus-134",
+  "project_kind": "planned_architectural_presentation",
+  "images": [
+    {
+      "id": "exterior-01",
+      "src": "media/exterior-01.webp",
+      "ready": true,
+      "caption": "Homlokzat és érkezés · retusált építészeti tervlátvány",
+      "sha256": "846456d7fe209d64ed1142019e7fa121d43ea93d02a8ed8f74e32f84503d453d"
+    },
+    {
+      "id": "exterior-02",
+      "src": "media/exterior-02.webp",
+      "ready": true,
+      "caption": "A kert felőli oldal · retusált építészeti tervlátvány",
+      "sha256": "364e32ff8b4d41aa12dd9562a3620765a326e29a52093c7a309dd48ca8875356"
+    },
+    {
+      "id": "exterior-03",
+      "src": "media/exterior-03.webp",
+      "ready": true,
+      "caption": "A két épületrész ritmusa · retusált építészeti tervlátvány",
+      "sha256": "2cc9cfaf91a1ff7024b0d1135333b8f6effa884f20189679fb558aaf36107c04"
+    },
+    {
+      "id": "exterior-04",
+      "src": "media/exterior-04.webp",
+      "ready": true,
+      "caption": "Az épület és környezete · retusált építészeti tervlátvány",
+      "sha256": "0ecc1d80950b6c1ba097c57afc8b4e45390666125def82d360679e6dc205255a"
+    }
+  ],
+  "model": {
+    "ready": true,
+    "config": "viewer-views.json",
+    "downloads": {
+      "glb": "export.glb",
+      "blend": "donatus-134.blend"
+    }
+  },
+  "films": [
+    {
+      "id": "source-film",
+      "ready": true,
+      "src": "films/Donatus_134_forrasfilm_1080p_v1.mp4",
+      "poster": "films/Donatus_134_forrasfilm_poster.jpg",
+      "title": "A terv négy nézőpontból",
+      "description": "22 másodperces, az építészeti látványtervekből szerkesztett film.",
+      "kind": "edited_architectural_source_image_film",
+      "duration_seconds": 22,
+      "sha256": "178f5a7925eadf2d9be0d8a8c72c164790ce8de280ca958017dc79efa30f564b",
+      "bytes": 7988213
+    }
+  ]
+}
