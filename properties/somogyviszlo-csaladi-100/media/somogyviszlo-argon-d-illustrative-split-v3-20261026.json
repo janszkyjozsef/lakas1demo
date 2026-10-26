@@ -1,0 +1,53 @@
+{
+  "schema": "otthoniv.somogyviszlo.disclosed-ai-illustration.v1",
+  "property_id": "somogyviszlo-csaladi-100",
+  "trial": "D",
+  "sha256": "6c268a5ef93710b9db6bbdba5745b29c44a26fcf05c0110658dd0cd44e334139",
+  "bytes": 3848054,
+  "duration_seconds": 10.005,
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "frames": 240,
+  "caption_hu": "AI-látványfilm. Eltérések a forrásfotókhoz képest: a hálószobai tévét a rendszer hozzáadta; az üvegezett előtér dupla ajtaja más helyre került; a sarokkanapé egyenessé változott, a szőnyeg kimaradt.",
+  "source_fidelity_pass": false,
+  "user_accepted_disclosed_illustration": true,
+  "independent_fidelity_review_sha256": "6e2f2ac24f1c3f0e9703309a4595aab01ed9f4f690f1438555f6b644c7747a37",
+  "root_user_publication_note_sha256": "3f13b9e1fb2ff05999ca68ad8e8ab9bd2214f8dd24c7a692f2b21c5a23bbf8ff",
+  "agent_listening_performed": false,
+  "published_verified": false,
+  "poster": "somogyviszlo-argon-d-illustrative-20261026-poster.jpg",
+  "poster_sha256": "aea05af57e05959da405da07fdad63b9fa2a9845e7753fed639ee8816db51e9e",
+  "original_filename": "somogyviszlo-argon-d-illustrative-20261026-6c268a5ef937.mp4",
+  "transport": {
+    "kind": "argon_d",
+    "bytes": 3848054,
+    "sha256": "6c268a5ef93710b9db6bbdba5745b29c44a26fcf05c0110658dd0cd44e334139",
+    "mime_type": "video/mp4",
+    "transport": "lossless-parts",
+    "part_bytes": 1966080,
+    "parts_directory": "media/",
+    "parts": [
+      {
+        "part_index": 1,
+        "file": "media/film-argon-d-6c268a5ef937-01.bin",
+        "bytes": 1966080,
+        "sha256": "687a102a0a3688b34a7f7e2d688a2403017b66ab37ec2a9ad18f4a57f363958f"
+      },
+      {
+        "part_index": 2,
+        "file": "media/film-argon-d-6c268a5ef937-02.bin",
+        "bytes": 1881974,
+        "sha256": "1431b0aac2e33ccb5c19eee60f10b221c97b0c0c6cc108ba04994109dfd48633"
+      }
+    ],
+    "download_filename": "somogyviszlo-argon-d-illustrative-20261026-6c268a5ef937.mp4",
+    "poster": "media/somogyviszlo-argon-d-illustrative-20261026-poster.jpg",
+    "width": 1280,
+    "height": 720,
+    "duration_seconds": 10.005,
+    "component_manifest": "media/somogyviszlo-argon-d-illustrative-split-v3-20261026.json",
+    "discrepancy_caption_hu": "AI-látványfilm. Eltérések a forrásfotókhoz képest: a hálószobai tévét a rendszer hozzáadta; az üvegezett előtér dupla ajtaja más helyre került; a sarokkanapé egyenessé változott, a szőnyeg kimaradt.",
+    "source_fidelity_pass": false
+  }
+}
