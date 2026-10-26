@@ -52,6 +52,20 @@
       "duration_seconds": 22,
       "sha256": "178f5a7925eadf2d9be0d8a8c72c164790ce8de280ca958017dc79efa30f564b",
       "bytes": 7988213
+    },
+    {
+      "id": "model-film",
+      "ready": true,
+      "src": "films/donatus134-3d-36s.mp4",
+      "poster": "films/donatus134-3d-36s-poster.jpg",
+      "title": "Három szint, közelebbről",
+      "description": "36 másodperces film a tervalapú, sematikus háromszintes modellről, szemléltető berendezési ötletekkel. Nem a megépült állapot felvétele.",
+      "kind": "rendered_schematic_plan_model_illustrative_furnishing",
+      "duration_seconds": 36,
+      "sha256": "eb856877534f59870039bee78ca53f5b36e0e029a1c76dd7ea0a9bd3f31062c2",
+      "bytes": 7553412,
+      "poster_sha256": "2cdf05f9807f861cc354bf36f87935400ee4c86bedda788c614c757b8038d774",
+      "poster_bytes": 164910
     }
   ]
 }
