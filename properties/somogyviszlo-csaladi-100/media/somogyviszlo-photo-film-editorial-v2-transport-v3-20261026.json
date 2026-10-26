@@ -1,0 +1,93 @@
+{
+  "schema": "otthoniv.somogyviszlo.accepted-photo-film.v2",
+  "property_id": "somogyviszlo-csaladi-100",
+  "sha256": "b867c3555fbdb35c5e6a4571031f2146ea31d4a96e9f6a34d5362d9872c38347",
+  "bytes": 5755556,
+  "poster": "somogyviszlo-photo-film-editorial-v2-20261026-poster.jpg",
+  "poster_sha256": "7b23b1946fd330cd323d8486478a9f672d505dd0ce8e4c205902e77da52f25eb",
+  "duration_seconds": 22,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "frames": 528,
+  "content_kind": "Editorial 2D movement of four digitally retouched actual property photos; no 3D room-traversal claim.",
+  "source_post_id": "4645651025658092",
+  "source_photos": [
+    {
+      "index": 9,
+      "master_sha256": "f3180489d7266c7951388d2fbbc1dbdfcec7c553901e9b791c4a9e7e6a10e2e6",
+      "original_sha256": "4da311bff4165e34814649f31513e7b5454d072fa27bcd98cc75d0e384e17f1f"
+    },
+    {
+      "index": 10,
+      "master_sha256": "34efec0e29a32ba447ecc37a40396cdec7ff25861d4bbba424dacff3f449bc82",
+      "original_sha256": "6ad48a64833ead2c3ff3b6c1add2cb64ba56a6a28cae54a9a964e4ba13616c10"
+    },
+    {
+      "index": 4,
+      "master_sha256": "52f20aadfb40c63610ea2d38784111f5840bac69456bedbbdc40f86588b0cfef",
+      "original_sha256": "df43cd56715ce33d6469675e844056909458e123f73c18a4519a5f0f7cae3621"
+    },
+    {
+      "index": 5,
+      "master_sha256": "aa95e9ef6d2d34ccb129c22f1308d2e4a4ad7eeee1d0aa4cbcc9c5a5f88cec47",
+      "original_sha256": "a64af511868050e9095c8540ccf02f6676f56f8344c9505b80a778bfd9281b98"
+    }
+  ],
+  "audio": {
+    "suno_id": "8a5b8660-7b33-4d2a-b15b-0c32bb720235",
+    "title": "Első fény A",
+    "integrated_lufs": -19.01,
+    "true_peak_dbtp": -4.83,
+    "source_slice_seconds": [
+      0,
+      22
+    ],
+    "aac_packet_copy_verified": true,
+    "agent_listening_performed": false
+  },
+  "acceptance": {
+    "user_watched_and_style_accepted": true,
+    "evidence": "Explicit user acceptance communicated by the coordinating root agent on2026-10-26; independent sampled source-fidelity/framing PASS.",
+    "independent_review_sha256": "cbb567c609b2ba80529c983e04e9b1e0ea258f94033b9d55e80b7bac963f508a",
+    "agent_chrome_desktop_mobile_test_claimed": false,
+    "public_delivery_verified": false
+  },
+  "original_filename": "somogyviszlo_photo-film-1080p_v2.mp4",
+  "transport": {
+    "kind": "photo_video",
+    "bytes": 5755556,
+    "sha256": "b867c3555fbdb35c5e6a4571031f2146ea31d4a96e9f6a34d5362d9872c38347",
+    "mime_type": "video/mp4",
+    "transport": "lossless-parts",
+    "part_bytes": 1966080,
+    "parts_directory": "media/",
+    "parts": [
+      {
+        "part_index": 1,
+        "file": "media/film-photo-video-b867c3555fbd-01.bin",
+        "bytes": 1966080,
+        "sha256": "eafd7dec2be055dfe7a23cd952fd55bb4b0ca37aabe73e84b57775adddaedbda"
+      },
+      {
+        "part_index": 2,
+        "file": "media/film-photo-video-b867c3555fbd-02.bin",
+        "bytes": 1966080,
+        "sha256": "c9ad8e43531bcae97ce56c126a96fb1c2786099de86973472373831137ee88ab"
+      },
+      {
+        "part_index": 3,
+        "file": "media/film-photo-video-b867c3555fbd-03.bin",
+        "bytes": 1823396,
+        "sha256": "8430bee17ee7b0561c101aaf1741dd0d46e156d78f65c6c3dd1b85771888ffb7"
+      }
+    ],
+    "download_filename": "somogyviszlo-photo-film-editorial-v2-20261026.mp4",
+    "poster": "media/somogyviszlo-photo-film-editorial-v2-20261026-poster.jpg",
+    "width": 1920,
+    "height": 1080,
+    "duration_seconds": 22,
+    "fps": 24,
+    "component_manifest": "media/somogyviszlo-photo-film-editorial-v2-transport-v3-20261026.json"
+  }
+}
