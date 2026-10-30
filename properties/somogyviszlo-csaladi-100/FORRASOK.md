@@ -1,6 +1,6 @@
 # Somogyviszlói otthon — források
 
-https://www.facebook.com/ulrika.niesz/posts/pfbid0Z9xfzfeMDVcvwg8tWG3gx64rKvUWuxCDEGJ47E842GCJzsd1XHsH1ZaxyiTAuDQVl
+[privát forrásarchívum]
 
 19 hirdetési fotó és 1 alaprajz; digitálisan rendezett képek.
 
