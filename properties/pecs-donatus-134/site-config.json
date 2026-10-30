@@ -66,6 +66,18 @@
       "bytes": 7553412,
       "poster_sha256": "2cdf05f9807f861cc354bf36f87935400ee4c86bedda788c614c757b8038d774",
       "poster_bytes": 164910
+    },
+    {
+      "id": "argon-film",
+      "ready": true,
+      "src": "films/donatus134-argon-10s-v1.mp4",
+      "poster": "films/donatus134-argon-10s-v1-poster.jpg",
+      "title": "Donátus, mozgásban",
+      "description": "10 másodperces, mesterséges intelligenciával animált építészeti látványterv, saját generált zenével. A tervezett épület szemléltetése, nem helyszíni felvétel; a részletek eltérhetnek a végleges tervektől.",
+      "kind": "ai_animated_architectural_visualization",
+      "duration_seconds": 10,
+      "sha256": "6770218a8d8d4817c76aa3c7d5dade8e476f5fd406f1bed24a7e8d1b86b945df",
+      "bytes": 6189084
     }
   ]
 }
