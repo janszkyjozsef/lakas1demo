@@ -22,7 +22,7 @@ try {
   new GLTFLoader().load('./draft12-private.glb',gltf=>{
     scene.add(gltf.scene);
     gltf.scene.traverse(o=>{const g=o.userData?.viewer_group;if(o.isMesh&&groups[g])groups[g].push(o);});
-    if(groups.walls.length!==64||groups.furnishing.length!==151){status.textContent='A modell csoportjai nem egyeznek a próbaadattal.';return;}
+    if(groups.walls.length!==64||groups.furnishing.length!==151){status.textContent='A modell csoportjait nem sikerült ellenőrizni.';return;}
     const mountedPrefixes=['Konyha felső bútor','Felsőszekrény előlap','Zuhany fali rúd','Zuhany összekötő kar','Zuhany fej','Étkező lámpa','Külön WC kézmosó'];
     // GLTFLoader normalizes spaces in node names to underscores.
     const mounted=object=>mountedPrefixes.some(prefix=>object.name.replaceAll('_',' ').startsWith(prefix));
@@ -42,8 +42,8 @@ try {
     syncVisibility();stage.dataset.variant=variant;
     reset.addEventListener('click',()=>{camera.position.set(12.06,11.74,8.3);controls.target.set(4.5,.8,-3.8);controls.update();});
     wallButton.disabled=furnitureButton.disabled=reset.disabled=guestButton.disabled=officeButton.disabled=false;
-    status.textContent='A 12-es próbamodell betöltődött. Forgatható, a falak kapcsolhatók, és két szobaváltozat kipróbálható.';
+    status.textContent='A szemléltető térmodell betöltődött. Forgatható, a falak kapcsolhatók, és két szobaváltozat kipróbálható.';
     stage.dataset.loaded='true';stage.dataset.wallCount=groups.walls.length;stage.dataset.furnitureCount=groups.furnishing.length;
-  },undefined,()=>{status.textContent='A 12-es próbamodellt nem sikerült betölteni.';});
+  },undefined,()=>{status.textContent='A térmodellt nem sikerült betölteni.';});
   function frame(){controls.update();renderer.render(scene,camera);requestAnimationFrame(frame);}frame();
 } catch(e) {status.textContent='A 3D megjelenítés nem elérhető ebben a böngészőben.';console.error(e);}
