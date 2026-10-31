@@ -190,6 +190,22 @@
       "url": "properties/pecs-donatus-134/index.html",
       "cover_url": "properties/pecs-donatus-134/media/exterior-01.webp",
       "property_type": "house"
+    },
+    {
+      "id": "tervezett-otthon-108",
+      "title": "Egy otthon, új lehetőségek",
+      "location": "Tervezett lakás · helyszíne nem ismert",
+      "summary": "A terven nappali konyha-étkezővel és két külön szoba szerepel. MI-látványok, szemléltető térmodell és berendezési ötletek.",
+      "facts": [
+        "Nappali + 2 szoba a terven",
+        "Tervezett lakás",
+        "Az ár a 108-as tervre nem igazolt"
+      ],
+      "cover": "latvany-01.webp",
+      "cover_alt": "MI-vel készített és szerkesztett látvány a tervezett lakás nappalijáról és étkezőjéről",
+      "url": "properties/tervezett-otthon-108/index.html",
+      "cover_url": "properties/tervezett-otthon-108/media/latvany-01.webp",
+      "property_type": "apartment"
     }
   ],
   "home_url": "index.html"
