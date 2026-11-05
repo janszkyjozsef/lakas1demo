@@ -1,0 +1,237 @@
+{
+  "modelUrl": "./viewer/radnoti54-v10-7335e6f7.glb",
+  "notice": "Szemléltető térmodell · nem felmérés. A második klíma helye becsült.",
+  "loadedMessage": "A szemléltető térmodell betöltődött. A méretek és egyes térkapcsolatok nem igazoltak.",
+  "metadata": {
+    "wallKey": "viewer_group",
+    "wallValue": "walls",
+    "roomKey": "viewer_room",
+    "wallAttachedKey": "viewer_wall_attached"
+  },
+  "requireWallAttachmentMetadata": true,
+  "hiddenGroupValues": [
+    "variant_nappali",
+    "variant_halo_dolgozo"
+  ],
+  "defaultVariant": "original",
+  "variants": [
+    {
+      "id": "original",
+      "label": "Eredeti állapot",
+      "groups": []
+    },
+    {
+      "id": "living",
+      "label": "Nappali – berendezési ötlet",
+      "groups": [
+        "variant_nappali"
+      ]
+    },
+    {
+      "id": "office",
+      "label": "Háló és dolgozó – berendezési ötlet",
+      "groups": [
+        "variant_halo_dolgozo"
+      ]
+    }
+  ],
+  "isolateRooms": false,
+  "rooms": [
+    {
+      "id": "erkely",
+      "label": "Erkélyes szoba",
+      "position": [
+        8.15,
+        2.12,
+        -1.45
+      ],
+      "target": [
+        9.3,
+        1.1,
+        -4.65
+      ],
+      "fov": 57,
+      "variantViews": {
+        "living": {
+          "position": [
+            9.1,
+            7,
+            -1.9
+          ],
+          "target": [
+            9.1,
+            0,
+            -2.4
+          ],
+          "fov": 50,
+          "openView": {
+            "position": [
+              9.1,
+              7,
+              -1.9
+            ],
+            "target": [
+              9.1,
+              0,
+              -2.4
+            ],
+            "fov": 45
+          }
+        }
+      },
+      "openView": {
+        "position": [
+          9.1,
+          7,
+          -1.9
+        ],
+        "target": [
+          9.1,
+          0,
+          -2.4
+        ],
+        "fov": 38
+      }
+    },
+    {
+      "id": "masik",
+      "label": "Másik szoba",
+      "position": [
+        1.4,
+        1.9,
+        -1.4
+      ],
+      "target": [
+        1.5,
+        1.0,
+        -4.5
+      ],
+      "fov": 54,
+      "variantViews": {
+        "office": {
+          "position": [
+            1.5,
+            7,
+            -1.9
+          ],
+          "target": [
+            1.5,
+            0,
+            -2.4
+          ],
+          "fov": 50,
+          "openView": {
+            "position": [
+              1.5,
+              7,
+              -1.9
+            ],
+            "target": [
+              1.5,
+              0,
+              -2.4
+            ],
+            "fov": 45
+          }
+        }
+      },
+      "openView": {
+        "position": [
+          1.5,
+          7,
+          -1.9
+        ],
+        "target": [
+          1.5,
+          0,
+          -2.4
+        ],
+        "fov": 38
+      }
+    },
+    {
+      "id": "furdo",
+      "label": "Fürdő",
+      "position": [
+        3.25,
+        2.2,
+        -1.7
+      ],
+      "target": [
+        4.05,
+        0.65,
+        -3.0
+      ],
+      "fov": 102,
+      "openView": {
+        "position": [
+          3.95,
+          6,
+          -2.6
+        ],
+        "target": [
+          3.95,
+          0,
+          -3.1
+        ],
+        "fov": 34
+      }
+    },
+    {
+      "id": "konyha",
+      "label": "Konyha",
+      "position": [
+        6.65,
+        2.2,
+        -1.82
+      ],
+      "target": [
+        5,
+        1.04,
+        -3.95
+      ],
+      "fov": 53,
+      "openView": {
+        "position": [
+          5.8,
+          6,
+          -2.6
+        ],
+        "target": [
+          5.8,
+          0,
+          -3.1
+        ],
+        "fov": 38
+      }
+    },
+    {
+      "id": "kozlekedo",
+      "label": "Közlekedő",
+      "position": [
+        5.15,
+        5.8,
+        -0.65
+      ],
+      "target": [
+        5.15,
+        0,
+        -0.72
+      ],
+      "fov": 45,
+      "openView": {
+        "position": [
+          5.15,
+          6,
+          -0.22
+        ],
+        "target": [
+          5.15,
+          0,
+          -0.72
+        ],
+        "fov": 38
+      }
+    }
+  ]
+}
