@@ -1,0 +1,141 @@
+{
+  "schema": "otthoniv.furnishing.research.v1",
+  "date": "2026-11-05",
+  "currency": "HUF",
+  "options": [
+    {
+      "id": "nappali",
+      "label": "Világos nappali",
+      "items": [
+        "klippan",
+        "lack",
+        "kallax"
+      ],
+      "total_huf": 119970,
+      "notes": "Három termék részösszege, nem teljes szobaberendezés. A kanapé nézzen a szoba közepe felé; erkélyajtó, fűtőtest és közlekedő maradjon szabad."
+    },
+    {
+      "id": "halo_dolgozo",
+      "label": "Háló és dolgozó",
+      "items": [
+        "tarva",
+        "micke",
+        "flintan"
+      ],
+      "total_huf": 109970,
+      "notes": "Három termék részösszege, nem teljes szobaberendezés; az ágyrács, matrac és textíliák külön megvásárolandók. Az ágy külső mérete 148x209 cm, nem 140x200 cm."
+    }
+  ],
+  "products": [
+    {
+      "id": "klippan",
+      "name": "KLIPPAN 2 személyes kanapé, Vissle szürke",
+      "url": "https://www.ikea.com/hu/hu/p/klippan-2sz-kanape-vissle-szuerke-s79010614/",
+      "price_huf": 94990,
+      "size_cm": {
+        "width": 180,
+        "depth": 88,
+        "height": 66
+      },
+      "option": "nappali",
+      "item_no": "790.106.14",
+      "retailer": "IKEA Magyarország",
+      "observed_utc": "2026-11-05",
+      "availability": "nem igazolt: az oldal kiszállítási / áruházi elérhetőség ellenőrzését kéri, ez irányítószám és áruház nélkül nem ellenőrizhető",
+      "price_method": "2026-11-05 a hivatalos HTML friss HTTPS 200 oldalában az adott termékhez tartozó price érték és webes termékoldal összevetve",
+      "quantity": 1
+    },
+    {
+      "id": "lack",
+      "name": "LACK dohányzóasztal, fehér",
+      "url": "https://www.ikea.com/hu/hu/p/lack-dohanyzoasztal-feher-90449905/",
+      "price_huf": 8990,
+      "size_cm": {
+        "width": 90,
+        "depth": 55,
+        "height": 45
+      },
+      "option": "nappali",
+      "item_no": "904.499.05",
+      "retailer": "IKEA Magyarország",
+      "observed_utc": "2026-11-05",
+      "availability": "nem igazolt: az oldal kiszállítási / áruházi elérhetőség ellenőrzését kéri, ez irányítószám és áruház nélkül nem ellenőrizhető",
+      "price_method": "2026-11-05 a hivatalos HTML friss HTTPS 200 oldalában az adott termékhez tartozó price érték és webes termékoldal összevetve",
+      "quantity": 1
+    },
+    {
+      "id": "kallax",
+      "name": "KALLAX polcos elem, fehér",
+      "url": "https://www.ikea.com/hu/hu/p/kallax-polcos-elem-feher-20275814/",
+      "price_huf": 15990,
+      "size_cm": {
+        "width": 76.5,
+        "depth": 39,
+        "height": 76.5
+      },
+      "option": "nappali",
+      "item_no": "202.758.14",
+      "retailer": "IKEA Magyarország",
+      "observed_utc": "2026-11-05",
+      "availability": "nem igazolt: az oldal kiszállítási / áruházi elérhetőség ellenőrzését kéri, ez irányítószám és áruház nélkül nem ellenőrizhető",
+      "price_method": "2026-11-05 a hivatalos HTML friss HTTPS 200 oldalában az adott termékhez tartozó price érték és webes termékoldal összevetve",
+      "quantity": 1
+    },
+    {
+      "id": "tarva",
+      "name": "TARVA ágykeret, fenyő, 140x200 cm",
+      "url": "https://www.ikea.com/hu/hu/p/tarva-agykeret-fenyo-s89929232/",
+      "price_huf": 44990,
+      "size_cm": {
+        "width": 148,
+        "depth": 209,
+        "height": 92
+      },
+      "option": "halo_dolgozo",
+      "item_no": "899.292.32",
+      "included": "ágykeret, matrac és ágyrács nélkül",
+      "retailer": "IKEA Magyarország",
+      "observed_utc": "2026-11-05",
+      "availability": "nem igazolt: az oldal kiszállítási / áruházi elérhetőség ellenőrzését kéri, ez irányítószám és áruház nélkül nem ellenőrizhető",
+      "price_method": "2026-11-05 a hivatalos HTML friss HTTPS 200 oldalában az adott termékhez tartozó price érték és webes termékoldal összevetve",
+      "quantity": 1
+    },
+    {
+      "id": "micke",
+      "name": "MICKE íróasztal, fehér",
+      "url": "https://www.ikea.com/hu/hu/p/micke-iroasztal-feher-80213074/",
+      "price_huf": 39990,
+      "size_cm": {
+        "width": 105,
+        "depth": 50,
+        "height": 75
+      },
+      "option": "halo_dolgozo",
+      "item_no": "802.130.74",
+      "retailer": "IKEA Magyarország",
+      "observed_utc": "2026-11-05",
+      "availability": "nem igazolt: az oldal kiszállítási / áruházi elérhetőség ellenőrzését kéri, ez irányítószám és áruház nélkül nem ellenőrizhető",
+      "price_method": "2026-11-05 a hivatalos HTML friss HTTPS 200 oldalában az adott termékhez tartozó price érték és webes termékoldal összevetve",
+      "quantity": 1
+    },
+    {
+      "id": "flintan",
+      "name": "FLINTAN irodai szék, bézs",
+      "url": "https://www.ikea.com/hu/hu/p/flintan-irodai-szek-bezs-70492202/",
+      "price_huf": 24990,
+      "size_cm": {
+        "width": 71,
+        "depth": 71,
+        "height_max": 114
+      },
+      "option": "halo_dolgozo",
+      "item_no": "704.922.02",
+      "retailer": "IKEA Magyarország",
+      "observed_utc": "2026-11-05",
+      "availability": "nem igazolt: az oldal kiszállítási / áruházi elérhetőség ellenőrzését kéri, ez irányítószám és áruház nélkül nem ellenőrizhető",
+      "price_method": "2026-11-05 a hivatalos HTML friss HTTPS 200 oldalában az adott termékhez tartozó price érték és webes termékoldal összevetve",
+      "quantity": 1
+    }
+  ],
+  "common_notes": "A szobák falméretei nem ismertek; a terv nem igazol valódi méretarányt, ezért a bútorok és közlekedés tényleges elférését helyszíni mérés nélkül nem lehet garantálni. A képek illusztratív digitális berendezést mutatnak, a bútorok nem részei az eladásnak. Árak változhatnak, a szállítás, összeszerelés és kiegészítők költsége nincs benne. A forrásoldalakon az elérhetőség ellenőrzése szükséges. Nem történt vásárlás."
+}
