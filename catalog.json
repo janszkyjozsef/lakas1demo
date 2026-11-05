@@ -206,6 +206,23 @@
       "url": "properties/tervezett-otthon-108/index.html?v=film-20261104-68f425ce-nezd",
       "cover_url": "properties/tervezett-otthon-108/media/latvany-01.webp",
       "property_type": "apartment"
+    },
+    {
+      "id": "pecs-radnoti-54",
+      "title": "Világos terek Uránvárosban",
+      "location": "Pécs · Uránváros",
+      "summary": "54 m²-es, két külön szobás lakás erkéllyel. MI-vel retusált fotók és szemléltető térmodell, választható berendezési ötletekkel.",
+      "facts": [
+        "54 m²",
+        "2 külön szoba",
+        "3. emelet",
+        "51,9 M Ft"
+      ],
+      "cover": "media/07.png",
+      "cover_alt": "Világos erkélyes szoba, MI-vel retusált fotó",
+      "url": "properties/pecs-radnoti-54/index.html",
+      "cover_url": "properties/pecs-radnoti-54/media/07.png",
+      "property_type": "apartment"
     }
   ],
   "home_url": "index.html"
