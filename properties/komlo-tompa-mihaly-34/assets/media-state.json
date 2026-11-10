@@ -1,11 +1,11 @@
 {
   "propertyId": "komlo-tompa-mihaly-34",
-  "releaseState": "PHOTO_FILM_PRESENT_MODEL_FILM_PENDING",
+  "releaseState": "BOTH_FILMS_PRESENT_ROOT_FINAL_PLAYBACK_PENDING",
   "photosRetouchedAndVerified": false,
   "modelVerified": false,
   "films": {
     "photo": true,
-    "model": false
+    "model": true
   },
-  "note": "Photo film visual samples accepted by root; full auditory review is not asserted. Model film remains pending."
+  "note": "Both film visual samples accepted by root. Final browser playback and full auditory acceptance are separate checks."
 }
