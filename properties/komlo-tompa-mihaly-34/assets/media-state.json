@@ -1,11 +1,11 @@
 {
   "propertyId": "komlo-tompa-mihaly-34",
-  "releaseState": "BOTH_FILMS_PRESENT_ROOT_FINAL_PLAYBACK_PENDING",
-  "photosRetouchedAndVerified": false,
-  "modelVerified": false,
+  "releaseState": "PUBLIC_MEDIA_PLAYBACK_VERIFIED",
+  "photoRetouchVisuallyReviewed": true,
+  "illustrativeModelVisualSamplesReviewed": true,
   "films": {
     "photo": true,
     "model": true
   },
-  "note": "Both film visual samples accepted by root. Final browser playback and full auditory acceptance are separate checks."
+  "note": "Both films reached their end in the embedded public players. Photos are AI-retouched; model dimensions are estimates. Visual sampling and technical audio checks passed; actual audio listening and physical-phone testing were not performed."
 }
