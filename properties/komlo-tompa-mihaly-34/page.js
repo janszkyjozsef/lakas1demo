@@ -14,6 +14,8 @@ document.querySelector('.dialog-close').addEventListener('click',()=>dialog.clos
 document.querySelector('#photo-prev').addEventListener('click',()=>showPhoto(selectedPhoto-1));document.querySelector('#photo-next').addEventListener('click',()=>showPhoto(selectedPhoto+1));dialog.addEventListener('keydown',e=>{if(e.key==='ArrowLeft'){e.preventDefault();showPhoto(selectedPhoto-1)}if(e.key==='ArrowRight'){e.preventDefault();showPhoto(selectedPhoto+1)}});
 dialog.addEventListener('click',e=>{const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close()});
 for(const img of document.images)img.addEventListener('error',()=>{if(img.closest('dialog'))return;img.hidden=true;const fallback=document.createElement('span');fallback.className='failed-photo';fallback.textContent='A fotó előkészítés alatt.';img.after(fallback)},{once:true});
+// Keep a single soundtrack active when switching between the two films.
+for(const video of document.querySelectorAll('video'))video.addEventListener('play',()=>{for(const other of document.querySelectorAll('video'))if(other!==video)other.pause()});
 // A draft never exposes a broken player as a finished film. Root flips readiness only after media QA.
 fetch('assets/media-state.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(state=>{
  for(const card of document.querySelectorAll('[data-film]')){
