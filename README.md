@@ -1,8 +1,8 @@
-# OTTHONÍV — 11 otthon, más nézőpontból
+# OTTHONÍV — 14 otthon, más nézőpontból
 
 [Főoldal és ingatlankatalógus](https://janszkyjozsef.github.io/lakas1demo/)
 
-Tizenegy ingatlan bemutatója fotókkal, filmekkel és interaktív térmodellekkel, mobilon és asztali képernyőn is használható oldalakon.
+Tizennégy ingatlan bemutatója fotókkal, filmekkel és interaktív térmodellekkel, mobilon és asztali képernyőn is használható oldalakon.
 
 Az egyes bemutatók jelölik a valós állapotfotókat, a digitálisan rendezett képeket, az építészeti tervlátványokat és az AI-látványfilmeket. A tervezett ingatlan látványterve nem a jelenlegi, elkészült állapot fényképe.
 

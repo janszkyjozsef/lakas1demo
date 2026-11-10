@@ -223,6 +223,23 @@
       "url": "properties/pecs-radnoti-54/index.html",
       "cover_url": "properties/pecs-radnoti-54/media/07.png",
       "property_type": "apartment"
+    },
+    {
+      "id": "komlo-tompa-mihaly-34",
+      "title": "Komlói új kezdet",
+      "location": "Komló · Tompa Mihály utca",
+      "summary": "34 m²-es lakás konyha–étkezővel, külön hálóval és külön kis helyiséggel. Franciaerkély, fotók és bejárható szemléltető térmodell.",
+      "facts": [
+        "34 m²",
+        "Háló + kis helyiség",
+        "Franciaerkély",
+        "29,9 M Ft"
+      ],
+      "cover": "assets/photos/01.jpg",
+      "cover_alt": "A komlói lakás konyhája és étkezője",
+      "url": "properties/komlo-tompa-mihaly-34/index.html",
+      "cover_url": "properties/komlo-tompa-mihaly-34/assets/photos/01.jpg",
+      "property_type": "apartment"
     }
   ],
   "home_url": "index.html"
